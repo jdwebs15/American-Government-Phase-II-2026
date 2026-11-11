@@ -1,0 +1,14 @@
+
+/* Phase II shared visual alignment: Phase I Government palette and spacing. */
+:root{--bg:#07111f;--panel:#101d2d;--panel2:#15263a;--line:#30465f;--text:#edf4fb;--muted:#aebed0;--blue:#68a8e5;--gold:#e7bf59}
+body{background:#07111f!important;color:#edf4fb!important;font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif!important}
+.wrap,.shell,main.wrap,main.shell{max-width:1120px!important;width:calc(100% - 32px)!important;margin-left:auto!important;margin-right:auto!important}
+.hero{background:#101d2d!important;border:1px solid #30465f!important;border-radius:16px!important;padding:22px!important;display:block!important}
+.hero h1{color:#edf4fb!important;font-size:clamp(1.5rem,3vw,2.2rem)!important;line-height:1.18!important;max-width:none!important;overflow-wrap:normal!important}
+.eyebrow,.section-label{color:#8dc3f3!important;letter-spacing:.075em!important}
+.panel,.student-panel,.question-panel,.side-panel,.completion{background:#101d2d!important;border:1px solid #30465f!important;border-radius:14px!important}
+button,.choice{cursor:pointer}
+button:focus-visible,.choice:focus-visible{outline:3px solid #8dc3f3!important;outline-offset:2px}
+.fields{gap:12px!important}
+.ticket,.completion{max-width:100%!important}
+@media(max-width:760px){.wrap,.shell,main.wrap,main.shell{width:calc(100% - 20px)!important}.hero{padding:16px!important}}

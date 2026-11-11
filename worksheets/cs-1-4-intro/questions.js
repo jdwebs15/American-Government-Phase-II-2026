@@ -1,5 +1,5 @@
-window.GOV_CONFIG={"mode": "intro", "type": "Intro", "block": 1, "cs": "CS-1-4", "title": "Civic Participation and Public Decisions — Intro", "description": "Build the tested foundations of civic action, civic organizations, credible information, and collaborative decision-making.", "practice": "Ohio Government CS 1–4 with direct emphasis on released-question skills.", "assignmentKey": "gov-phase2-block1-intro-2026-v2", "endpoint": "https://script.google.com/macros/s/AKfycbx7A9pyMXnW9Zk9Ek-A05-mYdQrJB973hQTPpcfV2TLUlbJv1ZH5WEIoh9qCv8CnYTm/exec"};
-window.GOV_QUESTIONS=[
+window.BLOCK_CONFIG={"assignmentKey": "gov-phase2-cs1-4-intro-2026-rebuild-v4", "title": "CS 1–4 • Civic Participation and Public Decisions — Introduction", "description": "Content Statements 1–4 • 40-question introductory mastery", "practice": "Civic action, credible evidence, political participation, and public decision-making."};
+window.BLOCK_QUESTIONS=[
   {
     "id": "q01",
     "topic": "CS 1",
