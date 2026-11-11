@@ -1,9 +1,9 @@
 
-:root{color-scheme:dark;--bg:#07111f;--panel:#101d2d;--panel2:#15263a;--line:#30465f;--text:#edf4fb;--muted:#aebed0;--blue:#8bbef3;--gold:#e7bf59}
+:root{color-scheme:dark;--bg:#07111f;--panel:#101d2d;--panel2:#15263a;--line:#30465f;--text:#edf4fb;--muted:#aebed0;--blue:#8bbef3;--gold:#8bbef3}
 *{box-sizing:border-box}html{font-family:Arial,"Segoe UI",sans-serif}body{margin:0;background:linear-gradient(180deg,#0c1a2f,#07111f 65%);color:var(--text);line-height:1.45}
 .wrap{width:min(850px,calc(100% - 32px));margin:0 auto;padding:18px 0 44px}.wrap>a{color:#a9cfff;text-decoration:none;font-size:.85rem;font-weight:700}
 .hero,.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;margin-top:13px;padding:18px 22px;box-shadow:0 10px 25px #0002}
-.hero .eyebrow,.eyebrow{color:var(--gold);font-size:.72rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase}.hero h1{font-size:clamp(1.3rem,3vw,1.85rem);line-height:1.17;margin:8px 0}.hero p{margin:0;font-size:.9rem;color:var(--muted)}
+.hero .eyebrow,.eyebrow{color:#b8d6f5;font-size:.72rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase}.hero h1{font-size:clamp(1.3rem,3vw,1.85rem);line-height:1.17;margin:8px 0}.hero p{margin:0;font-size:.9rem;color:var(--muted)}
 h2{font-size:1.18rem;margin:0 0 12px}.fields{display:grid;grid-template-columns:1fr 120px 1.2fr;gap:10px;margin:12px 0}.fields>div{min-width:0}label{display:block;font-size:.8rem;font-weight:700;color:#cbd7e7;margin-bottom:4px}input,select{width:100%;background:#0a1727;border:1px solid #45607c;border-radius:8px;padding:10px;color:#fff;font:inherit}
 button{cursor:pointer;border:1px solid #567fb5;background:#20446e;color:white;border-radius:9px;padding:10px 14px;font:inherit;font-weight:700}button:hover{background:#2b5687}button:disabled{cursor:default;opacity:.58}.secondary{background:#172c45}.hidden{display:none!important}
 .progress{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:13px;font-size:.87rem;color:#c9d7e9}
