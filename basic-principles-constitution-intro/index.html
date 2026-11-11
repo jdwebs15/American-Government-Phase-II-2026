@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>American Government Phase II Assignment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="shell">
+  <a class="back" href="../../">← Back to Government Hub</a>
+  <header class="hero">
+    <div>
+      <div class="eyebrow" id="eyebrow">AMERICAN GOVERNMENT • PHASE II</div>
+      <h1 id="pageTitle">Government Assignment</h1>
+      <p id="pageDescription"></p>
+      <p id="masteryRule"></p>
+    </div>
+    <div class="feature-pills" aria-label="Assignment features">
+      <span>Immediate Check ✓</span><span>Correctable Mastery ✓</span><span>Hints After Misses ✓</span><span>Saved Progress ✓</span>
+    </div>
+  </header>
+
+  <section class="student-panel" id="studentPanel">
+    <div><div class="section-label">STUDENT INFORMATION</div><h2>Enter your information to begin</h2><p>Your school email connects this browser to your saved teacher draft.</p></div>
+    <div class="fields">
+      <label>Full name<input id="studentName" autocomplete="name" placeholder="e.g., Jordan Smith"></label>
+      <label>Class period<select id="period"><option value="">Choose</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label>
+      <label>School email<input id="email" type="email" autocomplete="email" placeholder="name@school.org"></label>
+    </div>
+    <div class="actions"><button id="startBtn">Start / Continue</button><button id="loadBtn" class="secondary">Load Previous Work</button><button id="saveBtn" class="secondary">Save Progress</button></div>
+    <p id="saveStatus" class="status" role="status"></p>
+  </section>
+
+  <div class="workspace hidden" id="workspace">
+    <section class="question-panel">
+      <div class="question-toolbar"><div class="section-label">QUESTION</div><button id="resetBtn" class="danger" type="button">Reset Assignment</button></div>
+      <div class="stats"><div><strong id="progressStat">1 / 1</strong><span>Progress</span></div><div><strong id="accuracyStat">100%</strong><span>First-attempt score</span></div><div><strong id="runtimeStat">0:00</strong><span>Active time</span></div></div>
+      <div class="progress"><span id="progressFill"></span></div>
+      <div class="question-card" id="questionCard"></div>
+    </section>
+    <aside class="side-panel"><div class="section-label">RULES</div><ul id="rulesList"></ul><div class="side-section"><div class="section-label">WHAT THIS PRACTICES</div><p id="practiceText"></p></div><div class="side-section"><div class="section-label">SAVED PROGRESS</div><p>Progress saves in this browser and can also be retrieved through your teacher’s spreadsheet.</p></div></aside>
+  </div>
+
+  <section class="completion hidden" id="completion">
+    <div class="section-label">COMPLETION TICKET</div><h2>Assignment mastery complete</h2><p id="studentTicket"></p><p id="completionSummary"></p><button id="submitBtn">Submit Completed Assignment</button><button id="restartBtn" class="secondary">Begin a Fresh Attempt</button><p id="submitStatus" class="status" role="status"></p>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
