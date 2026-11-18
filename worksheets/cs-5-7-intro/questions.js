@@ -1,683 +1,691 @@
-window.GOV_CONFIG={"block": 2, "cs": "CS-5-7", "title": "Foundations and Constitutional Principles — Intro", "assignmentKey": "gov-phase2-cs-5-7-intro-2026-v3", "mode": "intro", "endpoint": "https://script.google.com/macros/s/AKfycbx7A9pyMXnW9Zk9Ek-A05-mYdQrJB973hQTPpcfV2TLUlbJv1ZH5WEIoh9qCv8CnYTm/exec"};
-window.GOV_QUESTIONS=[
+window.GOV_CONFIG = {
+  "mode": "intro",
+  "cs": "CS 5–7",
+  "block": 2,
+  "type": "Introduction",
+  "title": "Foundations of American Government — Introduction",
+  "assignmentKey": "gov-phase2-cs-5-7-intro-2026-v4",
+  "description": "Use the source and Where to look guidance. Correct each answer to finish."
+};
+window.GOV_QUESTIONS = [
   {
-    "id": "q01",
-    "cs": "CS 5 • Popular sovereignty",
-    "topic": "CS 5 • Popular sovereignty",
-    "prompt": "Citizens replace several officeholders in an election. Which principle is most directly illustrated?",
+    "sliders": null,
+    "topic": "6",
+    "prompt": "An Anti-Federalist writer argues that a distant national government will ignore local needs. What is the writer defending?",
     "choices": [
-      "popular sovereignty",
-      "federal supremacy",
-      "judicial review",
-      "legislative oversight"
+      "Local decision-making by state governments",
+      "Unrestricted presidential veto over state laws",
+      "National supervision of all local school districts",
+      "Removal of state elections and local legislatures"
     ],
     "answer": 0,
-    "hint": "Focus on who chooses the officials.",
-    "explanation": "Elections demonstrate that government authority begins with the people.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Anti-Federalists valued government closer to the people.",
+    "source": "https://constitutioncenter.org/education/classroom-resource-library/classroom/5.3-info-brief-the-anti-federalists",
+    "where": "Concerns about consolidated national power",
+    "id": "q22"
   },
   {
-    "id": "q02",
-    "cs": "CS 5 • Popular sovereignty",
-    "topic": "CS 5 • Popular sovereignty",
-    "prompt": "Which statement best expresses consent of the governed?",
+    "sliders": null,
+    "topic": "5",
+    "prompt": "Which government activity is generally a state responsibility rather than an expressly listed federal power?",
     "choices": [
-      "Government is legitimate whenever it is powerful. under the constitutional process in the question",
-      "Government is legitimate because the people authorize it.",
-      "Only judges may approve government action.",
-      "State governments do not need public support."
-    ],
-    "answer": 1,
-    "hint": "Consent means permission.",
-    "explanation": "Consent of the governed connects legitimate authority to the people’s approval.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q03",
-    "cs": "CS 5 • Limited government",
-    "topic": "CS 5 • Limited government",
-    "prompt": "A court blocks an official from using a power not granted by law. Which principle is being enforced?",
-    "choices": [
-      "popular sovereignty",
-      "federalism",
-      "limited government",
-      "ratification"
+      "Declaring a national war",
+      "Coining United States money",
+      "Setting graduation rules",
+      "Negotiating foreign treaties"
     ],
     "answer": 2,
-    "hint": "The official faces a legal boundary.",
-    "explanation": "Limited government restricts officials to lawful, constitutional authority.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "States generally govern education policy.",
+    "source": "https://billofrightsinstitute.org/videos/introduction-to-federalism-government-and-politics-civics-for-the-american-experiment/",
+    "where": "Examples of state responsibilities, including schools",
+    "id": "q08"
   },
   {
-    "id": "q04",
-    "cs": "CS 5 • Rule of law",
-    "topic": "CS 5 • Rule of law",
-    "prompt": "A governor is prosecuted under the same criminal law that applies to other citizens. What does this show?",
+    "sliders": null,
+    "topic": "6",
+    "prompt": "What change most clearly distinguishes the new Constitution from the Articles?",
     "choices": [
-      "separation of powers",
-      "implied powers",
-      "state supremacy",
-      "rule of law"
-    ],
-    "answer": 3,
-    "hint": "No official is above the law.",
-    "explanation": "Rule of law requires government officials as well as citizens to obey the law.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q05",
-    "cs": "CS 5 • Federalism",
-    "topic": "CS 5 • Federalism",
-    "prompt": "The national government regulates interstate commerce while a state sets teacher-license rules. Which principle explains this division?",
-    "choices": [
-      "federalism",
-      "checks and balances",
-      "judicial review",
-      "popular sovereignty"
+      "It created national executive and judicial branches",
+      "The national government lost its power over treaties",
+      "The states alone became responsible for defense",
+      "State governments were completely eliminated"
     ],
     "answer": 0,
-    "hint": "Think levels of government.",
-    "explanation": "Federalism divides authority between the national and state governments.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "The Constitution created separate national executive and judicial branches.",
+    "source": "https://www.archives.gov/milestone-documents/articles-of-confederation",
+    "where": "Compare Articles' structure with Constitution Articles II and III",
+    "id": "q26"
   },
   {
-    "id": "q06",
-    "cs": "CS 5 • Federalism",
-    "topic": "CS 5 • Federalism",
-    "prompt": "Which action is most clearly a power generally reserved to a state?",
+    "sliders": null,
+    "topic": "6",
+    "prompt": "Why did many Federalists support replacing the Articles of Confederation?",
     "choices": [
-      "coining money under the constitutional process in the question",
-      "issuing driver licenses",
-      "declaring war",
-      "negotiating treaties"
+      "They wanted stronger national institutions",
+      "They opposed all national taxing authority",
+      "They preferred no executive branch at all",
+      "They wanted to eliminate every state government"
+    ],
+    "answer": 0,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Federalists saw the Articles as too weak for national needs.",
+    "source": "https://www.archives.gov/founding-docs/more-perfect-union",
+    "where": "Federalists and Anti-Federalists section",
+    "id": "q14"
+  },
+  {
+    "sliders": null,
+    "topic": "6",
+    "prompt": "Why was the Commerce Clause important to Federalist arguments?",
+    "choices": [
+      "It placed the power to negotiate treaties with each state",
+      "It required every state to issue its own national currency",
+      "It abolished commercial exchanges among the states",
+      "It allowed national regulation of trade between states"
+    ],
+    "answer": 3,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "National trade regulation addressed interstate coordination problems.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Article I, Section 8, commerce language",
+    "id": "q16"
+  },
+  {
+    "sliders": null,
+    "topic": "5",
+    "prompt": "A president says that laws apply to citizens but never to the president. Which principle is being violated?",
+    "choices": [
+      "Rule of law",
+      "Federalism",
+      "Amendment process",
+      "Popular election"
+    ],
+    "answer": 0,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Government officials are also subject to the law.",
+    "source": "https://billofrightsinstitute.org/videos/constitutional-principles-the-rule-of-law-video/",
+    "where": "Transcript section explaining rulers and laws",
+    "id": "q03"
+  },
+  {
+    "sliders": null,
+    "topic": "5",
+    "prompt": "A government claims authority because citizens chose its leaders in a fair election. This reflects which idea?",
+    "choices": [
+      "Separation of government powers",
+      "Consent from the public",
+      "Judicial independence",
+      "Supremacy of treaties"
     ],
     "answer": 1,
-    "hint": "Look for a familiar state service.",
-    "explanation": "Licensing is a common example of a reserved state power.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Legitimate governing authority comes from the people's approval.",
+    "source": "https://billofrightsinstitute.org/videos/constitutional-principles-consent-of-the-governed-video/",
+    "where": "Transcript opening, consent and elections",
+    "id": "q02"
   },
   {
-    "id": "q07",
-    "cs": "CS 5 • Federalism",
-    "topic": "CS 5 • Federalism",
-    "prompt": "Which constitutional provision most directly supports the idea of reserved state powers?",
+    "sliders": null,
+    "topic": "6",
+    "prompt": "Hamilton, Madison, and Jay wrote essays supporting ratification. What were these essays called?",
     "choices": [
-      "Supremacy Clause",
-      "Necessary and Proper Clause",
-      "Tenth Amendment",
-      "Article V"
-    ],
-    "answer": 2,
-    "hint": "The amendment number is X.",
-    "explanation": "The Tenth Amendment reserves undelegated powers to states or the people.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q08",
-    "cs": "CS 5 • Separation of powers",
-    "topic": "CS 5 • Separation of powers",
-    "prompt": "Congress writes a law, the president enforces it, and courts interpret it. Which principle is illustrated?",
-    "choices": [
-      "popular sovereignty when applied through ordinary legal procedures",
-      "federalism",
-      "ratification",
-      "separation of powers"
+      "The Virginia Resolves",
+      "The Northwest Ordinance",
+      "The Kentucky Compact",
+      "The Federalist Papers"
     ],
     "answer": 3,
-    "hint": "Different functions belong to different branches.",
-    "explanation": "Separation of powers divides legislative, executive, and judicial functions.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "The Federalist Papers defended the proposed Constitution.",
+    "source": "https://guides.loc.gov/federalist-papers/full-text",
+    "where": "Introduction identifying authors and purpose",
+    "id": "q21"
   },
   {
-    "id": "q09",
-    "cs": "CS 5 • Checks and balances",
-    "topic": "CS 5 • Checks and balances",
-    "prompt": "The president vetoes a bill passed by Congress. This is an example of—",
+    "sliders": null,
+    "topic": "7",
+    "prompt": "Congress enacts detailed rules implementing a broadly stated constitutional power. What mechanism is this?",
     "choices": [
-      "checks and balances",
-      "reserved powers within the government system described",
-      "popular sovereignty",
-      "formal amendment"
+      "Congressional laws implementing constitutional powers",
+      "A state convention that nullifies federal legislation nationwide",
+      "A court order that replaces the amendment process in Article V",
+      "An amendment approved only by the Supreme Court itself"
     ],
     "answer": 0,
-    "hint": "One branch is limiting another.",
-    "explanation": "The veto is an executive check on the legislative branch.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Statutes supply details within the constitutional framework.",
+    "source": "https://www.house.gov/the-house-explained/the-legislative-process",
+    "where": "The Legislative Process, introduction",
+    "id": "q39"
   },
   {
-    "id": "q10",
-    "cs": "CS 5 • Checks and balances",
-    "topic": "CS 5 • Checks and balances",
-    "prompt": "The Senate votes on whether to confirm a presidential nominee. What principle is at work?",
+    "sliders": null,
+    "topic": "7",
+    "prompt": "Congress proposes an amendment by a two-thirds vote in each chamber. What usually must happen next for ratification?",
     "choices": [
-      "state supremacy",
-      "checks and balances",
-      "judicial review",
-      "consent of the governed only"
+      "The president must sign it as an ordinary bill",
+      "A majority of federal judges must approve it",
+      "Three-fourths of the states must approve it",
+      "A simple majority of governors must approve it"
+    ],
+    "answer": 2,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Most amendments require approval by three-fourths of states.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Article V, proposal and ratification",
+    "id": "q28"
+  },
+  {
+    "sliders": null,
+    "topic": "6",
+    "prompt": "The Necessary and Proper Clause allows Congress to enact laws to carry out listed powers. Why did critics worry?",
+    "choices": [
+      "They thought it placed all congressional decisions under governors",
+      "They feared expansive implied congressional authority",
+      "They believed it barred all legislation by the national government",
+      "They believed it completely removed the power to levy federal taxes"
     ],
     "answer": 1,
-    "hint": "The legislative branch is checking an executive choice.",
-    "explanation": "Senate confirmation is a legislative check on appointment power.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Critics feared expansion beyond expressly listed powers.",
+    "source": "https://constitution.congress.gov/browse/essay/artI-S8-C18-1/ALDE_00001242/",
+    "where": "Article I Section 8 Clause 18, scope of implied powers",
+    "id": "q24"
   },
   {
-    "id": "q11",
-    "cs": "CS 5 • Checks and balances",
-    "topic": "CS 5 • Checks and balances",
-    "prompt": "A federal court declares a law unconstitutional. Which two ideas are most directly involved?",
+    "sliders": null,
+    "topic": "5",
+    "prompt": "The Senate rejects a president's nominee for a major federal office. This is an example of what?",
     "choices": [
-      "federalism and ratification",
-      "popular sovereignty and state supremacy as an action taken by public officials",
-      "judicial review and checks and balances",
-      "oversight and amendment"
-    ],
-    "answer": 2,
-    "hint": "A court is reviewing and limiting another branch.",
-    "explanation": "Judicial review allows courts to check unconstitutional government action.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q12",
-    "cs": "CS 5 • Principles",
-    "topic": "CS 5 • Principles",
-    "prompt": "Why did the framers combine separation of powers with checks and balances?",
-    "choices": [
-      "to let each branch act without limits when applied through ordinary legal procedures",
-      "to give state courts control of Congress",
-      "to eliminate conflict among branches",
-      "to divide power and prevent any branch from dominating"
-    ],
-    "answer": 3,
-    "hint": "The goal was protection against concentrated power.",
-    "explanation": "Dividing power is stronger when each branch can also restrain the others.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q13",
-    "cs": "CS 5 • Application",
-    "topic": "CS 5 • Application",
-    "prompt": "Congress passes a law, but the president vetoes it and Congress considers an override. Which principle is the best answer?",
-    "choices": [
-      "checks and balances",
-      "federalism",
-      "rule of law only",
-      "popular sovereignty only"
+      "A Senate check on presidential power",
+      "An executive check on judicial power",
+      "A judicial check on voter registration",
+      "A state check on federal taxation"
     ],
     "answer": 0,
-    "hint": "Look at the interaction between branches.",
-    "explanation": "Veto and override powers are reciprocal checks.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Senate confirmation gives the legislative branch a check.",
+    "source": "https://www.usa.gov/branches-of-government",
+    "where": "Checks and balances: Senate confirmations",
+    "id": "q11"
   },
   {
-    "id": "q14",
-    "cs": "CS 5 • Application",
-    "topic": "CS 5 • Application",
-    "prompt": "Which situation best illustrates limited government rather than rule of law?",
+    "sliders": null,
+    "topic": "5",
+    "prompt": "Why does dividing powers among branches help protect liberty?",
     "choices": [
-      "A mayor receives the same traffic fine as any citizen. under the constitutional process in the question",
-      "The Constitution prevents Congress from exercising a power it was not granted.",
-      "A jury applies a law to a defendant.",
-      "Police enforce a valid law equally."
+      "It prevents any one branch from controlling government",
+      "It eliminates the need for elections at every level",
+      "It gives each state its own separate national president",
+      "It permits each branch to ignore limits imposed by law"
+    ],
+    "answer": 0,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Divided powers prevent one institution from controlling everything.",
+    "source": "https://billofrightsinstitute.org/videos/constitutional-principles-separation-of-powers-video/",
+    "where": "Opening transcript on divided authority",
+    "id": "q12"
+  },
+  {
+    "sliders": null,
+    "topic": "5",
+    "prompt": "Which arrangement best illustrates separation of powers?",
+    "choices": [
+      "Courts make treaties; the president ratifies amendments; Congress runs trials",
+      "Congress appoints governors; states control federal courts; voters enforce laws",
+      "Congress writes laws; the president executes them; courts interpret them",
+      "The president writes laws; Congress hears appeals; courts conduct elections"
+    ],
+    "answer": 2,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Different branches have distinct core functions.",
+    "source": "https://www.usa.gov/branches-of-government",
+    "where": "Three branch descriptions, legislative/executive/judicial",
+    "id": "q06"
+  },
+  {
+    "sliders": null,
+    "topic": "5",
+    "prompt": "A state sets public-school graduation requirements while Congress regulates interstate trade. Which principle explains this division?",
+    "choices": [
+      "Federalism",
+      "Popular referendum",
+      "Judicial review",
+      "Executive order"
+    ],
+    "answer": 0,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Federalism distributes governing authority between national and state levels.",
+    "source": "https://billofrightsinstitute.org/videos/introduction-to-federalism-government-and-politics-civics-for-the-american-experiment/",
+    "where": "Opening overview of national and state responsibilities",
+    "id": "q07"
+  },
+  {
+    "sliders": null,
+    "topic": "5",
+    "prompt": "A power is not delegated to the United States and is not prohibited to the states. Under the Tenth Amendment, who retains it?",
+    "choices": [
+      "The president acting alone under Article II",
+      "State governments or citizens",
+      "Congress through ordinary federal legislation",
+      "The federal courts through judicial review"
     ],
     "answer": 1,
-    "hint": "Ask whether the example is about boundaries on power or equal obedience to law.",
-    "explanation": "Limited government focuses on restricting the amount and type of power government may use.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "The Tenth Amendment reserves undelegated powers.",
+    "source": "https://www.archives.gov/founding-docs/bill-of-rights-transcript#toc-amendment-x-2",
+    "where": "Read Amendment X in full",
+    "id": "q09"
   },
   {
-    "id": "q15",
-    "cs": "CS 6 • Federalists",
-    "topic": "CS 6 • Federalists",
-    "prompt": "Which position would a Federalist most likely support in 1788?",
+    "sliders": null,
+    "topic": "6",
+    "prompt": "Which statement best describes the Federalists during ratification?",
     "choices": [
-      "Keep the Articles unchanged because Congress is already strong. as an action taken by public officials",
-      "Reject every national court.",
-      "Ratify the Constitution to create a more effective national government.",
-      "Give states complete supremacy over national law."
-    ],
-    "answer": 2,
-    "hint": "Federalists believed the Articles made national government too weak.",
-    "explanation": "Federalists supported ratification and stronger national authority.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q16",
-    "cs": "CS 6 • Anti-Federalists",
-    "topic": "CS 6 • Anti-Federalists",
-    "prompt": "Which concern would an Anti-Federalist most likely raise?",
-    "choices": [
-      "Congress will remain unable to tax under the Constitution. when applied through ordinary legal procedures",
-      "The president will have no power to enforce laws.",
-      "The national judiciary will be eliminated.",
-      "The proposed national government might threaten states and individual liberty."
+      "They demanded a return to British colonial rule",
+      "They opposed any federal judicial system",
+      "They rejected a stronger national government",
+      "They favored ratifying the new framework"
     ],
     "answer": 3,
-    "hint": "Think fear of concentrated central power.",
-    "explanation": "Anti-Federalists feared that a strong national government could endanger liberty and state authority.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Federalists campaigned for ratification.",
+    "source": "https://www.archives.gov/founding-docs/more-perfect-union",
+    "where": "Federalists and Anti-Federalists section",
+    "id": "q19"
   },
   {
-    "id": "q17",
-    "cs": "CS 6 • Articles weaknesses",
-    "topic": "CS 6 • Articles weaknesses",
-    "prompt": "Which weakness of the Articles of Confederation most clearly limited national effectiveness?",
+    "sliders": null,
+    "topic": "7",
+    "prompt": "Which case established the principle of judicial review in the federal judiciary?",
     "choices": [
-      "Congress could not directly collect taxes.",
-      "Congress could override presidential vetoes.",
-      "The Supreme Court had too many judges.",
-      "The Bill of Rights restricted trade."
-    ],
-    "answer": 0,
-    "hint": "The national government lacked reliable revenue.",
-    "explanation": "Without direct taxing power, Congress struggled to fund national responsibilities.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q18",
-    "cs": "CS 6 • Articles weaknesses",
-    "topic": "CS 6 • Articles weaknesses",
-    "prompt": "Why did Federalists emphasize the absence of a national executive under the Articles?",
-    "choices": [
-      "States had no governors.",
-      "There was no effective national officer to carry out congressional decisions.",
-      "Congress could enforce laws too aggressively. under the constitutional process in the question",
-      "Courts controlled the military."
+      "Plessy v. Ferguson",
+      "Marbury v. Madison",
+      "Brown v. Board of Education",
+      "McCulloch v. Maryland"
     ],
     "answer": 1,
-    "hint": "Think enforcement.",
-    "explanation": "The Articles lacked a national executive capable of administering and enforcing national policy.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Marbury v. Madison established judicial review.",
+    "source": "https://billofrightsinstitute.org/videos/marbury-v-madison-homework-help/",
+    "where": "Opening case summary",
+    "id": "q34"
   },
   {
-    "id": "q19",
-    "cs": "CS 6 • Necessary and Proper",
-    "topic": "CS 6 • Necessary and Proper",
-    "prompt": "Congress creates a national agency to carry out a listed power. Which clause most supports that action?",
+    "sliders": null,
+    "topic": "7",
+    "prompt": "Which law targeted discriminatory voting practices such as literacy tests?",
     "choices": [
-      "Tenth Amendment",
-      "Article V",
-      "Necessary and Proper Clause",
-      "Bill of Rights as an action taken by public officials"
-    ],
-    "answer": 2,
-    "hint": "Think implied powers.",
-    "explanation": "The Necessary and Proper Clause permits laws needed to execute enumerated powers.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q20",
-    "cs": "CS 6 • Supremacy",
-    "topic": "CS 6 • Supremacy",
-    "prompt": "A valid federal law conflicts with a state law. Which rule resolves the conflict?",
-    "choices": [
-      "The state law always prevails.",
-      "Both laws automatically become void.",
-      "The governor chooses which law applies nationally. when applied through ordinary legal procedures",
-      "The valid federal law prevails under the Supremacy Clause."
-    ],
-    "answer": 3,
-    "hint": "The Constitution calls federal law the supreme law of the land.",
-    "explanation": "The Supremacy Clause gives valid federal law priority over conflicting state law.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q21",
-    "cs": "CS 6 • Ratification",
-    "topic": "CS 6 • Ratification",
-    "prompt": "What did Anti-Federalists gain as part of the ratification settlement?",
-    "choices": [
-      "a promise to add a Bill of Rights",
-      "abolition of the presidency within the government system described",
-      "complete state supremacy",
-      "removal of national courts"
-    ],
-    "answer": 0,
-    "hint": "They demanded written protections.",
-    "explanation": "The promise and later adoption of the Bill of Rights helped answer Anti-Federalist objections.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q22",
-    "cs": "CS 6 • Ratification",
-    "topic": "CS 6 • Ratification",
-    "prompt": "What was the main purpose of the Federalist Papers?",
-    "choices": [
-      "to demand a return to British rule under the constitutional process in the question",
-      "to persuade people to support ratification of the Constitution",
-      "to replace the Bill of Rights",
-      "to abolish Congress under the Articles"
+      "Civil Rights Act of 1875",
+      "Voting Rights Act of 1965",
+      "National Labor Relations Act of 1935",
+      "Sherman Antitrust Act of 1890"
     ],
     "answer": 1,
-    "hint": "They defended the proposed Constitution.",
-    "explanation": "Hamilton, Madison, and Jay wrote essays supporting ratification.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "The Voting Rights Act attacked barriers to voting.",
+    "source": "https://www.archives.gov/milestone-documents/voting-rights-act",
+    "where": "Overview of discriminatory voting practices",
+    "id": "q37"
   },
   {
-    "id": "q23",
-    "cs": "CS 6 • Ratification",
-    "topic": "CS 6 • Ratification",
-    "prompt": "Hamilton, Madison, and Jay are most closely connected to which publication?",
+    "sliders": null,
+    "topic": "5",
+    "prompt": "Congress may exercise only powers granted by the Constitution. Which principle does this illustrate?",
     "choices": [
-      "Brutus I only",
-      "the Declaration of Independence",
-      "The Federalist Papers",
-      "the Northwest Ordinance"
+      "Democracy through direct voting",
+      "Unitary government",
+      "Limited government",
+      "Judicial activism"
     ],
     "answer": 2,
-    "hint": "These essays defended ratification.",
-    "explanation": "The three authors wrote the Federalist Papers under the name Publius.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Constitutional restrictions keep government authority from being unlimited.",
+    "source": "https://billofrightsinstitute.org/videos/u-s-constitution-primary-source-essentials/",
+    "where": "Transcript around 0:43–1:46, constitutional limits",
+    "id": "q04"
   },
   {
-    "id": "q24",
-    "cs": "CS 6 • Ratification",
-    "topic": "CS 6 • Ratification",
-    "prompt": "Why did Anti-Federalists object to the Necessary and Proper and Supremacy Clauses?",
+    "sliders": null,
+    "topic": "6",
+    "prompt": "Which weakness under the Articles made national financial problems difficult to solve?",
     "choices": [
-      "They believed the clauses made Congress too weak. when applied through ordinary legal procedures",
-      "They wanted federal laws to override all rights.",
-      "They opposed adding any state governments.",
-      "They feared the clauses would expand national power at the expense of states."
+      "A national president controlled all spending",
+      "Congress could levy any direct tax without limits",
+      "Congress lacked an independent power to tax",
+      "States were forbidden to collect their own taxes"
     ],
-    "answer": 3,
-    "hint": "Focus on central power versus state authority.",
-    "explanation": "Anti-Federalists saw the clauses as possible sources of broad national authority.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "answer": 2,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "The Confederation Congress depended on state contributions.",
+    "source": "https://www.archives.gov/milestone-documents/articles-of-confederation",
+    "where": "Articles of Confederation, powers and weaknesses",
+    "id": "q15"
   },
   {
-    "id": "q25",
-    "cs": "CS 6 • Comparison",
-    "topic": "CS 6 • Comparison",
-    "prompt": "Which statement correctly compares the two sides?",
+    "sliders": null,
+    "topic": "7",
+    "prompt": "A court interprets an older constitutional guarantee in a new dispute. What type of constitutional change is this?",
     "choices": [
-      "Federalists favored stronger national authority; Anti-Federalists emphasized state power and written rights.",
-      "Both sides wanted to keep the Articles unchanged. within the government system described",
-      "Anti-Federalists favored national supremacy more strongly.",
-      "Federalists opposed ratification unless the presidency was removed."
-    ],
-    "answer": 0,
-    "hint": "Compare their preferred balance of power.",
-    "explanation": "The central disagreement concerned national strength, state authority, and protection of liberty.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q26",
-    "cs": "CS 6 • Outcome",
-    "topic": "CS 6 • Outcome",
-    "prompt": "Which result best describes the outcome of the ratification debate?",
-    "choices": [
-      "The Articles remained permanently in force.",
-      "The Constitution was ratified and a Bill of Rights was added soon afterward.",
-      "The Constitution was rejected by every state. under the constitutional process in the question",
-      "The presidency was removed before ratification."
+      "Repeal of the Bill of Rights by legislation",
+      "Informal change through judicial interpretation",
+      "Formal change by Article V ratification",
+      "Replacement of the Constitution by executive order"
     ],
     "answer": 1,
-    "hint": "Both sides influenced the result.",
-    "explanation": "Ratification created the new government; the Bill of Rights addressed demands for explicit protections.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Court interpretation can change constitutional application without amending its text.",
+    "source": "https://billofrightsinstitute.org/videos/marbury-v-madison-homework-help/",
+    "where": "Judicial review and interpretation overview",
+    "id": "q33"
   },
   {
-    "id": "q27",
-    "cs": "CS 7 • Formal amendment",
-    "topic": "CS 7 • Formal amendment",
-    "prompt": "Which action is a formal constitutional change?",
+    "sliders": null,
+    "topic": "5",
+    "prompt": "A federal law conflicts with a valid state law in an area of federal constitutional authority. Which rule controls?",
     "choices": [
-      "Congress holding an oversight hearing",
-      "a president creating a cabinet tradition as an action taken by public officials",
-      "ratifying a new amendment through Article V",
-      "a court interpreting an existing clause"
-    ],
-    "answer": 2,
-    "hint": "Formal change alters the written text.",
-    "explanation": "Article V amendment changes the Constitution itself.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q28",
-    "cs": "CS 7 • Article V",
-    "topic": "CS 7 • Article V",
-    "prompt": "Which statement correctly describes one part of the amendment process?",
-    "choices": [
-      "The president may amend the Constitution by executive order. when applied through ordinary legal procedures",
-      "A simple majority of voters automatically changes the text.",
-      "The Supreme Court ratifies every amendment.",
-      "An amendment may be proposed by two-thirds of both houses of Congress."
-    ],
-    "answer": 3,
-    "hint": "Think supermajorities.",
-    "explanation": "Article V requires broad agreement to propose and ratify amendments.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q29",
-    "cs": "CS 7 • Article V",
-    "topic": "CS 7 • Article V",
-    "prompt": "Why is the formal amendment process intentionally difficult?",
-    "choices": [
-      "to require broad national agreement before changing the Constitution",
-      "to prevent any future constitutional change within the government system described",
-      "to give one branch total control",
-      "to allow states to ignore amendments"
+      "The valid federal law prevails",
+      "The governor decides the dispute",
+      "The newer state law prevails",
+      "Both laws automatically disappear"
     ],
     "answer": 0,
-    "hint": "Difficulty promotes stability and consensus.",
-    "explanation": "Supermajority requirements balance adaptability with constitutional stability.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Valid federal law is supreme over conflicting state law.",
+    "source": "https://constitution.congress.gov/browse/essay/artVI-C2-1/ALDE_00013395/",
+    "where": "Article VI, Supremacy Clause explanation",
+    "id": "q10"
   },
   {
-    "id": "q30",
-    "cs": "CS 7 • Amendments",
-    "topic": "CS 7 • Amendments",
-    "prompt": "Which amendment lowered the voting age to 18?",
+    "sliders": null,
+    "topic": "7",
+    "prompt": "Which amendment prohibited denying voting rights on account of sex?",
     "choices": [
-      "Tenth Amendment",
       "Twenty-sixth Amendment",
       "Nineteenth Amendment",
-      "Twenty-fourth Amendment"
+      "Twenty-fourth Amendment",
+      "Fifteenth Amendment"
     ],
     "answer": 1,
-    "hint": "It was adopted during the Vietnam era.",
-    "explanation": "The Twenty-sixth Amendment protects voting rights for citizens age 18 and older.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "The Nineteenth Amendment barred sex-based voting discrimination.",
+    "source": "https://www.archives.gov/founding-docs/amendments-11-27",
+    "where": "Amendment XIX",
+    "id": "q31"
   },
   {
-    "id": "q31",
-    "cs": "CS 7 • Amendments",
-    "topic": "CS 7 • Amendments",
-    "prompt": "Which is the best example of an amendment expanding political participation?",
+    "sliders": null,
+    "topic": "6",
+    "prompt": "Which statement best describes Anti-Federalists during ratification?",
     "choices": [
-      "the Necessary and Proper Clause as an action taken by public officials",
+      "They insisted the president should appoint every state judge",
+      "They favored abolishing the elected state legislatures entirely",
+      "They feared national power could overwhelm state authority",
+      "They wrote the entire Constitution as one unified political party"
+    ],
+    "answer": 2,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "They opposed or sought changes to the proposed framework.",
+    "source": "https://constitutioncenter.org/education/classroom-resource-library/classroom/5.3-info-brief-the-anti-federalists",
+    "where": "Overview of Anti-Federalist objections",
+    "id": "q20"
+  },
+  {
+    "sliders": null,
+    "topic": "5",
+    "prompt": "A court strikes down a law that conflicts with the Constitution. What power is being used?",
+    "choices": [
+      "Executive clemency",
+      "Judicial review",
+      "Popular ratification",
+      "Legislative oversight"
+    ],
+    "answer": 1,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Courts can invalidate unconstitutional laws.",
+    "source": "https://billofrightsinstitute.org/videos/marbury-v-madison-homework-help/",
+    "where": "Opening explanation of judicial review",
+    "id": "q13"
+  },
+  {
+    "sliders": null,
+    "topic": "7",
+    "prompt": "A school district maintains racially segregated public schools. Which ruling held that such segregation violates equal protection?",
+    "choices": [
+      "Gibbons v. Ogden",
+      "Brown v. Board (1954)",
       "Marbury v. Madison",
-      "the Nineteenth Amendment protecting women’s voting rights",
-      "a congressional oversight hearing"
-    ],
-    "answer": 2,
-    "hint": "Look for a formal change involving suffrage.",
-    "explanation": "The Nineteenth Amendment constitutionally protected voting rights regardless of sex.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q32",
-    "cs": "CS 7 • Judicial review",
-    "topic": "CS 7 • Judicial review",
-    "prompt": "What did Marbury v. Madison contribute to constitutional government?",
-    "choices": [
-      "It added the Bill of Rights.",
-      "It lowered the voting age.",
-      "It gave states complete supremacy.",
-      "It established judicial review."
-    ],
-    "answer": 3,
-    "hint": "The case strengthened the Court’s interpretive role.",
-    "explanation": "Marbury is associated with courts judging whether government acts are constitutional.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q33",
-    "cs": "CS 7 • Interpretation",
-    "topic": "CS 7 • Interpretation",
-    "prompt": "How can Supreme Court decisions change constitutional government without changing the written text?",
-    "choices": [
-      "They interpret how constitutional provisions apply to laws and new situations.",
-      "They secretly rewrite Article V.",
-      "They automatically create amendments.",
-      "They allow Congress to ignore the Constitution. within the government system described"
-    ],
-    "answer": 0,
-    "hint": "Interpretation changes application, not wording.",
-    "explanation": "Court decisions develop the meaning and reach of constitutional provisions.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q34",
-    "cs": "CS 7 • Civil rights",
-    "topic": "CS 7 • Civil rights",
-    "prompt": "Brown v. Board of Education changed constitutional interpretation by holding that—",
-    "choices": [
-      "Congress cannot regulate commerce",
-      "racial segregation in public schools violated equal protection",
-      "the president alone may amend the Constitution under the constitutional process in the question",
-      "states may deny voting rights freely"
+      "United States v. Nixon"
     ],
     "answer": 1,
-    "hint": "Think equal protection and schools.",
-    "explanation": "Brown applied the Fourteenth Amendment to reject segregated public education.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Brown rejected racial segregation in public education.",
+    "source": "https://www.oyez.org/cases/1940-1955/347us483",
+    "where": "Case holding and Equal Protection discussion",
+    "id": "q35"
   },
   {
-    "id": "q35",
-    "cs": "CS 7 • Legislation",
-    "topic": "CS 7 • Legislation",
-    "prompt": "How did the Civil Rights Act of 1964 add detail to constitutional principles?",
+    "sliders": null,
+    "topic": "7",
+    "prompt": "Which amendment guarantees equal protection of the laws against state action?",
     "choices": [
-      "It created judicial review.",
-      "It ratified the Fourteenth Amendment. as an action taken by public officials",
-      "It prohibited discrimination in employment and major public settings.",
-      "It established the electoral college."
-    ],
-    "answer": 2,
-    "hint": "Think a federal statute enforcing equality.",
-    "explanation": "Congress used legislation to give practical effect to civil-rights principles.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q36",
-    "cs": "CS 7 • Legislation",
-    "topic": "CS 7 • Legislation",
-    "prompt": "The Voting Rights Act of 1965 most directly targeted—",
-    "choices": [
-      "the presidential veto when applied through ordinary legal procedures",
-      "state driver licensing",
-      "Supreme Court nominations",
-      "racially discriminatory barriers to voting such as literacy tests"
-    ],
-    "answer": 3,
-    "hint": "Focus on access to the ballot.",
-    "explanation": "The act strengthened federal enforcement against discriminatory voting practices.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q37",
-    "cs": "CS 7 • Oversight",
-    "topic": "CS 7 • Oversight",
-    "prompt": "Congress calls agency officials to testify about how a law is being enforced. What method of constitutional change or development is shown?",
-    "choices": [
-      "informal practice through legislative oversight",
-      "formal amendment within the government system described",
-      "state ratification",
-      "judicial review"
+      "Fourteenth Amendment",
+      "Twenty-second Amendment",
+      "Tenth Amendment",
+      "Twelfth Amendment"
     ],
     "answer": 0,
-    "hint": "A congressional hearing monitors the executive branch.",
-    "explanation": "Oversight is an informal practice that shapes how constitutional responsibilities operate.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Equal Protection is in the Fourteenth Amendment.",
+    "source": "https://www.archives.gov/founding-docs/amendments-11-27",
+    "where": "Amendment XIV, Section 1",
+    "id": "q30"
   },
   {
-    "id": "q38",
-    "cs": "CS 7 • Oversight",
-    "topic": "CS 7 • Oversight",
-    "prompt": "Why is legislative oversight important to checks and balances?",
+    "sliders": null,
+    "topic": "6",
+    "prompt": "Which action was required for the Constitution to take effect under Article VII?",
     "choices": [
-      "It lets Congress reverse every court ruling. under the constitutional process in the question",
-      "It lets Congress monitor executive administration and demand accountability.",
-      "It allows agencies to write amendments.",
-      "It removes the need for elections."
-    ],
-    "answer": 1,
-    "hint": "Think monitoring implementation.",
-    "explanation": "Oversight helps the legislative branch check how the executive carries out laws.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q39",
-    "cs": "CS 7 • Change over time",
-    "topic": "CS 7 • Change over time",
-    "prompt": "Which list includes all four methods emphasized in CS 7?",
-    "choices": [
-      "elections, treaties, political parties, and taxes",
-      "vetoes, pardons, campaigns, and federalism",
-      "amendments, Supreme Court interpretation, legislation, and informal practice",
-      "state laws, local ordinances, juries, and cabinet meetings"
-    ],
-    "answer": 2,
-    "hint": "Look for formal text change plus three ways government develops without rewriting the text.",
-    "explanation": "CS 7 emphasizes amendments, judicial interpretation, congressional legislation, and informal practices such as oversight.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
-  },
-  {
-    "id": "q40",
-    "cs": "CS 5–7 • Synthesis",
-    "topic": "CS 5–7 • Synthesis",
-    "prompt": "Which sequence best shows how a constitutional principle can develop over time?",
-    "choices": [
-      "A governor cancels the Constitution and replaces it with a statute. when applied through ordinary legal procedures",
-      "Congress ignores court rulings and removes elections.",
-      "A state vetoes a federal amendment after ratification.",
-      "A broad equality principle is interpreted by courts and enforced through later legislation."
+      "Approval by every sitting state governor",
+      "A national popular vote with no state conventions",
+      "A unanimous vote of the Confederation Congress",
+      "Ratification by conventions in nine states"
     ],
     "answer": 3,
-    "hint": "Combine interpretation and legislation.",
-    "explanation": "Constitutional principles gain practical meaning through court decisions and laws enacted under constitutional authority.",
-    "source": "https://www.archives.gov/founding-docs/constitution",
-    "where": "Consult the linked source for the constitutional principle or governmental process addressed in this scenario."
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Nine state conventions were sufficient for establishment among ratifying states.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Article VII, ratification threshold",
+    "id": "q25"
+  },
+  {
+    "sliders": null,
+    "topic": "6",
+    "prompt": "What was a central Anti-Federalist concern about the proposed Constitution?",
+    "choices": [
+      "The president would be selected by every state court",
+      "The states would gain control of foreign policy",
+      "Congress would have no authority to collect taxes",
+      "National officials might gain too much power"
+    ],
+    "answer": 3,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Anti-Federalists feared concentration of national power.",
+    "source": "https://constitutioncenter.org/education/classroom-resource-library/classroom/5.3-info-brief-the-anti-federalists",
+    "where": "Main objections to centralized authority",
+    "id": "q17"
+  },
+  {
+    "sliders": null,
+    "topic": "6",
+    "prompt": "Which compromise helped gain support for ratification in hesitant states?",
+    "choices": [
+      "A promise to eliminate the independent national judiciary",
+      "An agreement to abolish the national executive branch",
+      "A pledge to adopt written guarantees of liberty",
+      "An agreement to end elections for members of Congress"
+    ],
+    "answer": 2,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "The promised amendments addressed rights concerns.",
+    "source": "https://constitutioncenter.org/education/constitution-101-curriculum/5-the-bill-of-rights",
+    "where": "Ratification and adoption of the Bill of Rights",
+    "id": "q23"
+  },
+  {
+    "sliders": null,
+    "topic": "6",
+    "prompt": "A voter fears that the new government could restrict speech without an explicit prohibition. Which side's argument does this resemble?",
+    "choices": [
+      "Supporters of ratification and stronger national authority",
+      "Supporters of restoring British royal control over America",
+      "Supporters of continued allegiance to the British Crown",
+      "Opponents of ratification"
+    ],
+    "answer": 3,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Anti-Federalists emphasized explicit civil-liberty protections.",
+    "source": "https://constitutioncenter.org/education/classroom-resource-library/classroom/5.3-info-brief-the-anti-federalists",
+    "where": "Objections about missing rights guarantees",
+    "id": "q27"
+  },
+  {
+    "sliders": null,
+    "topic": "5",
+    "prompt": "Congress passes a bill, but the president vetoes it. What principle is operating?",
+    "choices": [
+      "Powers reserved to state governments",
+      "Judicial precedent",
+      "Popular initiative",
+      "Checks and balances"
+    ],
+    "answer": 3,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "A veto lets the executive check the legislature.",
+    "source": "https://www.usa.gov/branches-of-government",
+    "where": "Section on how branches check one another",
+    "id": "q05"
+  },
+  {
+    "sliders": null,
+    "topic": "7",
+    "prompt": "Congress investigates an executive agency's handling of a federal program. What constitutional practice is illustrated?",
+    "choices": [
+      "Executive pardon of federal officials",
+      "Legislative oversight",
+      "State nullification",
+      "Ratification by members of the judiciary"
+    ],
+    "answer": 1,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Oversight helps Congress monitor and evaluate executive administration.",
+    "source": "https://history.house.gov/Institution/Origins-Development/Investigations-Oversight/",
+    "where": "Opening discussion of congressional investigations",
+    "id": "q38"
+  },
+  {
+    "sliders": null,
+    "topic": "7",
+    "prompt": "Which amendment abolished slavery, except as punishment for a crime after conviction?",
+    "choices": [
+      "Nineteenth Amendment",
+      "Fifteenth Amendment",
+      "Fourteenth Constitutional Amendment",
+      "Thirteenth Amendment"
+    ],
+    "answer": 3,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "The Thirteenth Amendment abolished slavery with the stated exception.",
+    "source": "https://www.archives.gov/founding-docs/amendments-11-27",
+    "where": "Amendment XIII, Section 1",
+    "id": "q29"
+  },
+  {
+    "sliders": null,
+    "topic": "6",
+    "prompt": "Why did Anti-Federalists insist on a Bill of Rights?",
+    "choices": [
+      "To replace elections with judicial appointments",
+      "To establish a hereditary national legislature",
+      "To protect liberties through written guarantees",
+      "To let Congress suspend every state constitution"
+    ],
+    "answer": 2,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "They wanted specific guarantees against government intrusion.",
+    "source": "https://constitutioncenter.org/education/constitution-101-curriculum/5-the-bill-of-rights",
+    "where": "Discussion of demands for written rights protections",
+    "id": "q18"
+  },
+  {
+    "sliders": null,
+    "topic": "5",
+    "prompt": "A state legislature holds an election so voters can choose representatives. Which principle is most directly illustrated?",
+    "choices": [
+      "National supremacy",
+      "Review by the federal judiciary",
+      "Popular sovereignty",
+      "Executive privilege"
+    ],
+    "answer": 2,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Voters are the source of governmental authority.",
+    "source": "https://billofrightsinstitute.org/videos/constitutional-principles-consent-of-the-governed-video/",
+    "where": "Transcript near 3:37, popular sovereignty",
+    "id": "q01"
+  },
+  {
+    "sliders": null,
+    "topic": "7",
+    "prompt": "Why can the Constitution adapt to changing circumstances while retaining its original framework?",
+    "choices": [
+      "The president may rewrite constitutional articles without consent",
+      "State governors may suspend constitutional amendments at will",
+      "Every new Congress may automatically replace the written text",
+      "Amendment and interpretation make adaptation possible"
+    ],
+    "answer": 3,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "Formal amendments and interpretation support adaptation.",
+    "source": "https://billofrightsinstitute.org/videos/constitutional-amendments-primary-source-essentials/",
+    "where": "Transcript on amendments and adaptation",
+    "id": "q40"
+  },
+  {
+    "sliders": null,
+    "topic": "7",
+    "prompt": "A state denies an 18-year-old citizen the vote solely because of age. Which amendment applies?",
+    "choices": [
+      "Twenty-second Amendment",
+      "Twenty-fourth Amendment",
+      "Twenty-third Amendment",
+      "Twenty-sixth Amendment"
+    ],
+    "answer": 3,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "The Twenty-sixth Amendment lowered the voting age to 18.",
+    "source": "https://www.archives.gov/founding-docs/amendments-11-27",
+    "where": "Amendment XXVI",
+    "id": "q32"
+  },
+  {
+    "sliders": null,
+    "topic": "7",
+    "prompt": "Which law banned discrimination in many public accommodations and in employment on specified grounds?",
+    "choices": [
+      "Judiciary Act of 1789",
+      "Voting Rights Act of 1965",
+      "Civil Rights Act of 1964",
+      "Social Security Act of 1935"
+    ],
+    "answer": 2,
+    "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",
+    "explanation": "The Civil Rights Act addressed public accommodations and employment discrimination.",
+    "source": "https://www.archives.gov/milestone-documents/civil-rights-act",
+    "where": "Overview of 1964 act's provisions",
+    "id": "q36"
   }
 ];

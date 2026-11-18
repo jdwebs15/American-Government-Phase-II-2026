@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>American Government Phase II Assignment</title>
-  <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="../../assets/phase2-visual-alignment.css"></head>
+  <title>Ohio Constitution and Citizenship — Introduction</title>
+  <link rel="stylesheet" href="../../assets/worksheet.css">
+</head>
 <body>
 <main class="shell">
   <a class="back" href="../../">← Back to Government Hub</a>
@@ -16,7 +16,7 @@
       <p id="pageDescription"></p>
       <p id="masteryRule"></p>
     </div>
-    <div class="feature-pills" aria-label="Assignment features">
+    <div class="feature-pills" id="features" aria-label="Assignment features">
       <span>Immediate Check ✓</span><span>Correctable Mastery ✓</span><span>Hints After Misses ✓</span><span>Saved Progress ✓</span>
     </div>
   </header>
@@ -34,18 +34,20 @@
 
   <div class="workspace hidden" id="workspace">
     <section class="question-panel">
-      <div class="question-toolbar"><div class="section-label">QUESTION</div><button id="resetBtn" class="danger" type="button">Reset Assignment</button></div>
+      <div class="question-toolbar"><div class="section-label">QUESTION</div><button id="saveWork" class="secondary" type="button">Save Progress</button><button id="resetBtn" class="danger" type="button">Reset Assignment</button></div>
       <div class="stats"><div><strong id="progressStat">1 / 1</strong><span>Progress</span></div><div><strong id="accuracyStat">100%</strong><span>First-attempt score</span></div><div><strong id="runtimeStat">0:00</strong><span>Active time</span></div></div>
       <div class="progress"><span id="progressFill"></span></div>
-      <div class="question-card" id="questionCard"></div>
+      <div class="question-card" id="questionCard"></div><p id="workStatus" role="status"></p>
     </section>
-    <aside class="side-panel"><div class="section-label">RULES</div><ul id="rulesList"></ul><div class="side-section"><div class="section-label">WHAT THIS PRACTICES</div><p id="practiceText"></p></div><div class="side-section"><div class="section-label">SAVED PROGRESS</div><p>Progress saves in this browser and can also be retrieved through your teacher’s spreadsheet.</p></div></aside>
+    <aside class="side-panel"><div class="section-label">RULES</div><ul id="rulesList"></ul><div class="side-section"><div class="section-label">WHAT THIS PRACTICES</div><p id="practiceText"></p></div><div class="side-section"><div class="section-label">SAVED PROGRESS</div><p>Progress saves on this device while you work. Use Save Progress to send a draft to your teacher.</p></div></aside>
   </div>
 
   <section class="completion hidden" id="completion">
-    <div class="section-label">COMPLETION TICKET</div><h2>Assignment mastery complete</h2><p id="studentTicket"></p><p id="completionSummary"></p><button id="submitBtn">Submit Completed Assignment</button><button id="restartBtn" class="secondary">Begin a Fresh Attempt</button><p id="submitStatus" class="status" role="status"></p>
+    <div class="section-label" id="ticketLabel">COMPLETION TICKET</div><h2 id="completionHeading">Assignment mastery complete</h2><p id="studentTicket"></p><p id="completionSummary"></p><button id="submitBtn">Submit Completed Assignment</button><button id="restartBtn" class="secondary">Begin a Fresh Attempt</button><p id="submitStatus" class="status" role="status"></p>
   </section>
 </main>
-<script src="app.js"></script>
+<script src="questions.js"></script>
+<script src="../../assets/backend.js"></script>
+<script src="../../assets/engine.js"></script>
 </body>
 </html>
