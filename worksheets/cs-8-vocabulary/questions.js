@@ -296,17 +296,17 @@ window.GOV_QUESTIONS = [
   },
   {
     "sliders": null,
-    "topic": "Seventh Amendment",
-    "prompt": "Which definition best matches civil jury trial?",
+    "topic": "Eighth Amendment",
+    "prompt": "Which definition best matches excessive fines?",
     "choices": [
-      "the right to gather peacefully with others for a common purpose",
-      "a judge deciding whether soldiers may occupy a home",
-      "a jury deciding factual disputes in a qualifying civil case",
-      "a jury deciding guilt in a federal criminal prosecution"
+      "Payment for a public taking",
+      "Security for release before trial",
+      "Punitive payments that are constitutionally excessive",
+      "Fees charged for filing a civil lawsuit"
     ],
     "answer": 2,
-    "hint": "Civil lawsuits concern disputes other than criminal guilt.",
-    "explanation": "The Seventh Amendment preserves juries in qualifying civil suits.",
+    "hint": "Focus on monetary penalties imposed as punishment.",
+    "explanation": "The Eighth Amendment limits punitive fines.",
     "id": "q22"
   },
   {

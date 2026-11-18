@@ -245,19 +245,19 @@ window.GOV_QUESTIONS = [
   },
   {
     "sliders": null,
-    "topic": "First Amendment • Speech",
-    "prompt": "A student peacefully criticizes a federal policy in a public speech. Which protection is most directly involved?",
+    "topic": "First Amendment",
+    "prompt": "A city opens a park for public meetings. It limits late-night amplified sound for all speakers but revokes only a critic’s permit. Which action most directly raises a viewpoint discrimination concern?",
     "choices": [
-      "protection from double jeopardy",
-      "reserved powers",
-      "right to counsel",
-      "freedom of speech"
+      "Setting standard park hours",
+      "Applying the sound limits uniformly",
+      "Requiring permits for large gatherings",
+      "Revoking the critic’s permit"
     ],
     "answer": 3,
-    "hint": "The student is expressing an opinion.",
-    "explanation": "The First Amendment protects speech, including criticism of government.",
-    "source": "study-notes.html#q29",
-    "where": "Read “Speech · 29” and apply the explanation to the distinction in this question.",
+    "hint": "Read Amendment I on speech and assembly. Compare the rule’s neutral application with the city’s treatment of criticism.",
+    "explanation": "The city singled out a speaker for the viewpoint expressed.",
+    "source": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+    "where": "Read Amendment I on speech and assembly. Compare the rule’s neutral application with the city’s treatment of criticism.",
     "id": "q29"
   },
   {
@@ -352,20 +352,19 @@ window.GOV_QUESTIONS = [
   },
   {
     "sliders": null,
-    "topic": "Eighth Amendment",
-    "prompt": "A prisoner challenges a deliberately torturous punishment. Which amendment provides the most direct basis for the challenge?",
+    "topic": "Fifth and Eighth Amendments",
+    "prompt": "A convicted person argues that a punitive fine is excessive, while a landowner argues the government failed to pay fairly for property taken for a road. Which distinction explains their claims?",
     "choices": [
-      "Second Amendment",
-      "Eighth Amendment",
-      "Tenth Amendment",
-      "Fourth Amendment"
+      "Bail versus right to counsel",
+      "Excessive fines versus just compensation",
+      "Due process versus impartial jury",
+      "Double jeopardy versus confrontation"
     ],
     "answer": 1,
-    "hint": "Use the supporting source. Locate cruel and unusual punishment in Amendment VIII.",
-    "explanation": "A deliberately torturous punishment raises the Eighth Amendment’s ban on cruel and unusual punishment.",
+    "hint": "Compare the end of Amendment V with Amendment VIII’s clause on fines.",
+    "explanation": "The Eighth limits excessive fines. The Fifth requires just compensation for public takings.",
     "source": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
-    "where": "Locate cruel and unusual punishment in Amendment VIII.",
-    "reading": "",
+    "where": "Compare the end of Amendment V with Amendment VIII’s clause on fines.",
     "id": "q25"
   },
   {
@@ -407,19 +406,18 @@ window.GOV_QUESTIONS = [
   {
     "sliders": null,
     "topic": "Eighth Amendment",
-    "prompt": "Officials deliberately impose a barbaric punishment after a criminal conviction. Which protection is most directly involved?",
+    "prompt": "A court orders a very large payment as punishment and requires a defendant to post very high bail to secure release. Which distinction best identifies the constitutional questions?",
     "choices": [
-      "The right to be informed of an accusation",
-      "The ban on cruel and unusual punishment",
-      "The right to confront a prosecution witness",
-      "The protection against compelled testimony"
+      "Equal protection versus due process",
+      "Excessive fines versus excessive bail",
+      "Public trial versus impartial jury",
+      "Double jeopardy versus self-incrimination"
     ],
     "answer": 1,
-    "hint": "Use the supporting source. Read Amendment VIII’s final prohibition.",
-    "explanation": "The Eighth Amendment prohibits cruel and unusual punishment.",
+    "hint": "Read Amendment VIII. Distinguish a penalty payment from security for pretrial release.",
+    "explanation": "The Eighth Amendment separately limits punitive fines and pretrial bail.",
     "source": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
-    "where": "Read Amendment VIII’s final prohibition.",
-    "reading": "",
+    "where": "Read Amendment VIII. Distinguish a penalty payment from security for pretrial release.",
     "id": "q18"
   },
   {
@@ -460,19 +458,19 @@ window.GOV_QUESTIONS = [
   },
   {
     "sliders": null,
-    "topic": "First Amendment • Religion",
-    "prompt": "A federal rule targets a particular faith and bans its worship services. Which protection is most directly involved?",
+    "topic": "First and Fourteenth Amendments",
+    "prompt": "A state insists that its ban on peaceful religious services is immune from a federal constitutional challenge. Which reasoning best addresses that claim?",
     "choices": [
-      "protection from excessive fines",
-      "right to an impartial jury",
-      "free exercise of religion",
-      "freedom of the press"
+      "The Tenth Amendment authorizes state bans on worship",
+      "The Sixth Amendment protects religious assemblies",
+      "Free exercise applies to states through incorporation",
+      "Equal protection gives states authority to establish a religion"
     ],
     "answer": 2,
-    "hint": "The rule blocks religious practice.",
-    "explanation": "The Free Exercise Clause protects religious practice from improper government restriction.",
-    "source": "study-notes.html#q30",
-    "where": "Read “Religion · 30” and apply the explanation to the distinction in this question.",
+    "hint": "Read Section 1’s Due Process Clause. Connect it to the applying of First Amendment protections to states.",
+    "explanation": "The Fourteenth applies the First Amendment’s free exercise protection to states.",
+    "source": "https://www.archives.gov/milestone-documents/14th-amendment",
+    "where": "Read Section 1’s Due Process Clause. Connect it to the applying of First Amendment protections to states.",
     "id": "q30"
   },
   {
@@ -531,19 +529,19 @@ window.GOV_QUESTIONS = [
   },
   {
     "sliders": null,
-    "topic": "First Amendment • Press",
-    "prompt": "Federal officials try to stop a newspaper from publishing criticism merely because it is embarrassing. Which freedom is most directly involved?",
+    "topic": "First and Fourth Amendments",
+    "prompt": "Federal officials seize a publisher’s files without a warrant or exception and separately order the publisher to stop printing criticism. Which pairing identifies the protections most directly affected?",
     "choices": [
-      "right to an impartial jury",
-      "protection from self-incrimination",
-      "freedom of the press",
-      "right to bear arms"
+      "Right to counsel; freedom of assembly",
+      "Equal protection; free exercise",
+      "Search and seizure; freedom of the press",
+      "Double jeopardy; right to petition"
     ],
     "answer": 2,
-    "hint": "Think publication and journalism.",
-    "explanation": "Freedom of the press protects news organizations from improper government censorship.",
-    "source": "study-notes.html#q13",
-    "where": "Read “Press · 13” and apply the explanation to the distinction in this question.",
+    "hint": "Compare the protections in Amendments I and IV. Match each government action to its closest clause.",
+    "explanation": "The Fourth governs the seizure. The First protects publication.",
+    "source": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+    "where": "Compare the protections in Amendments I and IV. Match each government action to its closest clause.",
     "id": "q13"
   }
 ];

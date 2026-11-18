@@ -21,7 +21,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 1,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "Municipal or township government. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "City and township zoning rules typically govern how land can be used locally.",
     "source": "https://www.usa.gov/local-governments",
     "where": "Look for which public officials handle local problems and policy decisions.",
     "id": "q32"
@@ -38,7 +38,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 3,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "Putting the policy into practice and checking results. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "After adoption, officials carry out the policy and use results to evaluate it.",
     "source": "https://www.usa.gov/local-governments",
     "where": "Look for which public officials handle local problems and policy decisions.",
     "id": "q36"
@@ -157,7 +157,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 2,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "To learn how route changes would affect riders. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "Riders can describe transfer, timing, and access problems the city may miss in its planning data.",
     "source": "https://www.usa.gov/local-governments",
     "where": "Look for which public officials handle local problems and policy decisions.",
     "id": "q18"
@@ -174,7 +174,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 0,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "Submit relevant comments during the public comment period. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "The agency can consider relevant comments before deciding whether to revise or adopt the rule.",
     "source": "https://www.archives.gov/federal-register/faqs#comments",
     "where": "Find “How do I comment on documents published in the Federal Register?” Identify when and how someone can respond.",
     "id": "q26"
@@ -208,7 +208,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 3,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "Different options have different costs, benefits, and effects. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "Comparing alternatives reveals who benefits, who bears costs, and which option best meets the goal.",
     "source": "https://www.usa.gov/local-governments",
     "where": "Look for which public officials handle local problems and policy decisions.",
     "id": "q30"
@@ -242,7 +242,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 1,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "Pollution flowing through a river shared by multiple states. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "Upstream activities can affect downstream communities, so states have reason to coordinate.",
     "source": "https://www.usa.gov/local-governments",
     "where": "Look for which public officials handle local problems and policy decisions.",
     "id": "q40"
@@ -259,7 +259,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 1,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "Report test results to the responsible water authority. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "Test results give the water authority evidence it can use to investigate and respond.",
     "source": "https://www.usa.gov/local-governments",
     "where": "Look for which public officials handle local problems and policy decisions.",
     "id": "q38"
@@ -276,7 +276,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 0,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "An estimate of expected spending and revenue effects. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "Projected changes in federal spending and revenue show the proposal’s budget impact.",
     "source": "https://www.cbo.gov/about/overview",
     "where": "Look for CBO’s role in providing budget and economic information to Congress.",
     "id": "q28"
@@ -310,7 +310,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 3,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "Represent the United States in diplomatic relations abroad. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "Embassies represent U.S. interests abroad and maintain diplomatic relationships.",
     "source": "https://diplomacy.state.gov/what-is-the-mission-of-the-u-s-department-of-state/",
     "where": "Look for the State Department’s diplomatic mission and representation abroad.",
     "id": "q04"
@@ -327,7 +327,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 2,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "Present crash data and a specific crossing improvement. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "Crash data shows the safety problem, and a specific proposal gives city officials an action to evaluate.",
     "source": "https://www.usa.gov/local-governments",
     "where": "Look for which public officials handle local problems and policy decisions.",
     "id": "q16"
@@ -344,7 +344,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 2,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "To estimate how the proposal could affect the federal budget. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "A CBO estimate helps Congress compare projected fiscal effects before it votes.",
     "source": "https://www.cbo.gov/about/overview",
     "where": "Look for CBO’s role in providing budget and economic information to Congress.",
     "id": "q34"
@@ -361,7 +361,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 1,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "Proposing creates a possible rule; enforcing applies an adopted one. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "A proposal is under consideration. Enforcement applies a rule already in effect.",
     "source": "https://www.usa.gov/branches-of-government",
     "where": "Look for the division of responsibilities among government branches.",
     "id": "q24"
@@ -395,7 +395,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 3,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "Apply and interpret law in cases brought before it. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "Courts shape implementation when their rulings interpret the laws agencies and officials must apply.",
     "source": "https://www.supremecourt.ohio.gov/courts/judicial-system/ohio-trial-courts/",
     "where": "Look for how trial courts hear cases and apply law.",
     "id": "q08"
@@ -412,7 +412,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 2,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "Problems may cross jurisdictions and need shared resources. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "Sharing authority and resources helps governments address problems that cross their borders.",
     "source": "https://www.usa.gov/branches-of-government",
     "where": "Look for the division of responsibilities among government branches.",
     "id": "q10"
@@ -446,7 +446,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 3,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "Participate through lawful filings or appropriate briefs. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "Court procedures allow parties and, when permitted, others to submit legal arguments.",
     "source": "https://www.supremecourt.ohio.gov/courts/judicial-system/ohio-trial-courts/",
     "where": "Look for how trial courts hear cases and apply law.",
     "id": "q14"
@@ -497,7 +497,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 2,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "Traffic counts, pavement conditions, and repair costs. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "Traffic shows demand, pavement data shows need, and cost estimates help compare repairs.",
     "source": "https://www.usa.gov/local-governments",
     "where": "Look for which public officials handle local problems and policy decisions.",
     "id": "q20"
@@ -514,7 +514,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 3,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "Submit comments during the agency’s public rulemaking. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "A public comment gives the agency evidence or suggestions while the rule is still proposed.",
     "source": "https://www.archives.gov/federal-register/faqs#comments",
     "where": "Find “How do I comment on documents published in the Federal Register?” Identify when and how someone can respond.",
     "id": "q12"
@@ -582,7 +582,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 3,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "Speak or submit comments at a council meeting. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "Public testimony reaches the city council while it is still considering the ordinance.",
     "source": "https://www.usa.gov/elected-officials",
     "where": "Look for ways to identify and contact elected officials.",
     "id": "q22"
@@ -599,7 +599,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 2,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "To weigh expected benefits, costs, and unintended effects. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "Comparing costs and benefits helps officials anticipate side effects before choosing a policy.",
     "source": "https://www.usa.gov/branches-of-government",
     "where": "Look for the division of responsibilities among government branches.",
     "id": "q02"
@@ -616,7 +616,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 0,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
-    "explanation": "To examine independent estimates of fiscal effects. This is the relevant role or evidence for the situation; the alternatives describe different actions or do not address the stated problem.",
+    "explanation": "CBO gives Congress nonpartisan estimates of how legislation affects federal spending and revenue.",
     "source": "https://www.cbo.gov/about/overview",
     "where": "Look for CBO’s role in providing budget and economic information to Congress.",
     "id": "q06"

@@ -62,6 +62,7 @@ if (typeof window !== 'undefined') (() => {
   const bank = window.GOV_QUESTIONS;
   const questions = new Map(bank.map(q => [q.id, q]));
   const review = config.mode === 'review';
+  const correctFeedbackMs = 4000;
   const $ = id => document.getElementById(id);
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c =>
     ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'})[c]);
@@ -99,7 +100,7 @@ if (typeof window !== 'undefined') (() => {
   function tick() {
     const now = Date.now(), elapsed = (now - lastTick) / 1000;
     lastTick = now;
-    if (state?.status !== 'in_progress' || !state.run.length) return;
+    if (locked || state?.status !== 'in_progress' || !state.run.length) return;
     state[document.hidden ? 'awaySeconds' : 'activeSeconds'] += elapsed;
     const id = state.run[state.index]?.id;
     if (id && !document.hidden) state.questionSeconds[id] = (state.questionSeconds[id] || 0) + elapsed;
@@ -316,14 +317,18 @@ if (typeof window !== 'undefined') (() => {
     }
     locked = true;
     document.querySelectorAll('[data-choice]').forEach(choice => choice.disabled = true);
-    $('feedback').className = 'feedback good';
-    $('feedback').textContent = review ? 'Answer recorded.' : 'Correct. ' + q.explanation;
-    scheduleSave();
+    $('feedback').className = correct ? 'feedback good' : 'feedback';
+    $('feedback').textContent = correct ? 'Correct. ' + q.explanation : 'Answer recorded.';
+    if (state.status === 'in_progress') scheduleSave(); else {
+      clearTimeout(saveTimer);
+      local();
+    }
     advanceTimer = setTimeout(() => {
+      lastTick = Date.now();
       locked = false;
       render();
       if (state.status !== 'in_progress') send();
-    }, review ? 250 : 650);
+    }, correct ? correctFeedbackMs : 250);
   }
   $('pageTitle').textContent = config.title;
   $('eyebrow').textContent = 'BLOCK ' + config.block + ' • ' + config.cs + ' • ' + config.type.toUpperCase();

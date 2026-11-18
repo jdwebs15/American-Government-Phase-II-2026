@@ -21,7 +21,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 3,
     "hint": "Identify the decision-maker, the evidence needed, and the likely consequences.",
-    "explanation": "Speakers may not represent all families affected by the change. This applies evidence and legal authority to the specific policy problem.",
+    "explanation": "Testimony from one neighborhood may miss transportation needs elsewhere in the district.",
     "source": "https://www.usa.gov/local-governments",
     "where": "Consider whose experiences are missing from a hearing and how to gather broader evidence.",
     "id": "q01"
@@ -55,7 +55,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 0,
     "hint": "Identify the decision-maker, the evidence needed, and the likely consequences.",
-    "explanation": "Officials should examine uneven outcomes and possible targeted remedies. This applies evidence and legal authority to the specific policy problem.",
+    "explanation": "The citywide average hides remaining exposure, so officials should examine neighborhood-level data.",
     "reading": "The city’s report provides both a citywide average and neighborhood-level readings. Citywide averages show broad changes, while neighborhood readings show where residents still experience exposure.",
     "readingTitle": "City air-quality report",
     "id": "q24",
@@ -126,7 +126,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 3,
     "hint": "Identify the decision-maker, the evidence needed, and the likely consequences.",
-    "explanation": "Changes in sustained employment compared with an appropriate baseline. This applies evidence and legal authority to the specific policy problem.",
+    "explanation": "Sustained employment measures the goal. A baseline shows whether the outcome improved.",
     "source": "https://www.performance.gov/",
     "where": "Distinguish a count of services delivered from evidence that the intended outcome improved.",
     "id": "q21"
@@ -143,7 +143,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 2,
     "hint": "Identify the responsible institution and compare evidence, costs, benefits, and limits on authority.",
-    "explanation": "Officials should evaluate implementation and whether the policy design fits the evidence. This choice connects the policy decision to the evidence, authority, or consequences described in the scenario.",
+    "explanation": "Unchanged crash rates warrant checking how the policy was applied and whether it addressed the risk.",
     "source": "https://www.usa.gov/local-governments",
     "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
     "id": "q19"
@@ -160,7 +160,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 1,
     "hint": "Identify the responsible institution and compare evidence, costs, benefits, and limits on authority.",
-    "explanation": "Compare safety gains, access concerns, costs, and alternatives. This choice connects the policy decision to the evidence, authority, or consequences described in the scenario.",
+    "explanation": "A sound comparison considers both safety and business access, including other designs.",
     "source": "https://www.usa.gov/branches-of-government",
     "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
     "id": "q30"
@@ -211,7 +211,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 3,
     "hint": "Identify the decision-maker, the evidence needed, and the likely consequences.",
-    "explanation": "The city may need to change enforcement to comply with the ruling. This applies evidence and legal authority to the specific policy problem.",
+    "explanation": "A ruling can require the city to bring its enforcement practices into line with state law.",
     "source": "https://www.usa.gov/branches-of-government",
     "where": "Identify how judicial interpretation can constrain government implementation.",
     "id": "q17"
@@ -262,7 +262,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 2,
     "hint": "Identify the decision-maker, the evidence needed, and the likely consequences.",
-    "explanation": "Compare expected injury reductions relative to costs and local conditions. This applies evidence and legal authority to the specific policy problem.",
+    "explanation": "Comparing expected injuries prevented with costs shows what each proposal would achieve.",
     "source": "https://highways.dot.gov/safety",
     "where": "Connect costs with expected safety outcomes rather than judging a proposal by activity alone.",
     "id": "q26"
@@ -279,7 +279,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 2,
     "hint": "Identify the decision-maker, the evidence needed, and the likely consequences.",
-    "explanation": "Data on housing supply, neighborhood effects, tourism income, and enforcement costs. This applies evidence and legal authority to the specific policy problem.",
+    "explanation": "Those data show how restrictions could affect residents, businesses, and the city budget.",
     "source": "https://www.usa.gov/local-governments",
     "where": "Look for evidence about who benefits, who bears costs, and how the city could enforce a rule.",
     "id": "q20"
@@ -381,7 +381,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 3,
     "hint": "Identify the decision-maker, the evidence needed, and the likely consequences.",
-    "explanation": "Study access and participation barriers before revising collection methods. This applies evidence and legal authority to the specific policy problem.",
+    "explanation": "Identify why households cannot participate before changing the service or increasing penalties.",
     "source": "https://www.usa.gov/local-governments",
     "where": "Identify implementation barriers and measure results before choosing a revision.",
     "id": "q23"
@@ -466,7 +466,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 0,
     "hint": "Identify the decision-maker, the evidence needed, and the likely consequences.",
-    "explanation": "Secure lawful authority, funding, and an implementation plan. This applies evidence and legal authority to the specific policy problem.",
+    "explanation": "A proposal needs authority, appropriations, and a plan for carrying out the work.",
     "source": "https://www.usa.gov/state-governments",
     "where": "Separate an executive proposal from legal authority, appropriations, and implementation.",
     "id": "q25"
@@ -500,7 +500,7 @@ window.GOV_QUESTIONS = [
     ],
     "answer": 2,
     "hint": "Identify the decision-maker, the evidence needed, and the likely consequences.",
-    "explanation": "Compare infrastructure risks, rate burdens, alternatives, and long-term costs. This applies evidence and legal authority to the specific policy problem.",
+    "explanation": "The decision depends on what households can afford and the risks and costs of delaying pipe replacement.",
     "source": "https://www.usa.gov/local-governments",
     "where": "Weigh immediate affordability against the cost and risk of delayed infrastructure repairs.",
     "id": "q22"

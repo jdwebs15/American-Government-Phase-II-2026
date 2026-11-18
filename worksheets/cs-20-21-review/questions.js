@@ -38,18 +38,18 @@ window.GOV_QUESTIONS = [
   {
     "sliders": null,
     "topic": "",
-    "prompt": "What does a tax deduction reduce?",
+    "prompt": "Congress expands a deduction to encourage businesses to buy new equipment. Which chain best describes how it would work?",
     "choices": [
-      "The amount of wages an employer pays.",
-      "The full price of every item purchased.",
-      "The full amount of every tax owed.",
-      "The amount of income subject to tax."
+      "Lower taxable income requires businesses to increase their lending.",
+      "Higher taxable income gives firms more funds for equipment purchases.",
+      "Higher federal purchases automatically reduce private borrowing rates.",
+      "Lower taxable income can reduce the after-tax cost of buying equipment."
     ],
     "answer": 3,
     "hint": "Think about taxes, public spending, and the money people can spend.",
-    "explanation": "A deduction reduces taxable income; a credit directly reduces tax owed.",
+    "explanation": "A deduction lowers taxable income and can make eligible equipment cheaper after taxes.",
     "source": "reference.html#fiscal",
-    "where": "Read Fiscal policy. Find the definition or the tax/spending effect named in this question.",
+    "where": "Read Fiscal policy. Trace how changes in taxes or public purchases affect household or business demand.",
     "id": "q27"
   },
   {
@@ -128,35 +128,35 @@ window.GOV_QUESTIONS = [
   {
     "sliders": null,
     "topic": "",
-    "prompt": "Which institution conducts U.S. monetary policy?",
+    "prompt": "Inflation is high. Congress leaves federal taxes and spending unchanged. Which action could the Federal Reserve take without a new spending bill?",
     "choices": [
-      "The Department of Commerce.",
-      "The Department of Labor.",
-      "The Securities and Exchange Commission.",
-      "The Federal Reserve System."
+      "Raise income tax rates to reduce take-home pay.",
+      "Cut federal purchases to reduce total demand.",
+      "Change the tax deduction for business investment.",
+      "Raise its policy rate to restrain borrowing."
     ],
     "answer": 3,
     "hint": "Think about how the Fed changes borrowing and bank lending.",
-    "explanation": "The Federal Reserve conducts monetary policy.",
+    "explanation": "The Fed can raise its policy rate. Tax and spending laws are fiscal policy.",
     "source": "reference.html#monetary",
-    "where": "Read Monetary policy. Find the named tool and trace its effect on lending.",
+    "where": "Read Monetary policy. Follow how the Federal Reserve’s tools affect borrowing and credit.",
     "id": "q28"
   },
   {
     "sliders": null,
     "topic": "",
-    "prompt": "What is the usual effect of an income-tax cut?",
+    "prompt": "Congress cuts households’ income taxes during a slowdown. Which observation would most directly indicate the cut is increasing demand?",
     "choices": [
-      "Households receive smaller paychecks before taxes.",
-      "Households keep more money to spend.",
-      "Households face higher tax rates on earnings.",
-      "Households keep less money to spend."
+      "Bank lending declines as reserve requirements increase.",
+      "Retail purchases rise as take-home pay increases.",
+      "Hiring falls as businesses cancel planned orders.",
+      "Federal purchases rise while household spending falls."
     ],
     "answer": 1,
     "hint": "Think about taxes, public spending, and the money people can spend.",
-    "explanation": "Lower income taxes leave households with more after-tax income.",
+    "explanation": "Higher take-home pay can increase purchases and total demand.",
     "source": "reference.html#fiscal",
-    "where": "Read Fiscal policy. Find the definition or the tax/spending effect named in this question.",
+    "where": "Read Fiscal policy. Trace how changes in taxes or public purchases affect household or business demand.",
     "id": "q21"
   },
   {
@@ -472,52 +472,52 @@ window.GOV_QUESTIONS = [
   {
     "sliders": null,
     "topic": "",
-    "prompt": "Why require nutrition labels on packaged food?",
+    "prompt": "A nutrition-label rule helps consumers compare foods but requires companies to redesign packaging. Which evidence best tests whether the benefit is worth the cost?",
     "choices": [
-      "Help companies avoid reporting product ingredients.",
-      "Help consumers make informed food choices.",
-      "Require families to purchase the same foods.",
-      "Guarantee every producer earns the same profit."
+      "The number of labels printed and the price of raw ingredients.",
+      "Changes in consumer choices and firms’ compliance costs.",
+      "Product sales before the rule and the age of the packaging.",
+      "Firms’ advertising budgets and preferences for label colors."
     ],
     "answer": 1,
     "hint": "Think about rules, consumer protection, and business costs.",
-    "explanation": "Nutrition labels give consumers information about the food they buy.",
+    "explanation": "Consumer behavior measures the benefit. Redesign expenses measure the cost.",
     "source": "reference.html#regulation",
-    "where": "Read Regulation. Compare its public benefit with the cost of following the rule.",
+    "where": "Read Regulation. Separate the public benefit from the compliance cost.",
     "id": "q22"
   },
   {
     "sliders": null,
     "topic": "",
-    "prompt": "What is the discount rate?",
+    "prompt": "The Federal Reserve raises the discount rate while Congress leaves taxes unchanged. Which immediate effect comes through the discount window?",
     "choices": [
-      "The rate banks pay to borrow from the Fed.",
-      "The rate banks pay to borrow from each other.",
-      "The share of deposits banks choose to lend out.",
-      "The share of deposits banks must keep in reserve."
+      "Eligible banks pay more to borrow from the Fed.",
+      "Households pay a higher federal income tax rate.",
+      "Banks must sell bonds from their investment accounts.",
+      "Businesses lose existing deductions on equipment."
     ],
     "answer": 0,
     "hint": "Think about how the Fed changes borrowing and bank lending.",
-    "explanation": "The discount rate applies to banks borrowing directly from the Federal Reserve.",
+    "explanation": "The discount rate is the rate charged for eligible bank borrowing from the Fed.",
     "source": "reference.html#monetary",
-    "where": "Read Monetary policy. Find the named tool and trace its effect on lending.",
+    "where": "Read Monetary policy. Follow how the Federal Reserve’s tools affect borrowing and credit.",
     "id": "q30"
   },
   {
     "sliders": null,
     "topic": "",
-    "prompt": "What does disposable income mean?",
+    "prompt": "A household’s pay stays the same, but its federal income taxes rise. What is the most direct effect on that household?",
     "choices": [
-      "Income left after paying personal taxes.",
-      "Income collected through government tax payments.",
-      "Money spent before receiving a paycheck.",
-      "Money borrowed to pay household expenses."
+      "Less income remains for spending or saving.",
+      "Its employer pays a lower gross wage.",
+      "Its borrowing limit automatically increases.",
+      "Its payroll contribution falls by the same amount."
     ],
     "answer": 0,
     "hint": "Think about taxes, public spending, and the money people can spend.",
-    "explanation": "Disposable income is income available after personal taxes.",
+    "explanation": "Disposable income falls because the household retains less of its earnings.",
     "source": "reference.html#fiscal",
-    "where": "Read Fiscal policy. Find the definition or the tax/spending effect named in this question.",
+    "where": "Read Fiscal policy. Trace how changes in taxes or public purchases affect household or business demand.",
     "id": "q25"
   },
   {
@@ -553,18 +553,18 @@ window.GOV_QUESTIONS = [
   {
     "sliders": null,
     "topic": "",
-    "prompt": "Which action is government spending?",
+    "prompt": "In a slowdown, lawmakers want an action that directly increases government demand for goods and services. Which proposal does this?",
     "choices": [
-      "Paying contractors to repair public highways.",
-      "Allowing a deduction for eligible college costs.",
-      "Raising the tax rate on business profits.",
-      "Reducing the tax rate on household income."
+      "Buy equipment for federal hospitals.",
+      "Reduce income tax rates for households.",
+      "Cut required reserves for commercial banks.",
+      "Offer deductions for private equipment purchases."
     ],
     "answer": 0,
     "hint": "Think about taxes, public spending, and the money people can spend.",
-    "explanation": "Paying for highway repairs is a public expenditure.",
+    "explanation": "Federal equipment purchases directly add to government spending and total demand.",
     "source": "reference.html#fiscal",
-    "where": "Read Fiscal policy. Find the definition or the tax/spending effect named in this question.",
+    "where": "Read Fiscal policy. Trace how changes in taxes or public purchases affect household or business demand.",
     "id": "q26"
   },
   {
@@ -626,18 +626,18 @@ window.GOV_QUESTIONS = [
   {
     "sliders": null,
     "topic": "",
-    "prompt": "What does monetary policy primarily influence?",
+    "prompt": "Bank borrowing costs rise after the Federal Reserve tightens policy. Which outcome would best support the conclusion that the policy reduced demand?",
     "choices": [
-      "Factory safety rules and inspection schedules.",
-      "Money, interest rates, and credit conditions.",
-      "Import agreements and international trade rules.",
-      "Product labels and consumer safety standards."
+      "Firms expand borrowing to finance new investment.",
+      "Firms postpone investments that depend on loans.",
+      "Households increase purchases financed with credit.",
+      "Banks approve more new loans at lower rates."
     ],
     "answer": 1,
     "hint": "Think about how the Fed changes borrowing and bank lending.",
-    "explanation": "Monetary policy influences money and credit conditions, including interest rates.",
+    "explanation": "Higher borrowing costs can cause firms to defer investments and reduce demand.",
     "source": "reference.html#monetary",
-    "where": "Read Monetary policy. Find the named tool and trace its effect on lending.",
+    "where": "Read Monetary policy. Follow how the Federal Reserve’s tools affect borrowing and credit.",
     "id": "q29"
   },
   {
@@ -669,18 +669,18 @@ window.GOV_QUESTIONS = [
   {
     "sliders": null,
     "topic": "",
-    "prompt": "What is the main goal of expansionary fiscal policy?",
+    "prompt": "Unemployment rises as households and businesses cut purchases. Which proposal addresses the shortfall through federal fiscal policy?",
     "choices": [
-      "Encourage spending and economic growth.",
-      "Keep all public spending permanently fixed.",
-      "Reduce spending and economic growth.",
-      "Collect the same taxes in every state."
+      "Fund repairs to increase purchases and support jobs.",
+      "Raise payroll taxes to increase federal tax receipts.",
+      "Reduce federal purchases to narrow the budget deficit.",
+      "Raise the policy interest rate to slow bank lending."
     ],
     "answer": 0,
     "hint": "Think about taxes, public spending, and the money people can spend.",
-    "explanation": "Expansionary fiscal policy supports demand, production, and employment.",
+    "explanation": "Federal purchases can increase demand and support employment during a slowdown.",
     "source": "reference.html#fiscal",
-    "where": "Read Fiscal policy. Find the definition or the tax/spending effect named in this question.",
+    "where": "Read Fiscal policy. Trace how changes in taxes or public purchases affect household or business demand.",
     "id": "q24"
   },
   {

@@ -97,36 +97,36 @@ window.GOV_QUESTIONS = [
   },
   {
     "sliders": null,
-    "topic": "Seventh Amendment",
-    "prompt": "Which matter can involve the Seventh Amendment jury right?",
+    "topic": "Sixth Amendment",
+    "prompt": "A prosecutor asks the judge to try a criminal defendant in secret just to avoid bad publicity. Which guarantee would be most directly at issue?",
     "choices": [
-      "Presidential election dispute",
-      "Every state criminal case",
-      "Senate impeachment trial",
-      "Qualifying federal civil case"
+      "An impartial jury",
+      "Notice of the charges",
+      "Assistance of counsel",
+      "A public trial"
     ],
     "answer": 3,
-    "hint": "Use the source link and the “Where to look” direction. Read Amendment VII on the linked transcript.",
-    "explanation": "The Seventh Amendment preserves jury trial in qualifying civil cases.",
+    "hint": "Read Amendment VI’s opening clause on the conditions of a criminal trial.",
+    "explanation": "The Sixth Amendment generally guarantees an open criminal trial.",
     "source": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
-    "where": "Read Amendment VII on the linked transcript.",
+    "where": "Read Amendment VI’s opening clause on the conditions of a criminal trial.",
     "id": "q18"
   },
   {
     "sliders": null,
     "topic": "First Amendment",
-    "prompt": "Citizens ask officials to change a law. Which right applies?",
+    "prompt": "A neighborhood group writes a signed request to Congress asking it to change a law. Which freedom protects sending the request?",
     "choices": [
-      "Right to counsel",
-      "Right to a jury",
-      "Right to petition",
-      "Right to bear arms"
+      "Assembly",
+      "Free exercise",
+      "Petition",
+      "Press"
     ],
     "answer": 2,
-    "hint": "Use the source link and the “Where to look” direction. Read Amendment I on the linked transcript.",
-    "explanation": "Petition protects requests for government action.",
+    "hint": "Read Amendment I’s final clause on petitioning the government.",
+    "explanation": "The Petition Clause protects asking the government to address a grievance.",
     "source": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
-    "where": "Read Amendment I on the linked transcript.",
+    "where": "Read Amendment I’s final clause on petitioning the government.",
     "id": "q07"
   },
   {
@@ -149,18 +149,18 @@ window.GOV_QUESTIONS = [
   {
     "sliders": null,
     "topic": "First Amendment",
-    "prompt": "Congress declares an official national religion. Which clause is implicated?",
+    "prompt": "A city grants worship permits only to groups whose faith it officially endorses. Which principle is most directly at issue?",
     "choices": [
-      "Establishment Clause",
-      "Confrontation Clause",
-      "Due Process Clause",
-      "Takings Clause"
+      "Limits on establishing religion",
+      "Protection of trial by jury",
+      "Protection of publication",
+      "Limits on excessive fines"
     ],
     "answer": 0,
-    "hint": "Use the source link and the “Where to look” direction. Read Amendment I on the linked transcript.",
-    "explanation": "Government may not establish a national religion.",
+    "hint": "Read the opening language of Amendment I about government establishment of religion.",
+    "explanation": "The Establishment Clause limits official government preference for religion.",
     "source": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
-    "where": "Read Amendment I on the linked transcript.",
+    "where": "Read the opening language of Amendment I about government establishment of religion.",
     "id": "q30"
   },
   {
@@ -217,19 +217,19 @@ window.GOV_QUESTIONS = [
   },
   {
     "sliders": null,
-    "topic": "Third Amendment",
-    "prompt": "Soldiers demand housing in a home during peacetime without the owner's consent. Which amendment applies?",
+    "topic": "Second Amendment",
+    "prompt": "Lawmakers consider restrictions on keeping firearms at home. Which constitutional protection must they consider?",
     "choices": [
-      "Fourth",
-      "Third",
-      "Sixth",
-      "Fifth"
+      "Freedom of assembly",
+      "Keeping and bearing arms",
+      "Protection from compelled testimony",
+      "Protection from excessive bail"
     ],
     "answer": 1,
-    "hint": "Use the source link and the “Where to look” direction. Read Amendment III on the linked transcript.",
-    "explanation": "The Third Amendment requires consent during peacetime.",
+    "hint": "Find Amendment II and identify the activity its final clause protects.",
+    "explanation": "The Second Amendment protects the right to keep and bear arms.",
     "source": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
-    "where": "Read Amendment III on the linked transcript.",
+    "where": "Find Amendment II and identify the activity its final clause protects.",
     "id": "q22"
   },
   {
@@ -303,18 +303,18 @@ window.GOV_QUESTIONS = [
   {
     "sliders": null,
     "topic": "First Amendment",
-    "prompt": "Citizens ask Congress to change a law. Which freedom are they exercising?",
+    "prompt": "A city permits public comments but accepts testimony only from residents who support the mayor. What freedom is most directly threatened?",
     "choices": [
-      "Right to bear arms",
-      "Right to counsel",
-      "Right to petition",
-      "Freedom of the press"
+      "Freedom of the press",
+      "Free exercise of religion",
+      "Freedom of speech",
+      "Right to bear arms"
     ],
     "answer": 2,
-    "hint": "Use the source link and the “Where to look” direction. Read the final protection listed in Amendment I.",
-    "explanation": "Petition protects the right to ask government to address a grievance or change policy.",
+    "hint": "Read Amendment I’s Speech Clause. Focus on the residents’ expression of views.",
+    "explanation": "Allowing only one viewpoint restricts residents’ speech.",
     "source": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
-    "where": "Read the final protection listed in Amendment I.",
+    "where": "Read Amendment I’s Speech Clause. Focus on the residents’ expression of views.",
     "id": "q09"
   },
   {
@@ -457,19 +457,18 @@ window.GOV_QUESTIONS = [
   {
     "sliders": null,
     "topic": "Fifth Amendment",
-    "prompt": "During a criminal proceeding, an accused person refuses to answer a question that would admit personal guilt. Which protection is being exercised?",
+    "prompt": "During a criminal trial, a prosecutor compels the accused to testify against herself. Which amendment addresses this action?",
     "choices": [
-      "The freedom to petition elected officials",
-      "The guarantee of a public criminal trial",
-      "The privilege against self-incrimination",
-      "The guarantee of an impartial trial jury"
+      "Second Amendment",
+      "Fourth Amendment",
+      "Fifth Amendment",
+      "Eighth Amendment"
     ],
     "answer": 2,
-    "hint": "Use the supporting source. Locate the self-incrimination protection in Amendment V.",
-    "explanation": "A person may invoke the privilege against compelled self-incrimination.",
+    "hint": "In Amendment V, look for the clause about being a witness against oneself.",
+    "explanation": "The Fifth Amendment bars compelled self-incriminating testimony.",
     "source": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
-    "where": "Locate the self-incrimination protection in Amendment V.",
-    "reading": "",
+    "where": "In Amendment V, look for the clause about being a witness against oneself.",
     "id": "q39"
   },
   {
