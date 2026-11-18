@@ -439,10 +439,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 12 • Law and policy",
     "prompt": "Why can public policy require cooperation among multiple branches?",
     "choices": [
-      "Congress enforces laws, the president decides appeals, and courts collect taxes.",
-      "Different branches create, implement, and interpret policy.",
-      "Courts write budgets, Congress decides criminal cases, and agencies veto laws.",
-      "Congress can independently carry out all federal programs without executive administration."
+      "Agencies may enforce a statute before Congress adopts it.",
+      "Lawmaking, enforcement, and interpretation have distinct roles.",
+      "Congress can administer every program it funds without executive involvement.",
+      "Judicial approval is required before ordinary bills can be introduced."
     ],
     "answer": 1,
     "hint": "Use the source and the Where to look guidance to reconsider your answer.",

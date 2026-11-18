@@ -201,10 +201,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 16–17 • OST-Style Review",
     "prompt": "An Ohio resident argues that a state restriction violates freedom of expression. Which comparison is most useful?",
     "choices": [
-      "Neither constitution restricts government actions",
-      "Only the Ohio Constitution can protect speech",
-      "Both constitutions protect expression",
-      "Only federal courts may consider rights claims"
+      "Ohio protects speech only by its officials.",
+      "The First Amendment leaves all expression cases to the Ohio legislature.",
+      "Both documents protect freedom of expression.",
+      "Ohio residents can invoke federal speech protections only in disputes with Congress."
     ],
     "answer": 2,
     "hint": "Compare protections rather than assuming only one document applies.",
@@ -388,10 +388,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 16–17 • OST-Style Review",
     "prompt": "A candidate promises to ignore court orders whenever they are unpopular. Which principle is most threatened?",
     "choices": [
-      "State governments may never pass legislation",
-      "Citizens must approve every executive decision",
-      "Officials are subject to law",
-      "Only courts can conduct public elections"
+      "It threatens popular sovereignty.",
+      "Representation gives constituents a voice in legislative decisions.",
+      "The rule of law applies to officeholders.",
+      "Federalism assigns responsibilities to different levels of government."
     ],
     "answer": 2,
     "hint": "Does an election exempt someone from law?",

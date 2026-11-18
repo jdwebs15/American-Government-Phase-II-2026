@@ -6,7 +6,7 @@ window.GOV_CONFIG = {
   "title": "Public Policy and Civic Action — Comprehensive Review",
   "description": "Answer each question once per run. A 30/30 run earns the completion ticket.",
   "practice": "Ohio OST-style application, analysis, and cause-and-effect reasoning.",
-  "assignmentKey": "gov-phase2-cs-18-19-review-2026-v4"
+  "assignmentKey": "gov-phase2-cs-18-19-review-2026-v5"
 };
 window.GOV_QUESTIONS = [
   {
@@ -22,8 +22,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "Identify the decision-maker, the evidence needed, and the likely consequences.",
     "explanation": "Testimony from one neighborhood may miss transportation needs elsewhere in the district.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Consider whose experiences are missing from a hearing and how to gather broader evidence.",
+    "source": "policy-reference.html#sampling",
+    "where": "Read “Who the evidence represents.” Apply that distinction to the decision or evidence in this question.",
     "id": "q01"
   },
   {
@@ -31,16 +31,16 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Analysis",
     "prompt": "A city studies whether a new bus route improved access to jobs. Which measure best tests the policy’s goal?",
     "choices": [
-      "Change in travel time and job access for intended riders",
-      "The number of bus stops added, regardless of where riders work",
-      "The cost of operating the route without checking rider access",
-      "The total miles driven by the city bus fleet after the change"
+      "Change in jobs reachable by bus within a set travel time",
+      "Total distance driven by the bus fleet during the year",
+      "Total cost of running the route since it opened",
+      "Number of stops added to the neighborhood’s existing network"
     ],
     "answer": 0,
     "hint": "Identify the responsible institution and compare evidence, costs, benefits, and limits on authority.",
     "explanation": "Change in travel time and job access for intended riders. This choice connects the policy decision to the evidence, authority, or consequences described in the scenario.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#evaluation",
+    "where": "Read “Outputs and outcomes.” Apply that distinction to the decision or evidence in this question.",
     "id": "q08"
   },
   {
@@ -60,8 +60,8 @@ window.GOV_QUESTIONS = [
     "readingTitle": "City air-quality report",
     "id": "q24",
     "sourceNote": "The city’s report provides both a citywide average and neighborhood-level readings. Citywide averages show broad changes, while neighborhood readings show where residents still experience exposure.",
-    "source": "study-notes.html#q24",
-    "where": "Read “OST-Style Analysis · 24” and apply the explanation to the distinction in this question."
+    "source": "policy-reference.html#sampling",
+    "where": "Read “Who the evidence represents.” Apply that distinction to the decision or evidence in this question."
   },
   {
     "sliders": null,
@@ -76,8 +76,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "Identify the responsible institution and compare evidence, costs, benefits, and limits on authority.",
     "explanation": "Courts shape policy implementation through decisions in cases. This choice connects the policy decision to the evidence, authority, or consequences described in the scenario.",
-    "source": "https://www.usa.gov/state-governments",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#authority",
+    "where": "Read “Authority and implementation.” Apply that distinction to the decision or evidence in this question.",
     "id": "q29"
   },
   {
@@ -85,16 +85,16 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Analysis",
     "prompt": "A state considers requiring safety inspections for rental housing. Which evidence best addresses whether the proposal will work?",
     "choices": [
-      "Estimate the number of new inspectors without measuring housing conditions",
-      "Compare tenant complaints without estimating costs or safety effects",
-      "Inspection data, likely compliance costs, and projected safety gains",
-      "Use only the number of inspections completed in neighboring states"
+      "A tally of legislators who already support the measure",
+      "Testimony about conditions in one building without inspection records",
+      "Inspection results, costs, and expected safety improvements",
+      "A comparison of rental prices in regions without similar safety rules"
     ],
     "answer": 2,
     "hint": "Identify the responsible institution and compare evidence, costs, benefits, and limits on authority.",
     "explanation": "Inspection data, likely compliance costs, and projected safety gains. This choice connects the policy decision to the evidence, authority, or consequences described in the scenario.",
-    "source": "https://www.usa.gov/state-governments",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#tradeoffs",
+    "where": "Read “Comparing policy costs and benefits.” Apply that distinction to the decision or evidence in this question.",
     "id": "q02"
   },
   {
@@ -110,8 +110,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "Identify the responsible institution and compare evidence, costs, benefits, and limits on authority.",
     "explanation": "Coordinate monitoring and standards across affected jurisdictions. This choice connects the policy decision to the evidence, authority, or consequences described in the scenario.",
-    "source": "https://www.usa.gov/branches-of-government",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#collaboration",
+    "where": "Read “Problems that cross borders.” Apply that distinction to the decision or evidence in this question.",
     "id": "q27"
   },
   {
@@ -127,8 +127,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "Identify the decision-maker, the evidence needed, and the likely consequences.",
     "explanation": "Sustained employment measures the goal. A baseline shows whether the outcome improved.",
-    "source": "https://www.performance.gov/",
-    "where": "Distinguish a count of services delivered from evidence that the intended outcome improved.",
+    "source": "policy-reference.html#evaluation",
+    "where": "Read “Outputs and outcomes.” Apply that distinction to the decision or evidence in this question.",
     "id": "q21"
   },
   {
@@ -136,16 +136,16 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Analysis",
     "prompt": "A city adopts a traffic-safety policy, but crashes do not decline. Which conclusion is best supported?",
     "choices": [
-      "Conclude the policy needs more funding without examining how it operated",
-      "Extend the policy unchanged because the city adopted it legally",
-      "Officials should evaluate implementation and whether the policy design fits the evidence",
-      "Replace the crash measure with the number of citations issued"
+      "Treat adoption of the rule as sufficient evidence that crashes declined.",
+      "Infer that all traffic rules fail because this policy did not meet its goal.",
+      "Check whether implementation reached the places and behaviors targeted.",
+      "Replace outcome data with survey results showing whether people noticed the change."
     ],
     "answer": 2,
     "hint": "Identify the responsible institution and compare evidence, costs, benefits, and limits on authority.",
     "explanation": "Unchanged crash rates warrant checking how the policy was applied and whether it addressed the risk.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#evaluation",
+    "where": "Read “Outputs and outcomes.” Apply that distinction to the decision or evidence in this question.",
     "id": "q19"
   },
   {
@@ -153,16 +153,16 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Analysis",
     "prompt": "A proposal would reduce parking near stores to add a protected bike lane. What is the strongest policy analysis?",
     "choices": [
-      "Use a citywide opinion poll instead of comparing affected groups",
-      "Compare safety gains, access concerns, costs, and alternatives",
-      "Measure expected crash reduction without studying delivery access",
-      "Prioritize the parking loss without estimating cyclist safety"
+      "Compare the number of removed spaces without measuring use or safety.",
+      "Compare injury risks, access, costs, and alternative street designs.",
+      "Estimate building maintenance costs without considering transportation effects.",
+      "Assess use of the existing street but assume the redesign would not affect travel."
     ],
     "answer": 1,
     "hint": "Identify the responsible institution and compare evidence, costs, benefits, and limits on authority.",
     "explanation": "A sound comparison considers both safety and business access, including other designs.",
-    "source": "https://www.usa.gov/branches-of-government",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#tradeoffs",
+    "where": "Read “Comparing policy costs and benefits.” Apply that distinction to the decision or evidence in this question.",
     "id": "q30"
   },
   {
@@ -178,8 +178,8 @@ window.GOV_QUESTIONS = [
     "answer": 1,
     "hint": "Citizen petitions raise an issue; traffic evidence helps evaluate the remedy.",
     "explanation": "Citizen petitions raise an issue; traffic evidence helps evaluate the remedy.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#safety",
+    "where": "Read “Choosing a safety investment.” Apply that distinction to the decision or evidence in this question.",
     "id": "q12"
   },
   {
@@ -195,8 +195,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "Identify the responsible institution and compare evidence, costs, benefits, and limits on authority.",
     "explanation": "Are benefits fairly distributed, and can the harm be reduced?. This choice connects the policy decision to the evidence, authority, or consequences described in the scenario.",
-    "source": "https://www.usa.gov/state-governments",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#sampling",
+    "where": "Read “Who the evidence represents.” Apply that distinction to the decision or evidence in this question.",
     "id": "q10"
   },
   {
@@ -212,8 +212,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "Identify the decision-maker, the evidence needed, and the likely consequences.",
     "explanation": "A ruling can require the city to bring its enforcement practices into line with state law.",
-    "source": "https://www.usa.gov/branches-of-government",
-    "where": "Identify how judicial interpretation can constrain government implementation.",
+    "source": "policy-reference.html#authority",
+    "where": "Read “Authority and implementation.” Apply that distinction to the decision or evidence in this question.",
     "id": "q17"
   },
   {
@@ -229,8 +229,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "Identify the responsible institution and compare evidence, costs, benefits, and limits on authority.",
     "explanation": "Potential jobs and investment versus forgone local revenue. This choice connects the policy decision to the evidence, authority, or consequences described in the scenario.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#tradeoffs",
+    "where": "Read “Comparing policy costs and benefits.” Apply that distinction to the decision or evidence in this question.",
     "id": "q03"
   },
   {
@@ -246,8 +246,8 @@ window.GOV_QUESTIONS = [
     "answer": 0,
     "hint": "An unintended effect differs from the intended improvement.",
     "explanation": "An unintended effect differs from the intended improvement.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#effects",
+    "where": "Read “Intended and unintended effects.” Apply that distinction to the decision or evidence in this question.",
     "id": "q16"
   },
   {
@@ -257,14 +257,14 @@ window.GOV_QUESTIONS = [
     "choices": [
       "Compare only construction costs and disregard likely outcomes",
       "Select the plan with the longest list of proposed activities",
-      "Compare expected injury reductions relative to costs and local conditions",
+      "Weigh injuries prevented against costs",
       "Select whichever proposal was submitted first"
     ],
     "answer": 2,
     "hint": "Identify the decision-maker, the evidence needed, and the likely consequences.",
     "explanation": "Comparing expected injuries prevented with costs shows what each proposal would achieve.",
-    "source": "https://highways.dot.gov/safety",
-    "where": "Connect costs with expected safety outcomes rather than judging a proposal by activity alone.",
+    "source": "policy-reference.html#safety",
+    "where": "Read “Choosing a safety investment.” Apply that distinction to the decision or evidence in this question.",
     "id": "q26"
   },
   {
@@ -274,14 +274,14 @@ window.GOV_QUESTIONS = [
     "choices": [
       "Tourism revenue alone, without considering housing effects",
       "The number of rental advertisements alone",
-      "Data on housing supply, neighborhood effects, tourism income, and enforcement costs",
+      "Housing, tourism, and enforcement data",
       "Complaints from one neighborhood without citywide data"
     ],
     "answer": 2,
     "hint": "Identify the decision-maker, the evidence needed, and the likely consequences.",
     "explanation": "Those data show how restrictions could affect residents, businesses, and the city budget.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for evidence about who benefits, who bears costs, and how the city could enforce a rule.",
+    "source": "policy-reference.html#tradeoffs",
+    "where": "Read “Comparing policy costs and benefits.” Apply that distinction to the decision or evidence in this question.",
     "id": "q20"
   },
   {
@@ -297,8 +297,8 @@ window.GOV_QUESTIONS = [
     "answer": 0,
     "hint": "Identify the responsible institution and compare evidence, costs, benefits, and limits on authority.",
     "explanation": "Legislative adoption followed by executive implementation. This choice connects the policy decision to the evidence, authority, or consequences described in the scenario.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#authority",
+    "where": "Read “Authority and implementation.” Apply that distinction to the decision or evidence in this question.",
     "id": "q28"
   },
   {
@@ -314,25 +314,25 @@ window.GOV_QUESTIONS = [
     "answer": 1,
     "hint": "A comment period informs decisions; it does not replace evidence or legal authority.",
     "explanation": "A comment period informs decisions; it does not replace evidence or legal authority.",
-    "source": "https://www.usa.gov/state-governments",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#comments",
+    "where": "Read “Input before a rule takes effect.” Apply that distinction to the decision or evidence in this question.",
     "id": "q11"
   },
   {
     "sliders": null,
     "topic": "CS 18-19 • Application",
-    "prompt": "A scenario describes a result or effect of a policy choice. Which concept should you identify?",
+    "prompt": "A city installs parking meters to increase turnover. Turnover rises, but nearby residential streets fill with cars. Which finding should officials investigate as a side effect?",
     "choices": [
-      "consequence",
-      "lobbying",
-      "sentencing guidelines",
-      "demonstration"
+      "Parking shifted onto residential streets.",
+      "The city installed parking meters.",
+      "The council wanted higher turnover.",
+      "Metered spaces became available sooner."
     ],
     "answer": 0,
-    "hint": "Focus on the actor, tool, level, or effect named in the scenario.",
-    "explanation": "The evidence points to consequence.",
-    "source": "study-notes.html#q18",
-    "where": "Read “Application · 18” and apply the explanation to the distinction in this question.",
+    "hint": "Focus on the constitutional mechanism or the evidence in the scenario.",
+    "explanation": "The residential spillover is a consequence separate from the intended increase in turnover.",
+    "source": "policy-reference.html#effects",
+    "where": "Read “Intended and unintended effects.” Apply that distinction to the decision or evidence in this question.",
     "id": "q18"
   },
   {
@@ -348,8 +348,8 @@ window.GOV_QUESTIONS = [
     "answer": 0,
     "hint": "Distinguish the problem from a government response to it.",
     "explanation": "Distinguish the problem from a government response to it.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#authority",
+    "where": "Read “Authority and implementation.” Apply that distinction to the decision or evidence in this question.",
     "id": "q15"
   },
   {
@@ -365,8 +365,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "Identify the responsible institution and compare evidence, costs, benefits, and limits on authority.",
     "explanation": "Submit evidence in the agency’s formal comment process. This choice connects the policy decision to the evidence, authority, or consequences described in the scenario.",
-    "source": "https://www.usa.gov/branches-of-government",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#comments",
+    "where": "Read “Input before a rule takes effect.” Apply that distinction to the decision or evidence in this question.",
     "id": "q04"
   },
   {
@@ -382,8 +382,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "Identify the decision-maker, the evidence needed, and the likely consequences.",
     "explanation": "Identify why households cannot participate before changing the service or increasing penalties.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Identify implementation barriers and measure results before choosing a revision.",
+    "source": "policy-reference.html#evaluation",
+    "where": "Read “Outputs and outcomes.” Apply that distinction to the decision or evidence in this question.",
     "id": "q23"
   },
   {
@@ -416,8 +416,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "Match the responsible decision-maker to the housing problem.",
     "explanation": "Match the responsible decision-maker to the housing problem.",
-    "source": "https://www.usa.gov/branches-of-government",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#participation",
+    "where": "Read “Taking evidence to the decision maker.” Apply that distinction to the decision or evidence in this question.",
     "id": "q13"
   },
   {
@@ -442,16 +442,16 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Analysis",
     "prompt": "An advocate cites a single dramatic anecdote to support a statewide policy. What would strengthen the argument most?",
     "choices": [
-      "A more persuasive slogan and a larger public demonstration",
-      "Representative data and evidence about expected consequences",
-      "A survey of only the people attending the advocate’s event",
-      "Several additional anecdotes from people who share the advocate’s view"
+      "Find additional examples from the same individual’s experience.",
+      "Use representative evidence about likely policy outcomes.",
+      "Use a poll measuring recognition of the advocate’s organization.",
+      "Count how often the anecdote was shared without checking other cases."
     ],
     "answer": 1,
     "hint": "Identify the responsible institution and compare evidence, costs, benefits, and limits on authority.",
     "explanation": "Representative data and evidence about expected consequences. This choice connects the policy decision to the evidence, authority, or consequences described in the scenario.",
-    "source": "https://www.usa.gov/branches-of-government",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#sampling",
+    "where": "Read “Who the evidence represents.” Apply that distinction to the decision or evidence in this question.",
     "id": "q09"
   },
   {
@@ -459,7 +459,7 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • OST-Style Analysis",
     "prompt": "A governor announces a plan to expand state broadband access. Which step is most necessary to make the proposal operational?",
     "choices": [
-      "Secure lawful authority, funding, and an implementation plan",
+      "Secure authority, funding, and an implementation plan",
       "Require courts to appropriate funds for the proposal",
       "Treat public support as a substitute for agency authority",
       "Publish the announcement repeatedly until providers comply"
@@ -467,8 +467,8 @@ window.GOV_QUESTIONS = [
     "answer": 0,
     "hint": "Identify the decision-maker, the evidence needed, and the likely consequences.",
     "explanation": "A proposal needs authority, appropriations, and a plan for carrying out the work.",
-    "source": "https://www.usa.gov/state-governments",
-    "where": "Separate an executive proposal from legal authority, appropriations, and implementation.",
+    "source": "policy-reference.html#authority",
+    "where": "Read “Authority and implementation.” Apply that distinction to the decision or evidence in this question.",
     "id": "q25"
   },
   {
@@ -476,16 +476,16 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18-19",
     "prompt": "A state transportation plan benefits commuters but may burden nearby homeowners. Why should both groups be consulted?",
     "choices": [
-      "Only the group with more residents should influence the decision",
-      "Both are stakeholders affected in different ways",
-      "Both groups must receive exactly the same transportation benefits",
-      "Both groups should be consulted only after the plan is finalized"
+      "Consulting commuters alone identifies impacts on home values.",
+      "Each group faces different effects from the plan.",
+      "Consulting homeowners alone identifies all changes in traffic patterns.",
+      "Residents’ views can substitute for a separate analysis of commuting outcomes."
     ],
     "answer": 1,
     "hint": "Stakeholders include groups that gain and groups that bear costs.",
     "explanation": "Stakeholders include groups that gain and groups that bear costs.",
-    "source": "https://www.usa.gov/state-governments",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#sampling",
+    "where": "Read “Who the evidence represents.” Apply that distinction to the decision or evidence in this question.",
     "id": "q14"
   },
   {
@@ -495,14 +495,14 @@ window.GOV_QUESTIONS = [
     "choices": [
       "Choose the lowest immediate rate without evaluating pipe failures",
       "Delay all maintenance until every resident agrees",
-      "Compare infrastructure risks, rate burdens, alternatives, and long-term costs",
+      "Compare pipe risks, rate burdens, and costs",
       "Approve the largest project without considering household affordability"
     ],
     "answer": 2,
     "hint": "Identify the decision-maker, the evidence needed, and the likely consequences.",
     "explanation": "The decision depends on what households can afford and the risks and costs of delaying pipe replacement.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Weigh immediate affordability against the cost and risk of delayed infrastructure repairs.",
+    "source": "policy-reference.html#tradeoffs",
+    "where": "Read “Comparing policy costs and benefits.” Apply that distinction to the decision or evidence in this question.",
     "id": "q22"
   },
   {
@@ -510,7 +510,7 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Analysis",
     "prompt": "Residents want to influence a pending county budget. Which strategy is most directly connected to the decision maker?",
     "choices": [
-      "Provide testimony and budget evidence to county commissioners",
+      "Present budget evidence to county commissioners",
       "Ask the county auditor to change appropriations without a vote",
       "Submit testimony to a state legislative committee on the county budget",
       "Petition the county prosecutor to allocate the funds directly"
@@ -518,8 +518,8 @@ window.GOV_QUESTIONS = [
     "answer": 0,
     "hint": "Identify the responsible institution and compare evidence, costs, benefits, and limits on authority.",
     "explanation": "Provide testimony and budget evidence to county commissioners. This choice connects the policy decision to the evidence, authority, or consequences described in the scenario.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Identify the responsible level or branch of government, then evaluate the evidence and likely policy effects.",
+    "source": "policy-reference.html#participation",
+    "where": "Read “Taking evidence to the decision maker.” Apply that distinction to the decision or evidence in this question.",
     "id": "q07"
   }
 ];

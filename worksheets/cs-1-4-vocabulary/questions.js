@@ -29,10 +29,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 1 • Civic action plans",
     "prompt": "Which definition best matches “Consequence”?",
     "choices": [
-      "An effect of an action or decision",
-      "A reason offered in support of a proposal before it is adopted",
-      "A purpose that decision makers hope their action will achieve",
-      "A task that participants must finish before a decision is made"
+      "An effect of a decision",
+      "A reason to back a proposal",
+      "A goal that a policy seeks to achieve",
+      "A step required before a decision"
     ],
     "answer": 0,
     "hint": "Separate what results from a choice from what was intended beforehand.",
@@ -89,10 +89,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 1 • Civic action plans",
     "prompt": "Which definition best matches “Public policy process”?",
     "choices": [
-      "Personal preferences officials hold before they enter public service",
-      "Private purchasing decisions that households make in a market economy",
-      "Processes for making and carrying out policy",
-      "Campaign activities directed at choosing a party’s election nominees"
+      "How interest groups recruit members",
+      "How voters select political candidates",
+      "How policy is made and carried out",
+      "How courts establish rules for criminal trials"
     ],
     "answer": 2,
     "hint": "Focus on government institutions doing their work, rather than seeking office.",
@@ -119,10 +119,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 3 • Evaluating sources",
     "prompt": "Which definition best matches “Internal consistency”?",
     "choices": [
-      "Agreement among readers about how appealing an article looks",
-      "Agreement between an author and the reader’s preferred position",
-      "Agreement between a source and an independent outside report",
-      "Agreement within a single source"
+      "Agreement among different sources",
+      "Independence from a sponsor",
+      "Expertise in the relevant subject",
+      "Agreement within one source"
     ],
     "answer": 3,
     "hint": "Compare the source’s statements with each other rather than with other sources.",
@@ -134,10 +134,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 1 • Civic action plans",
     "prompt": "Which definition best matches “Civic engagement”?",
     "choices": [
-      "Taking part in public affairs",
-      "Having legal authority to issue orders on behalf of government",
-      "Receiving public services without participating in public affairs",
-      "Holding a government position through a required civil-service exam"
+      "Participating in public affairs",
+      "Electing legislators from districts",
+      "Representing clients before a court",
+      "Administering an assigned government program"
     ],
     "answer": 0,
     "hint": "Think about participation; holding public office is not required.",
@@ -149,10 +149,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 3 • Evaluating sources",
     "prompt": "Which definition best matches “Evidence”?",
     "choices": [
-      "A prediction accepted because it agrees with a group’s preferences",
-      "A claim repeated frequently enough to become widely familiar",
-      "Information supporting a claim",
-      "A speaker’s confidence that a proposed conclusion is correct"
+      "The position an author argues for",
+      "An assumption linking two claims",
+      "Information that supports a claim",
+      "The conclusion drawn from an argument"
     ],
     "answer": 2,
     "hint": "Look for information supporting a conclusion rather than confidence in it.",
@@ -209,10 +209,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 1 • Civic action plans",
     "prompt": "Which definition best matches “Civic issue”?",
     "choices": [
-      "A scheduled contest for choosing candidates to hold public office",
-      "A personal preference with no effect on other community members",
-      "Community concern that may require action",
-      "A final regulation already enforced by a government department"
+      "A final judgment resolving a lawsuit",
+      "A campaign plan for winning public office",
+      "A public concern that may require action",
+      "A private agreement between two parties"
     ],
     "answer": 2,
     "hint": "Look for the problem or concern people may work together to address.",
@@ -239,10 +239,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 2 • Parties, interest groups and media",
     "prompt": "Which definition best matches “Media”?",
     "choices": [
-      "The private donors who finance candidates seeking government office",
-      "The officials authorized to decide which proposals become public laws",
-      "Channels that inform broad public audiences",
-      "The government departments that formally approve public information"
+      "Agencies charged with carrying out laws",
+      "Groups organized to influence policy",
+      "Channels for reaching public audiences",
+      "Officials chosen through local elections"
     ],
     "answer": 2,
     "hint": "Identify the means of communication, not the people making the decisions.",
@@ -329,10 +329,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 1 • Civic action plans",
     "prompt": "Which definition best matches “Public hearing”?",
     "choices": [
-      "An election event for selecting who will hold government office",
-      "Official meeting for public testimony",
-      "An agency notice announcing that public input has been closed",
-      "A private campaign meeting for planning a candidate’s strategy"
+      "A meeting to choose a party’s candidates",
+      "An official meeting for public testimony",
+      "An internal meeting to prepare an agency budget",
+      "A court proceeding to determine civil liability"
     ],
     "answer": 1,
     "hint": "Distinguish an official opportunity to be heard from a campaign event.",
@@ -345,9 +345,9 @@ window.GOV_QUESTIONS = [
     "prompt": "Which definition best matches “Credibility”?",
     "choices": [
       "How much a source can be trusted",
-      "The amount of visual detail used to make a report look professional",
-      "The extent to which a source agrees with a reader’s existing beliefs",
-      "The number of people who have shared a source on a social network"
+      "How widely a source has circulated",
+      "How recently a source was published",
+      "How strongly a source argues for its claim"
     ],
     "answer": 0,
     "hint": "Trustworthiness requires examining evidence and other source characteristics.",
@@ -405,9 +405,9 @@ window.GOV_QUESTIONS = [
     "prompt": "Which definition best matches “Party platform”?",
     "choices": [
       "A party’s published policy positions",
-      "A candidate’s legal authorization to administer an election",
-      "A state agency’s instructions for carrying out current regulations",
-      "A media company’s schedule for broadcasting election results"
+      "The rules for conducting an election",
+      "A list of candidates eligible for office",
+      "The schedule of a legislative session"
     ],
     "answer": 0,
     "hint": "Think about the positions a party publicly says it supports.",

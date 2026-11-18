@@ -6,7 +6,7 @@ window.GOV_CONFIG = {
   "title": "Public Policy and Civic Action — Introduction",
   "description": "Use the source and Where to look guidance. Correct each answer to finish.",
   "practice": "Core ideas and evidence emphasized in Ohio Government CS 18–19.",
-  "assignmentKey": "gov-phase2-cs-18-19-intro-2026-v4"
+  "assignmentKey": "gov-phase2-cs-18-19-intro-2026-v5"
 };
 window.GOV_QUESTIONS = [
   {
@@ -16,14 +16,14 @@ window.GOV_QUESTIONS = [
     "choices": [
       "The Congressional Budget Office",
       "Municipal or township government",
-      "The federal Department of State in the specific situation described",
+      "The federal Department of State",
       "The federal appellate courts"
     ],
     "answer": 1,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "City and township zoning rules typically govern how land can be used locally.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for which public officials handle local problems and policy decisions.",
+    "source": "../cs-18-19-review/policy-reference.html#authority",
+    "where": "Read “Authority and implementation.” Identify how that idea applies to the situation in this question.",
     "id": "q32"
   },
   {
@@ -31,7 +31,7 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Public Policy",
     "prompt": "Which step typically comes after a government adopts a policy?",
     "choices": [
-      "Automatically repealing the law the next day in the specific situation described",
+      "Automatically repealing the law the next day",
       "Ending all opportunities for public feedback",
       "Replacing every elected official involved",
       "Putting the policy into practice and checking results"
@@ -39,8 +39,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "After adoption, officials carry out the policy and use results to evaluate it.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for which public officials handle local problems and policy decisions.",
+    "source": "../cs-18-19-review/policy-reference.html#evaluation",
+    "where": "Read “Outputs and outcomes.” Identify how that idea applies to the situation in this question.",
     "id": "q36"
   },
   {
@@ -48,7 +48,7 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Public Policy",
     "prompt": "A policy helps one neighborhood but harms another. What should officials examine?",
     "choices": [
-      "Whether the ordinance has the shortest title in the specific situation described",
+      "Whether the ordinance has the shortest title",
       "How benefits and burdens differ across neighborhoods",
       "Whether all streets have similar names",
       "Whether every resident belongs to one party"
@@ -56,8 +56,8 @@ window.GOV_QUESTIONS = [
     "answer": 1,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "How benefits and burdens differ across neighborhoods. A sound policy choice depends on matching the problem to the appropriate authority and evidence.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for which public officials handle local problems and policy decisions.",
+    "source": "../cs-18-19-review/policy-reference.html#tradeoffs",
+    "where": "Read “Comparing policy costs and benefits.” Identify how that idea applies to the situation in this question.",
     "id": "q33"
   },
   {
@@ -68,13 +68,13 @@ window.GOV_QUESTIONS = [
       "Whether federal judges approve each hire",
       "Potential jobs compared with forgone tax revenue",
       "Whether the county can issue passports",
-      "Whether the factory has a memorable logo in the specific situation described"
+      "Whether the factory has a memorable logo"
     ],
     "answer": 1,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "Potential jobs compared with forgone tax revenue. A sound policy choice depends on matching the problem to the appropriate authority and evidence.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for which public officials handle local problems and policy decisions.",
+    "source": "../cs-18-19-review/policy-reference.html#tradeoffs",
+    "where": "Read “Comparing policy costs and benefits.” Identify how that idea applies to the situation in this question.",
     "id": "q27"
   },
   {
@@ -82,16 +82,16 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Public Policy",
     "prompt": "What is one policy action a county commission may take?",
     "choices": [
-      "Offer a development incentive within its legal authority",
-      "Appoint the governor’s cabinet",
-      "Set national income tax brackets in the specific situation described",
-      "Issue rulings on federal appeals"
+      "Offer a lawful development incentive.",
+      "Set the state’s corporate income tax rate.",
+      "Change a city tax rate without city approval.",
+      "Set federal eligibility rules for interstate development grants."
     ],
     "answer": 0,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "Offer a development incentive within its legal authority. A sound policy choice depends on matching the problem to the appropriate authority and evidence.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for which public officials handle local problems and policy decisions.",
+    "source": "../cs-18-19-review/policy-reference.html#authority",
+    "where": "Read “Authority and implementation.” Identify how that idea applies to the situation in this question.",
     "id": "q09"
   },
   {
@@ -124,8 +124,8 @@ window.GOV_QUESTIONS = [
     "answer": 1,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "Evening workers may lose access to the park. A sound policy choice depends on matching the problem to the appropriate authority and evidence.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for which public officials handle local problems and policy decisions.",
+    "source": "../cs-18-19-review/policy-reference.html#effects",
+    "where": "Read “Intended and unintended effects.” Identify how that idea applies to the situation in this question.",
     "id": "q19"
   },
   {
@@ -135,7 +135,7 @@ window.GOV_QUESTIONS = [
     "choices": [
       "Submit a request to a federal embassy",
       "Contact lawmakers, testify, or advocate a proposed bill",
-      "Wait until a law is enforced to contact anyone in the specific situation described",
+      "Wait until a law is enforced to contact anyone",
       "Ask the courts to write a bill directly"
     ],
     "answer": 1,
@@ -153,13 +153,13 @@ window.GOV_QUESTIONS = [
       "To let riders approve every budget item",
       "To guarantee no route can ever be changed",
       "To learn how route changes would affect riders",
-      "To transfer the city’s authority to passengers in the specific situation described"
+      "To transfer the city’s authority to passengers"
     ],
     "answer": 2,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "Riders can describe transfer, timing, and access problems the city may miss in its planning data.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for which public officials handle local problems and policy decisions.",
+    "source": "../cs-18-19-review/policy-reference.html#sampling",
+    "where": "Read “Who the evidence represents.” Identify how that idea applies to the situation in this question.",
     "id": "q18"
   },
   {
@@ -167,10 +167,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Public Policy",
     "prompt": "A federal agency publishes a proposed regulation. How can residents participate?",
     "choices": [
-      "Submit relevant comments during the public comment period",
-      "Demand the agency adopt every suggestion in the specific situation described",
-      "Vote directly on every agency rule",
-      "Wait until the comment period is over"
+      "Submit comments during the comment period.",
+      "Vote to approve the rule on a federal ballot.",
+      "Ask a judge to revise the draft regulation directly.",
+      "Submit testimony after the agency closes the comment period."
     ],
     "answer": 0,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
@@ -184,10 +184,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Public Policy",
     "prompt": "How can branches conflict over public policy?",
     "choices": [
-      "They can disagree over authority, funding, or interpretation",
-      "The courts automatically fund every program",
-      "Only the executive branch may interpret law",
-      "Each branch must approve every city ordinance in the specific situation described"
+      "Branches may contest funding, legal authority, or interpretation.",
+      "Branches compete directly to nominate candidates in state elections.",
+      "Disagreements occur only when the same people serve in two branches.",
+      "Each branch can resolve disputes by declaring the other’s authority invalid."
     ],
     "answer": 0,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
@@ -201,7 +201,7 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Public Policy",
     "prompt": "Why do governments compare multiple policy options?",
     "choices": [
-      "Public hearings eliminate the need to compare options in the specific situation described",
+      "Public hearings eliminate the need to compare options",
       "Only one approach can ever be lawful",
       "All approaches require identical resources",
       "Different options have different costs, benefits, and effects"
@@ -209,8 +209,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "Comparing alternatives reveals who benefits, who bears costs, and which option best meets the goal.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for which public officials handle local problems and policy decisions.",
+    "source": "../cs-18-19-review/policy-reference.html#tradeoffs",
+    "where": "Read “Comparing policy costs and benefits.” Identify how that idea applies to the situation in this question.",
     "id": "q30"
   },
   {
@@ -219,15 +219,15 @@ window.GOV_QUESTIONS = [
     "prompt": "Why must citizen action target the correct government entity?",
     "choices": [
       "Every government office can solve any issue",
-      "Only the national government handles complaints in the specific situation described",
+      "Only the national government handles complaints",
       "Citizens cannot contact local officials",
       "The responsible authority has power to address the issue"
     ],
     "answer": 3,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "The responsible authority has power to address the issue. A sound policy choice depends on matching the problem to the appropriate authority and evidence.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for which public officials handle local problems and policy decisions.",
+    "source": "../cs-18-19-review/policy-reference.html#participation",
+    "where": "Read “Taking evidence to the decision maker.” Identify how that idea applies to the situation in this question.",
     "id": "q15"
   },
   {
@@ -237,14 +237,14 @@ window.GOV_QUESTIONS = [
     "choices": [
       "Repairing a sidewalk on one neighborhood street",
       "Pollution flowing through a river shared by multiple states",
-      "Choosing hours for a single town recreation center in the specific situation described",
+      "Choosing hours for a single town recreation center",
       "Locating a fence on one private residential lot"
     ],
     "answer": 1,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "Upstream activities can affect downstream communities, so states have reason to coordinate.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for which public officials handle local problems and policy decisions.",
+    "source": "../cs-18-19-review/policy-reference.html#collaboration",
+    "where": "Read “Problems that cross borders.” Identify how that idea applies to the situation in this question.",
     "id": "q40"
   },
   {
@@ -255,13 +255,13 @@ window.GOV_QUESTIONS = [
       "Ask an unrelated office to replace local pipes",
       "Report test results to the responsible water authority",
       "Demand action without identifying the problem",
-      "Wait until a presidential election to report it in the specific situation described"
+      "Wait until a presidential election to report it"
     ],
     "answer": 1,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "Test results give the water authority evidence it can use to investigate and respond.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for which public officials handle local problems and policy decisions.",
+    "source": "../cs-18-19-review/policy-reference.html#participation",
+    "where": "Read “Taking evidence to the decision maker.” Identify how that idea applies to the situation in this question.",
     "id": "q38"
   },
   {
@@ -271,7 +271,7 @@ window.GOV_QUESTIONS = [
     "choices": [
       "An estimate of expected spending and revenue effects",
       "The locations of congressional district offices",
-      "The number of legislators supporting the proposal in the specific situation described",
+      "The number of legislators supporting the proposal",
       "The number of public hearings held about it"
     ],
     "answer": 0,
@@ -286,7 +286,7 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Public Policy",
     "prompt": "What public-policy role does the U.S. Department of State perform?",
     "choices": [
-      "Oversee local elections and voting sites in the specific situation described",
+      "Oversee local elections and voting sites",
       "Conduct diplomacy and manage U.S. foreign relations",
       "Write Ohio municipal zoning rules",
       "Set interest rates for private banks"
@@ -303,10 +303,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Public Policy",
     "prompt": "What does an embassy do?",
     "choices": [
-      "Set local tax rates in other nations",
-      "Serve as a U.S. court for overseas disputes in the specific situation described",
-      "Approve foreign laws before enactment",
-      "Represent the United States in diplomatic relations abroad"
+      "Enforce the host country’s immigration laws.",
+      "Set U.S. tariffs on goods from the host country.",
+      "Review disputed visa applications as a federal appeals court.",
+      "Represent the United States in relations with a host country."
     ],
     "answer": 3,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
@@ -320,7 +320,7 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Public Policy",
     "prompt": "Residents want a safer school crossing. Which approach makes the strongest case to city officials?",
     "choices": [
-      "Ask the city to act without describing the problem in the specific situation described",
+      "Ask the city to act without describing the problem",
       "Use only personal opinions about the crossing",
       "Present crash data and a specific crossing improvement",
       "Present a plan without evidence of any safety need"
@@ -328,8 +328,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "Crash data shows the safety problem, and a specific proposal gives city officials an action to evaluate.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for which public officials handle local problems and policy decisions.",
+    "source": "../cs-18-19-review/policy-reference.html#participation",
+    "where": "Read “Taking evidence to the decision maker.” Identify how that idea applies to the situation in this question.",
     "id": "q16"
   },
   {
@@ -338,7 +338,7 @@ window.GOV_QUESTIONS = [
     "prompt": "Why might Congress ask CBO for a cost estimate before voting?",
     "choices": [
       "To have CBO vote on the proposed law",
-      "To let CBO decide if the bill is constitutional in the specific situation described",
+      "To let CBO decide if the bill is constitutional",
       "To estimate how the proposal could affect the federal budget",
       "To require CBO to enforce the law"
     ],
@@ -354,10 +354,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Public Policy",
     "prompt": "What is a key difference between proposing a law and enforcing a law?",
     "choices": [
-      "Proposing means enforcing a court ruling",
-      "Proposing creates a possible rule; enforcing applies an adopted one",
-      "Enforcing means writing an entirely new law in the specific situation described",
-      "Both actions are performed only by judges"
+      "Proposing applies a rule; enforcing develops it.",
+      "Proposing suggests a rule; enforcing applies it.",
+      "Both occur before the legislature considers a law.",
+      "Both refer to a court’s decision to overturn a law."
     ],
     "answer": 1,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
@@ -371,7 +371,7 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Public Policy",
     "prompt": "What does the Ohio Legislative Service Commission do?",
     "choices": [
-      "Conduct statewide elections and certify votes in the specific situation described",
+      "Conduct statewide elections and certify votes",
       "Provide bill drafting and research to Ohio lawmakers",
       "Enforce state laws through police agencies",
       "Rule on lawsuits filed against the state"
@@ -388,7 +388,7 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Public Policy",
     "prompt": "How can an Ohio Court of Common Pleas affect policy implementation?",
     "choices": [
-      "Propose a new state constitutional amendment in the specific situation described",
+      "Propose a new state constitutional amendment",
       "Manage every city department budget",
       "Negotiate foreign treaties for Ohio",
       "Apply and interpret law in cases brought before it"
@@ -408,7 +408,7 @@ window.GOV_QUESTIONS = [
       "Every local issue requires a federal law",
       "Each level must use identical regulations",
       "Problems may cross jurisdictions and need shared resources",
-      "State and local governments have no separate powers in the specific situation described"
+      "State and local governments have no separate powers"
     ],
     "answer": 2,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
@@ -423,7 +423,7 @@ window.GOV_QUESTIONS = [
     "prompt": "What is a public-policy issue?",
     "choices": [
       "A disagreement between private friends",
-      "A personal preference with no public effect in the specific situation described",
+      "A personal preference with no public effect",
       "A community problem government may address through action",
       "A routine purchase by one family"
     ],
@@ -441,7 +441,7 @@ window.GOV_QUESTIONS = [
     "choices": [
       "Vote directly on the result of the lawsuit",
       "Send evidence to a court without filing rules",
-      "Ask the judge privately to promise an outcome in the specific situation described",
+      "Ask the judge privately to promise an outcome",
       "Participate through lawful filings or appropriate briefs"
     ],
     "answer": 3,
@@ -457,15 +457,15 @@ window.GOV_QUESTIONS = [
     "prompt": "Which question focuses on policy effectiveness?",
     "choices": [
       "Which office has the largest staff?",
-      "Which party originally proposed the program? in the specific situation described",
+      "Which party originally proposed the program?",
       "Did the program measurably address the problem?",
       "How many years has the director served?"
     ],
     "answer": 2,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "Did the program measurably address the problem?. A sound policy choice depends on matching the problem to the appropriate authority and evidence.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for which public officials handle local problems and policy decisions.",
+    "source": "../cs-18-19-review/policy-reference.html#evaluation",
+    "where": "Read “Outputs and outcomes.” Identify how that idea applies to the situation in this question.",
     "id": "q25"
   },
   {
@@ -474,7 +474,7 @@ window.GOV_QUESTIONS = [
     "prompt": "Which action best shows an informed citizen participating in policy?",
     "choices": [
       "Use reliable evidence to explain a proposal to officials",
-      "Avoid asking questions about possible drawbacks in the specific situation described",
+      "Avoid asking questions about possible drawbacks",
       "Repeat an unverified rumor at the meeting",
       "Support a proposal without examining costs"
     ],
@@ -490,7 +490,7 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Public Policy",
     "prompt": "Which evidence would best help a council evaluate a road-repair proposal?",
     "choices": [
-      "A list of city office furniture purchases in the specific situation described",
+      "A list of city office furniture purchases",
       "The names of prior council presidents",
       "Traffic counts, pavement conditions, and repair costs",
       "Attendance at an unrelated sports event"
@@ -498,8 +498,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "Traffic shows demand, pavement data shows need, and cost estimates help compare repairs.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for which public officials handle local problems and policy decisions.",
+    "source": "../cs-18-19-review/policy-reference.html#tradeoffs",
+    "where": "Read “Comparing policy costs and benefits.” Identify how that idea applies to the situation in this question.",
     "id": "q20"
   },
   {
@@ -509,7 +509,7 @@ window.GOV_QUESTIONS = [
     "choices": [
       "Ask legislators to decide the agency hearing",
       "Cast a ballot on the agency rule itself",
-      "Submit testimony only after the rule is final in the specific situation described",
+      "Submit testimony only after the rule is final",
       "Submit comments during the agency’s public rulemaking"
     ],
     "answer": 3,
@@ -525,15 +525,15 @@ window.GOV_QUESTIONS = [
     "prompt": "What is a stakeholder in a public-policy debate?",
     "choices": [
       "Only the official who introduced the proposal",
-      "Only a government employee assigned to the case in the specific situation described",
+      "Only a government employee assigned to the case",
       "A person or group affected by or interested in the decision",
       "Only a person elected to public office"
     ],
     "answer": 2,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "A person or group affected by or interested in the decision. A sound policy choice depends on matching the problem to the appropriate authority and evidence.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for which public officials handle local problems and policy decisions.",
+    "source": "../cs-18-19-review/policy-reference.html#tradeoffs",
+    "where": "Read “Comparing policy costs and benefits.” Identify how that idea applies to the situation in this question.",
     "id": "q37"
   },
   {
@@ -541,7 +541,7 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Public Policy",
     "prompt": "Why is public input valuable even when officials make the final decision?",
     "choices": [
-      "Public participation replaces elected decision makers in the specific situation described",
+      "Public participation replaces elected decision makers",
       "Every public comment automatically becomes law",
       "Residents may identify effects officials have not considered",
       "Public meetings make all cost estimates unnecessary"
@@ -560,14 +560,14 @@ window.GOV_QUESTIONS = [
     "choices": [
       "The pattern and location of recent crashes",
       "The political party of nearby residents",
-      "The number of school buses owned statewide in the specific situation described",
+      "The number of school buses owned statewide",
       "The most popular color for street signs"
     ],
     "answer": 0,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "The pattern and location of recent crashes. A sound policy choice depends on matching the problem to the appropriate authority and evidence.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for which public officials handle local problems and policy decisions.",
+    "source": "../cs-18-19-review/policy-reference.html#safety",
+    "where": "Read “Choosing a safety investment.” Identify how that idea applies to the situation in this question.",
     "id": "q17"
   },
   {
@@ -583,8 +583,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "Public testimony reaches the city council while it is still considering the ordinance.",
-    "source": "https://www.usa.gov/elected-officials",
-    "where": "Look for ways to identify and contact elected officials.",
+    "source": "../cs-18-19-review/policy-reference.html#participation",
+    "where": "Read “Taking evidence to the decision maker.” Identify how that idea applies to the situation in this question.",
     "id": "q22"
   },
   {
@@ -592,7 +592,7 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18–19 • Public Policy",
     "prompt": "Why should policymakers study consequences before acting?",
     "choices": [
-      "To replace all budget discussions with a vote in the specific situation described",
+      "To replace all budget discussions with a vote",
       "To guarantee every proposal will pass",
       "To weigh expected benefits, costs, and unintended effects",
       "To avoid asking residents for opinions"
@@ -600,8 +600,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "Comparing costs and benefits helps officials anticipate side effects before choosing a policy.",
-    "source": "https://www.usa.gov/branches-of-government",
-    "where": "Look for the division of responsibilities among government branches.",
+    "source": "../cs-18-19-review/policy-reference.html#tradeoffs",
+    "where": "Read “Comparing policy costs and benefits.” Identify how that idea applies to the situation in this question.",
     "id": "q02"
   },
   {
@@ -611,7 +611,7 @@ window.GOV_QUESTIONS = [
     "choices": [
       "To examine independent estimates of fiscal effects",
       "It enforces federal regulations nationwide",
-      "It decides constitutional disputes for Congress in the specific situation described",
+      "It decides constitutional disputes for Congress",
       "It administers federal programs for governors"
     ],
     "answer": 0,
@@ -628,7 +628,7 @@ window.GOV_QUESTIONS = [
     "choices": [
       "Nonpartisan analysis of federal spending and revenues",
       "Votes that approve federal spending bills",
-      "Final decisions on presidential appointments in the specific situation described",
+      "Final decisions on presidential appointments",
       "Binding rulings on proposed federal laws"
     ],
     "answer": 0,
@@ -645,14 +645,14 @@ window.GOV_QUESTIONS = [
     "choices": [
       "Flood prevention is exclusively a federal task",
       "County boundaries prevent shared projects",
-      "Local agencies have no drainage responsibilities in the specific situation described",
+      "Local agencies have no drainage responsibilities",
       "Floodwaters and drainage systems cross boundaries"
     ],
     "answer": 3,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",
     "explanation": "Floodwaters and drainage systems cross boundaries. A sound policy choice depends on matching the problem to the appropriate authority and evidence.",
-    "source": "https://www.usa.gov/local-governments",
-    "where": "Look for which public officials handle local problems and policy decisions.",
+    "source": "../cs-18-19-review/policy-reference.html#collaboration",
+    "where": "Read “Problems that cross borders.” Identify how that idea applies to the situation in this question.",
     "id": "q21"
   },
   {
@@ -661,7 +661,7 @@ window.GOV_QUESTIONS = [
     "prompt": "A resident wants a federal representative to support a bill. What is a suitable action?",
     "choices": [
       "Contact the representative with reasons and evidence",
-      "Ask a federal agency to replace the representative in the specific situation described",
+      "Ask a federal agency to replace the representative",
       "Ask the mayor to cast a congressional vote",
       "Request that a court sponsor the bill"
     ],
@@ -680,7 +680,7 @@ window.GOV_QUESTIONS = [
       "Interpreting and applying law to the case before it",
       "Administering a program for the governor",
       "Drafting a new statute for the legislature",
-      "Negotiating the city’s annual labor contract in the specific situation described"
+      "Negotiating the city’s annual labor contract"
     ],
     "answer": 0,
     "hint": "Focus on the government role, evidence, or practical consequence described in the question.",

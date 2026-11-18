@@ -271,10 +271,10 @@ window.GOV_QUESTIONS = [
     "topic": "Fifth Amendment",
     "prompt": "What does protection against self-incrimination mean?",
     "choices": [
-      "A defendant may never be questioned by any court",
-      "A witness may ignore every lawful court order",
-      "Government cannot force a person to testify against oneself",
-      "A witness may disregard every lawful question and court order during any civil or criminal proceeding"
+      "A defendant may question witnesses called by the prosecution.",
+      "Police need lawful grounds to search a person’s home.",
+      "The government cannot compel incriminating testimony.",
+      "A defendant may be entitled to a lawyer during a criminal case."
     ],
     "answer": 2,
     "hint": "Use the source link and the “Where to look” direction. In Amendment V, find the clause about being a witness against oneself.",

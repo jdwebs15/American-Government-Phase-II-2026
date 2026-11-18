@@ -44,8 +44,8 @@ window.GOV_QUESTIONS = [
     "topic": "CS 17",
     "prompt": "Which definition best matches “municipal government”?",
     "choices": [
-      "Government responsible for the whole state of Ohio",
-      "Government responsible for an entire Ohio county",
+      "Government administering an Ohio county",
+      "Government responsible for the entire state",
       "Government of a city or village",
       "Government responsible for a federal judicial district"
     ],
@@ -239,9 +239,9 @@ window.GOV_QUESTIONS = [
     "topic": "CS 16",
     "prompt": "Which definition best matches “legislative branch”?",
     "choices": [
-      "The branch that oversees statewide voting procedures",
-      "The branch that reviews whether laws are constitutional",
-      "The branch that administers and enforces enacted laws",
+      "The branch that enforces laws",
+      "The branch that interprets laws",
+      "The agency that implements regulations",
       "The branch that makes laws"
     ],
     "answer": 3,
@@ -269,10 +269,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 16",
     "prompt": "Which definition best matches “constitutional amendment”?",
     "choices": [
-      "A proposed change to an ordinary state administrative rule",
-      "A formal change to a constitution",
-      "A new statute approved by a state legislative majority",
-      "A formal decision issued by an appellate court judge"
+      "A new law passed by a legislature",
+      "A formal revision to a constitution",
+      "A ruling applying an existing law",
+      "A directive issued by the executive"
     ],
     "answer": 1,
     "hint": "Focus on the role or action described by “constitutional amendment” in Ohio and U.S. constitutional government.",
@@ -359,9 +359,9 @@ window.GOV_QUESTIONS = [
     "topic": "CS 16",
     "prompt": "Which definition best matches “executive branch”?",
     "choices": [
-      "The branch that interprets laws in legal disputes",
-      "The branch that organizes public election campaigns",
-      "The branch that writes and approves proposed laws",
+      "The branch that writes statutes",
+      "The branch that interprets statutes",
+      "The body that proposes legislative districts",
       "The branch that carries out laws"
     ],
     "answer": 3,

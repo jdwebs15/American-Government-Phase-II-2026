@@ -6,7 +6,7 @@ window.GOV_CONFIG = {
   "title": "Reconstruction, Suffrage, and the Presidency — Vocabulary",
   "description": "Practice the terms and use the hints to correct any missed answers.",
   "practice": "State-test vocabulary, contextual clues, and precise civic meaning.",
-  "assignmentKey": "gov-phase2-cs-9-11-vocabulary-2026-v4"
+  "assignmentKey": "gov-phase2-cs-9-11-vocabulary-2026-v5"
 };
 window.GOV_QUESTIONS = [
   {
@@ -14,10 +14,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 11 • Presidency",
     "prompt": "Which definition best matches Twenty-second Amendment?",
     "choices": [
-      "Generally limits any individual to being elected president no more than twice",
-      "Gives the District of Columbia votes in presidential elections",
-      "Provides procedures for a president unable to perform official duties",
-      "Requires separate electoral ballots for president and vice president"
+      "Caps elections to the presidency",
+      "Gives D.C. presidential electors",
+      "Addresses presidential inability",
+      "Separates ballots for president and vice president"
     ],
     "answer": 0,
     "hint": "Think presidential term limits.",
@@ -90,7 +90,7 @@ window.GOV_QUESTIONS = [
     "prompt": "Which definition best matches Fifteenth Amendment?",
     "choices": [
       "Bars poll taxes as a voting requirement in federal elections",
-      "Bars voting discrimination based on race, color, or former servitude",
+      "Bars race-based denial of voting rights",
       "Bars voting discrimination based on a citizen’s sex",
       "Bars age-based voting denial for citizens eighteen and older"
     ],
@@ -134,10 +134,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 10 • Suffrage",
     "prompt": "Which definition best matches disenfranchisement?",
     "choices": [
-      "Expansion of voting access to previously excluded citizens",
-      "Legal acquisition of citizenship after a person’s birth",
-      "The denial or removal of an otherwise eligible person’s right to vote",
-      "Transfer of voting authority from electors to Congress"
+      "Equal allocation of seats by state",
+      "Redrawing lines for election districts",
+      "Denial or loss of voting rights",
+      "Granting citizenship through naturalization"
     ],
     "answer": 2,
     "hint": "Think being blocked from voting.",
@@ -209,10 +209,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 9 • Reconstruction",
     "prompt": "Which definition best matches naturalization?",
     "choices": [
-      "The legal process of receiving a passport as a current citizen",
-      "The legal process through which a noncitizen becomes a U.S. citizen",
-      "The legal process of obtaining temporary permission to work",
-      "The legal process of registering to vote in local elections"
+      "Loss of the legal right to vote",
+      "Legal process for gaining citizenship",
+      "Recognition of citizenship at birth",
+      "Admission to live and work as a permanent resident"
     ],
     "answer": 1,
     "hint": "Think becoming a citizen after birth.",
@@ -314,10 +314,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 9 • Continued struggle",
     "prompt": "Which definition best matches racial segregation?",
     "choices": [
-      "The separation of people and public facilities according to race",
-      "Unequal treatment of people based on their religious beliefs",
-      "Loss of citizenship based on residence in another country",
-      "Denial of voting rights based on payment of election fees"
+      "Separation of people by race",
+      "Exclusion from voting on the basis of age",
+      "Assignment of legislative seats by population",
+      "Removal of racial barriers in public facilities"
     ],
     "answer": 0,
     "hint": "Think separate facilities and institutions.",
@@ -329,7 +329,7 @@ window.GOV_QUESTIONS = [
     "topic": "CS 11 • Presidency",
     "prompt": "Which definition best matches Twenty-fifth Amendment?",
     "choices": [
-      "Addresses presidential succession, inability, and vice-presidential vacancies",
+      "Presidential succession, inability, and VP vacancies",
       "Sets separate presidential and vice-presidential electoral ballots",
       "Limits the number of times a president may win election",
       "Grants the District of Columbia participation in presidential elections"
@@ -406,7 +406,7 @@ window.GOV_QUESTIONS = [
     "choices": [
       "A senator’s vote to confirm a Cabinet nominee",
       "A voter’s ballot in a presidential primary election",
-      "An elector’s formal vote for president or vice president",
+      "An elector’s vote for president or vice president",
       "A representative’s vote to approve ordinary legislation"
     ],
     "answer": 2,
@@ -434,10 +434,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 9 • Reconstruction",
     "prompt": "Which definition best matches previous condition of servitude?",
     "choices": [
-      "A person’s earlier service as a government employee",
-      "An individual’s previous legal condition as an enslaved person",
-      "A person’s previous status as a naturalized citizen",
-      "A person’s prior status as a resident of another state"
+      "Citizenship conferred at birth",
+      "Former status in slavery or servitude",
+      "Legal status as a naturalized citizen",
+      "Eligibility to vote based on residence"
     ],
     "answer": 1,
     "hint": "Servitude refers to enslavement.",

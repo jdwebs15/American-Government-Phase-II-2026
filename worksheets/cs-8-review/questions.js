@@ -104,10 +104,10 @@ window.GOV_QUESTIONS = [
     "topic": "First Amendment — incorporation",
     "prompt": "A city jails a resident solely for peaceful criticism of the mayor. Which statement best explains the constitutional protection?",
     "choices": [
-      "The First Amendment protects the press, so only newspapers may criticize officials",
-      "The First Amendment protects speech, but only federal officials must respect it",
-      "The First Amendment protects assembly, so a person speaking alone has no protection",
-      "Incorporation applies First Amendment speech rights locally"
+      "The Tenth Amendment gives Congress authority to review how local officials respond to criticism.",
+      "The First Amendment applies locally because criticism of a mayor affects commerce between states.",
+      "A city’s charter gives residents the same constitutional status as federal employees.",
+      "The Fourteenth Amendment makes this speech protection enforceable against the city."
     ],
     "answer": 3,
     "hint": "Use the supporting source. Use the reference passage and Section 1 of the Fourteenth Amendment.",
@@ -176,10 +176,10 @@ window.GOV_QUESTIONS = [
     "topic": "Fifth Amendment — incorporation",
     "prompt": "After an acquittal, the same state prosecutes a defendant again for the same offense simply to seek a different verdict. Which statement correctly applies the Bill of Rights?",
     "choices": [
-      "The Fifth Amendment’s double-jeopardy protection limits federal prosecutions alone",
-      "Incorporation applies double jeopardy protection to states",
-      "The Sixth Amendment’s counsel protection allows unlimited repeated prosecutions",
-      "The Tenth Amendment allows states to ignore incorporated criminal protections"
+      "The state may retry the case because the first jury acquitted.",
+      "The incorporated Double Jeopardy Clause bars this second trial.",
+      "The state may retry the case if the defendant keeps the same counsel.",
+      "The clause applies only when a federal prosecutor tries the first case."
     ],
     "answer": 1,
     "hint": "Use the supporting source. Use the reference passage and the same-offense clause of Amendment V.",
@@ -265,10 +265,10 @@ window.GOV_QUESTIONS = [
     "topic": "Second Amendment — incorporation",
     "prompt": "A state argues that the right to keep and bear arms can never restrict its laws because the Bill of Rights originally limited only federal government. Which response best applies incorporation?",
     "choices": [
-      "The Second Amendment protects only public criminal trials",
-      "The Second Amendment guarantees every state law is valid",
-      "The Second Amendment applies only to federal government",
-      "The Second Amendment also binds states"
+      "The right applies to states after a legislature adopts a matching statute.",
+      "The Second Amendment leaves review of all state firearms rules to state law.",
+      "The right applies to state officials when a case involves travel across state lines.",
+      "The Fourteenth Amendment makes the right enforceable against states."
     ],
     "answer": 3,
     "hint": "Use the supporting source. Use the reference passage about incorporation and identify the right in Amendment II.",

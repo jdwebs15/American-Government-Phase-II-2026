@@ -40,10 +40,10 @@ window.GOV_QUESTIONS = [
     "topic": "",
     "prompt": "Congress expands a deduction to encourage businesses to buy new equipment. Which chain best describes how it would work?",
     "choices": [
-      "Lower taxable income requires businesses to increase their lending.",
-      "Higher taxable income gives firms more funds for equipment purchases.",
-      "Higher federal purchases automatically reduce private borrowing rates.",
-      "Lower taxable income can reduce the after-tax cost of buying equipment."
+      "The deduction raises taxable income and offsets some of the purchase price.",
+      "The deduction changes the interest rate banks charge for buying new equipment.",
+      "The deduction gives Congress authority to specify which equipment businesses must buy.",
+      "The deduction lowers taxable income and the effective cost of equipment."
     ],
     "answer": 3,
     "hint": "Think about taxes, public spending, and the money people can spend.",
@@ -508,10 +508,10 @@ window.GOV_QUESTIONS = [
     "topic": "",
     "prompt": "A household’s pay stays the same, but its federal income taxes rise. What is the most direct effect on that household?",
     "choices": [
-      "Less income remains for spending or saving.",
-      "Its employer pays a lower gross wage.",
-      "Its borrowing limit automatically increases.",
-      "Its payroll contribution falls by the same amount."
+      "The household has less disposable income.",
+      "Gross pay decreases by the amount of tax.",
+      "The household’s disposable income rises because its gross pay is unchanged.",
+      "The change immediately raises the market value of the household’s existing savings."
     ],
     "answer": 0,
     "hint": "Think about taxes, public spending, and the money people can spend.",

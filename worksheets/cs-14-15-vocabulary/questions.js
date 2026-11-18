@@ -74,10 +74,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 14 • Rights and Responsibilities",
     "prompt": "Which definition best matches suffrage?",
     "choices": [
-      "protections preventing majorities from denying rights to smaller groups",
-      "the right to vote",
-      "federal legislation prohibiting major forms of discrimination",
-      "a voter who studies candidates and public issues"
+      "The right to petition public officials",
+      "The right to vote in elections",
+      "The duty to serve on a jury when summoned",
+      "The power to represent a constituency in office"
     ],
     "answer": 1,
     "hint": "Think about suffrage in the context of rights, participation, and government.",
@@ -284,10 +284,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 14 • Rights and Responsibilities",
     "prompt": "Which definition best matches community service?",
     "choices": [
-      "Fourteenth Amendment guarantee of equal protection by states",
-      "a group historically denied full access to rights or participation",
-      "voluntary work benefiting a community",
-      "applying most Bill of Rights protections to states through the Fourteenth Amendment"
+      "Paid work performed for a private employer",
+      "Service required as part of a criminal sentence",
+      "Voluntary work that benefits the community",
+      "Public office held through an electoral appointment"
     ],
     "answer": 2,
     "hint": "Think about community service in the context of rights, participation, and government.",

@@ -134,10 +134,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 5 • Federalism",
     "prompt": "Which definition best matches reserved powers?",
     "choices": [
-      "powers given only to Congress",
-      "powers held only during war",
-      "powers shared by all three branches",
-      "powers kept by the states"
+      "Authority granted to Congress in the Constitution",
+      "Authority shared by federal and state governments",
+      "Authority inferred from powers expressly granted to Congress",
+      "Authority retained by the states or the people"
     ],
     "answer": 3,
     "hint": "The Tenth Amendment is the clue.",
@@ -239,10 +239,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 7 • Constitutional change",
     "prompt": "Which definition best matches Article V?",
     "choices": [
-      "the article establishing the presidency",
-      "the amendment reserving state powers",
-      "the clause establishing federal supremacy",
-      "the amendment process"
+      "Establishes the presidency",
+      "Establishes federal supremacy",
+      "Reserves powers to the states",
+      "Establishes the amendment process"
     ],
     "answer": 3,
     "hint": "It answers how the text is officially changed.",
@@ -359,10 +359,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 6 • Ratification",
     "prompt": "Which definition best matches ratification?",
     "choices": [
-      "formal approval",
-      "the president rejecting a bill",
-      "a court declaring a law unconstitutional",
-      "Congress investigating an agency"
+      "Formal approval of a proposal",
+      "Formal submission of a proposal",
+      "Legislative debate over a proposal",
+      "Judicial interpretation of an enacted law"
     ],
     "answer": 0,
     "hint": "Think official approval.",

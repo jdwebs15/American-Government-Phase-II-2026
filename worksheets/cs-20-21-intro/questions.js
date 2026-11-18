@@ -447,10 +447,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 20–21",
     "prompt": "Why might a safety regulation increase business costs?",
     "choices": [
-      "Firms can ignore required safety training",
-      "Firms automatically receive tax refunds",
-      "Firms never need to replace equipment",
-      "Firms must pay for compliance"
+      "Firms collect a federal subsidy each time they add safety equipment.",
+      "Firms change their tax rate when regulators create a new reporting form.",
+      "Firms reduce their operating costs by taking on new compliance obligations.",
+      "Firms may need equipment, training, or monitoring to comply."
     ],
     "answer": 3,
     "hint": "Identify who takes the action and whether it stimulates or restrains spending and lending.",

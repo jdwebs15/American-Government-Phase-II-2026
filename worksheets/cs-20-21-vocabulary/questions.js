@@ -209,10 +209,10 @@ window.GOV_QUESTIONS = [
     "topic": "Fiscal Policy & OST Terms",
     "prompt": "Which definition best matches “Expansionary fiscal policy”?",
     "choices": [
-      "Higher spending or lower taxes",
-      "Higher policy rates or bond sales to restrict credit",
-      "Lower public spending or higher taxes to slow demand",
-      "Lower policy rates or bond purchases to ease credit"
+      "Higher government spending or lower taxes to raise demand",
+      "Lower public spending or higher taxes to restrain demand",
+      "Higher policy rates or security sales to tighten credit",
+      "Lower policy rates or security purchases to ease credit"
     ],
     "answer": 0,
     "hint": "Expansionary fiscal tools aim to increase spending in the economy.",
@@ -360,9 +360,9 @@ window.GOV_QUESTIONS = [
     "prompt": "Which definition best matches “Contractionary fiscal policy”?",
     "choices": [
       "Higher public spending or lower taxes to raise demand",
-      "Higher public borrowing without a change in demand",
-      "Lower spending or higher taxes",
-      "Lower policy rates or bond purchases to expand credit"
+      "Higher policy rates or bond sales to tighten credit",
+      "Lower public spending or higher taxes to reduce demand",
+      "Lower policy rates or bond purchases to ease credit"
     ],
     "answer": 2,
     "hint": "Contractionary means reducing overall demand.",
@@ -404,10 +404,10 @@ window.GOV_QUESTIONS = [
     "topic": "Fiscal Policy & OST Terms",
     "prompt": "Which definition best matches “Discretionary fiscal policy”?",
     "choices": [
-      "New tax or spending action by lawmakers",
-      "An existing benefit increase triggered by rising joblessness",
-      "An existing tax formula collecting less as incomes fall",
-      "A scheduled bond payment made under existing borrowing terms"
+      "New tax or spending decisions enacted by policymakers",
+      "Safety-net payments that change under existing eligibility rules",
+      "Central bank purchases that add reserves to the banking system",
+      "Interest-rate changes chosen by the central bank"
     ],
     "answer": 0,
     "hint": "Discretionary means a new policy choice.",

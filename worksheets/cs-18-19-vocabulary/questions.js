@@ -389,10 +389,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 18",
     "prompt": "Which definition best matches tax abatement?",
     "choices": [
-      "additional tax imposed on new construction",
-      "permanent repeal of all property taxes",
-      "temporary reduction of a tax to encourage an activity such as development",
-      "government loan requiring immediate repayment"
+      "Extra charge assessed on new construction",
+      "Permanent exemption for a class of property",
+      "Temporary reduction in a tax liability",
+      "Government loan repaid through tax collections"
     ],
     "answer": 2,
     "hint": "Focus on the defining role of tax abatement: who acts, what is produced, and at what stage of a public decision it occurs.",

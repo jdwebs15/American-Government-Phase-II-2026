@@ -6,7 +6,7 @@ window.GOV_CONFIG = {
   "title": "Law and Public Policy — Comprehensive Review",
   "description": "Answer each question once per run. A 30/30 run earns the completion ticket.",
   "practice": "Ohio OST-style application, analysis, and cause-and-effect reasoning.",
-  "assignmentKey": "gov-phase2-cs-12-13-review-2026-v4"
+  "assignmentKey": "gov-phase2-cs-12-13-review-2026-v5"
 };
 window.GOV_QUESTIONS = [
   {
@@ -22,25 +22,25 @@ window.GOV_QUESTIONS = [
     "answer": 0,
     "hint": "Consider Article III tenure.",
     "explanation": "Article III judges serve during good behavior and cannot be fired at will.",
-    "source": "https://constitution.congress.gov/browse/essay/intro-1/ALDE_00000001/",
-    "where": "Review the relevant checks and balances or constitutional power.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article III, Section 1, on tenure during good behavior.",
     "id": "q01"
   },
   {
     "sliders": null,
     "topic": "CS 12–13 • Application",
-    "prompt": "What is the best approach to a branch-interaction scenario?",
+    "prompt": "An agency says it cannot meet a deadline set by law. A committee holds hearings and proposes a revised deadline. Which account correctly distinguishes the two legislative actions?",
     "choices": [
-      "assume every action is judicial review",
-      "choose the longest amendment number",
-      "ignore which branch acts first",
-      "identify the actor action target branch and resulting check or policy effect"
+      "The hearing changes the deadline; the bill executes the program.",
+      "The hearing is judicial review; the bill begins rule enforcement.",
+      "The hearing suspends the statute; the bill limits judicial tenure.",
+      "The hearing gathers information; a new law could change the deadline."
     ],
     "answer": 3,
-    "hint": "Track who does what to whom.",
-    "explanation": "Identifying actors and effects reveals the relevant power or check.",
-    "source": "study-notes.html#q30",
-    "where": "Read “Application · 30” and apply the explanation to the distinction in this question.",
+    "hint": "Focus on the constitutional mechanism or the evidence in the scenario.",
+    "explanation": "Oversight gathers facts and examines enforcement. Changing a statutory deadline takes legislation.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article I, Section 7, on how a new bill changes existing law.",
     "id": "q30"
   },
   {
@@ -107,8 +107,8 @@ window.GOV_QUESTIONS = [
     "answer": 1,
     "hint": "Focus on limits across institutions.",
     "explanation": "Checks prevent unchecked concentration of government power.",
-    "source": "https://www.usa.gov/branches-of-government",
-    "where": "Review the duties of the legislative, executive, and judicial branches.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article I, Section 7, for a concrete example of shared checks.",
     "id": "q13"
   },
   {
@@ -124,8 +124,8 @@ window.GOV_QUESTIONS = [
     "answer": 1,
     "hint": "Think about how a veto changes negotiations.",
     "explanation": "A veto can encourage revision or an attempted override.",
-    "source": "https://constitution.congress.gov/browse/essay/intro-1/ALDE_00000001/",
-    "where": "Review the relevant checks and balances or constitutional power.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article I, Section 7, on a veto and congressional reconsideration.",
     "id": "q12"
   },
   {
@@ -141,8 +141,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "A formal change follows Article V.",
     "explanation": "Congress may propose amendments, which then require state ratification.",
-    "source": "study-notes.html#q20",
-    "where": "Read “Amendments · 20” and apply the explanation to the distinction in this question.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article V, on proposing a formal amendment.",
     "id": "q20"
   },
   {
@@ -165,18 +165,18 @@ window.GOV_QUESTIONS = [
   {
     "sliders": null,
     "topic": "CS 12 • Law",
-    "prompt": "Which statement best defines a law?",
+    "prompt": "An agency proposes mandatory food labels. A trade association publishes voluntary guidelines, while Congress enacts a statute requiring disclosures. What most directly distinguishes the statute from the trade guidelines?",
     "choices": [
-      "a suggestion issued by a private group",
-      "a binding rule recognized and enforced by government",
-      "an informal friendship among officials",
-      "a news report about politics"
+      "The statute reflects industry preferences.",
+      "The statute imposes enforceable duties.",
+      "The guidelines bind every covered firm by law.",
+      "The guidelines exercise congressional authority."
     ],
     "answer": 1,
-    "hint": "Focus on enforceability.",
-    "explanation": "Laws are binding government rules.",
-    "source": "study-notes.html#q22",
-    "where": "Read “Law · 22” and apply the explanation to the distinction in this question.",
+    "hint": "Focus on the constitutional mechanism or the evidence in the scenario.",
+    "explanation": "A statute creates legal duties. Voluntary industry guidelines do not carry that legal force.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article I, Section 7, on how a bill becomes a law.",
     "id": "q22"
   },
   {
@@ -192,8 +192,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "Congress is the lawmaking institution.",
     "explanation": "Making laws is a legislative responsibility.",
-    "source": "study-notes.html#q15",
-    "where": "Read “Legislative · 15” and apply the explanation to the distinction in this question.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article I, Section 1, for legislative authority.",
     "id": "q15"
   },
   {
@@ -209,8 +209,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "Match each actor with its function.",
     "explanation": "Congress legislates, the executive enforces, and courts interpret.",
-    "source": "https://www.usa.gov/branches-of-government",
-    "where": "Review the duties of the legislative, executive, and judicial branches.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Articles I–III, Section 1 of each, on assigned branch powers.",
     "id": "q06"
   },
   {
@@ -243,8 +243,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "The directive originates with the president.",
     "explanation": "Executive orders direct executive operations within legal limits.",
-    "source": "https://www.usa.gov/branches-of-government",
-    "where": "Review the duties of the legislative, executive, and judicial branches.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article II, Sections 2–3, on executive administration.",
     "id": "q05"
   },
   {
@@ -260,8 +260,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "Who carries out a law after passage?",
     "explanation": "Executive agencies implement and enforce federal laws.",
-    "source": "https://www.usa.gov/branches-of-government",
-    "where": "Review the duties of the legislative, executive, and judicial branches.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article II, Section 3, on faithful execution of laws.",
     "id": "q04"
   },
   {
@@ -286,10 +286,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 13 • Informal relations",
     "prompt": "Legislators and executive officials resolve details through personal negotiations. What factor is shown?",
     "choices": [
-      "informal relationships among branch members",
-      "impeachment conviction",
-      "original jurisdiction",
-      "formal amendment"
+      "Working relationships can influence policy decisions.",
+      "Agency rulemaking assigns formal duties to executive departments.",
+      "The appropriations process funds the work of the executive branch.",
+      "Judicial review determines whether negotiations comply with the Constitution."
     ],
     "answer": 0,
     "hint": "Not every interaction is formally required.",
@@ -311,8 +311,8 @@ window.GOV_QUESTIONS = [
     "answer": 1,
     "hint": "Courts resolve legal meaning.",
     "explanation": "Interpreting laws is a judicial responsibility.",
-    "source": "study-notes.html#q18",
-    "where": "Read “Judicial · 18” and apply the explanation to the distinction in this question.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article III, Section 2, on cases under federal law.",
     "id": "q18"
   },
   {
@@ -328,8 +328,8 @@ window.GOV_QUESTIONS = [
     "answer": 1,
     "hint": "Think diplomacy.",
     "explanation": "The executive appoints and receives ambassadors.",
-    "source": "study-notes.html#q17",
-    "where": "Read “Executive · 17” and apply the explanation to the distinction in this question.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article II, Section 2, on appointment of ambassadors.",
     "id": "q17"
   },
   {
@@ -345,25 +345,25 @@ window.GOV_QUESTIONS = [
     "answer": 0,
     "hint": "Agencies administer laws.",
     "explanation": "The executive implements and enforces legislation.",
-    "source": "study-notes.html#q16",
-    "where": "Read “Executive · 16” and apply the explanation to the distinction in this question.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article II, Section 3, on executing the laws.",
     "id": "q16"
   },
   {
     "sliders": null,
     "topic": "CS 12–13 • Synthesis",
-    "prompt": "Which statement best summarizes CS 12–13?",
+    "prompt": "Congress funds a safety program. An agency imposes a requirement beyond the authority Congress granted, and a court sets that requirement aside. Which account best explains what happened?",
     "choices": [
-      "Branches have distinct policy roles but continually cooperate check one another and respond to political influences.",
-      "Each branch acts alone without affecting the others. as an action taken by public officials",
-      "Only courts create public policy.",
-      "Interest groups formally replace elected branches."
+      "Congress authorized the program; the court limited implementation.",
+      "The agency amended the law; the court appropriated funding.",
+      "Congress enforced the regulation; the court vetoed the budget.",
+      "The agency approved a statute; Congress reviewed the ruling."
     ],
     "answer": 0,
-    "hint": "Combine separate powers with dynamic interaction.",
-    "explanation": "Government policy emerges from branch responsibilities, checks, cooperation, and political context.",
-    "source": "study-notes.html#q29",
-    "where": "Read “Synthesis · 29” and apply the explanation to the distinction in this question.",
+    "hint": "Focus on the constitutional mechanism or the evidence in the scenario.",
+    "explanation": "Congress makes law. Courts may hold agency actions unlawful when agencies exceed statutory authority.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Articles I–III, on who makes, carries out and interprets law.",
     "id": "q29"
   },
   {
@@ -379,8 +379,8 @@ window.GOV_QUESTIONS = [
     "answer": 1,
     "hint": "The case begins there.",
     "explanation": "Original jurisdiction means authority to hear a case first.",
-    "source": "study-notes.html#q19",
-    "where": "Read “Judicial · 19” and apply the explanation to the distinction in this question.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article III, Section 2, on original and appellate jurisdiction.",
     "id": "q19"
   },
   {
@@ -388,16 +388,16 @@ window.GOV_QUESTIONS = [
     "topic": "CS 13 • Judges",
     "prompt": "Why can the president not remove a federal judge merely for an unfavorable decision?",
     "choices": [
-      "the judge was elected nationally",
-      "Congress cannot regulate courts",
-      "judicial independence prevents presidential removal at will",
-      "the judge controls the military"
+      "The Senate can remove any judge it confirms.",
+      "A judicial vacancy can be declared only by the chief justice of the United States.",
+      "Article III tenure protects judges from dismissal at will.",
+      "A president can remove a judge only with consent from the rest of that court."
     ],
     "answer": 2,
     "hint": "Life tenure protects courts from executive pressure.",
     "explanation": "Federal judges are not subject to removal by the president.",
-    "source": "study-notes.html#q23",
-    "where": "Read “Judges · 23” and apply the explanation to the distinction in this question.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article III, Section 1, on judicial tenure.",
     "id": "q23"
   },
   {
@@ -413,8 +413,8 @@ window.GOV_QUESTIONS = [
     "answer": 0,
     "hint": "All three branches affect the same issue.",
     "explanation": "Public policy commonly develops through branch cooperation and conflict.",
-    "source": "study-notes.html#q24",
-    "where": "Read “Interaction · 24” and apply the explanation to the distinction in this question.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Articles I–III, on legislation, execution and adjudication.",
     "id": "q24"
   },
   {
@@ -464,8 +464,8 @@ window.GOV_QUESTIONS = [
     "answer": 0,
     "hint": "Congress can legislate within constitutional bounds.",
     "explanation": "Congress may change laws within constitutional limits, not dictate case results.",
-    "source": "https://constitution.congress.gov/browse/essay/intro-1/ALDE_00000001/",
-    "where": "Review the relevant checks and balances or constitutional power.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article I, Section 7, on enacting a new statute.",
     "id": "q14"
   },
   {
@@ -498,8 +498,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "Separate declaring war from commanding forces.",
     "explanation": "The Constitution assigns declarations of war to Congress.",
-    "source": "https://www.usa.gov/branches-of-government",
-    "where": "Review the duties of the legislative, executive, and judicial branches.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article I, Section 8, on declaring war.",
     "id": "q03"
   },
   {

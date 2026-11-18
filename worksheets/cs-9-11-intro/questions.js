@@ -116,9 +116,9 @@ window.GOV_QUESTIONS = [
     "topic": "CS 9 • Comparing Protections",
     "prompt": "Which pair correctly matches a Reconstruction Amendment with its main protection?",
     "choices": [
-      "Fourteenth — creates presidential term limits",
-      "Fifteenth — bans poll taxes in federal elections",
-      "Thirteenth — establishes birthright citizenship",
+      "Fourteenth — bans poll taxes",
+      "Fifteenth — defines citizenship",
+      "Thirteenth — guarantees equal protection",
       "Thirteenth — abolishes slavery"
     ],
     "answer": 3,
@@ -252,10 +252,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 11 • Presidential Succession",
     "prompt": "A president dies while in office. Under the Twenty-fifth Amendment, what happens to the vice president?",
     "choices": [
-      "The vice president becomes acting president for one month",
-      "The vice president becomes president only with a Senate vote",
-      "The vice president remains in office until a special election",
-      "The vice president becomes president"
+      "Serves as acting president until a special election",
+      "Runs in an immediate presidential election with the speaker",
+      "Continues as vice president until Congress chooses a successor",
+      "Becomes president for the remainder of the term"
     ],
     "answer": 3,
     "hint": "Read Section 1 of Amendment XXV. Distinguish becoming president from temporarily acting as president.",
@@ -576,9 +576,9 @@ window.GOV_QUESTIONS = [
     "prompt": "What does suffrage mean?",
     "choices": [
       "The right to vote",
-      "The duty to serve on a criminal jury",
-      "The right to hold any public office",
-      "The ability to apply for citizenship"
+      "The right to petition",
+      "The right to hold office",
+      "The right to serve on a jury"
     ],
     "answer": 0,
     "hint": "The CS 10 amendments concern access to elections. Suffrage simply means the right to vote.",

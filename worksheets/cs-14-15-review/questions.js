@@ -65,10 +65,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 15",
     "prompt": "A state used literacy tests to suppress Black voter participation. Which federal law most directly strengthened enforcement against such barriers?",
     "choices": [
-      "The Civil Rights Act of 1968 concerning housing.",
-      "The Voting Rights Act of 1965.",
-      "The Twenty-Second Amendment on presidential terms.",
-      "The Nineteenth Amendment on sex discrimination."
+      "Civil Rights Act of 1968",
+      "Voting Rights Act of 1965",
+      "Civil Rights Act of 1964",
+      "Twenty-Fourth Amendment"
     ],
     "answer": 1,
     "hint": "Distinguish voting access from housing and office terms.",
@@ -439,10 +439,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 14–15",
     "prompt": "A community group advocates expanded voting access while members carefully verify election claims. Congress then strengthens protections against discrimination. Which conclusion connects CS 14 and CS 15?",
     "choices": [
-      "Civic participation can spur federal civil rights protections.",
-      "Federal voting protections eliminate the need for citizens to examine political claims.",
-      "Responsible civic participation replaces the need for enforceable voting protections.",
-      "Federal action guarantees that every civic demand becomes a constitutional amendment."
+      "Civic participation can help spur federal protections.",
+      "Local groups can enforce federal voting laws.",
+      "Congress can improve civic participation by replacing local elections with federal elections.",
+      "Checking claims gives voters authority to decide which rights the government must protect."
     ],
     "answer": 0,
     "hint": "Connect responsible citizen participation to federal protection against discrimination.",

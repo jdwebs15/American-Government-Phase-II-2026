@@ -6,7 +6,7 @@ window.GOV_CONFIG = {
   "title": "Ohio Constitution and Citizenship — Introduction",
   "description": "Use the source and Where to look guidance. Correct each answer to finish.",
   "practice": "Core ideas and evidence emphasized in Ohio Government CS 16–17.",
-  "assignmentKey": "gov-phase2-cs-16-17-intro-2026-v4"
+  "assignmentKey": "gov-phase2-cs-16-17-intro-2026-v5"
 };
 window.GOV_QUESTIONS = [
   {
@@ -48,10 +48,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 16",
     "prompt": "What happens after a qualifying citizen initiative reaches the ballot?",
     "choices": [
-      "County auditors decide the outcome without counting votes",
-      "The Supreme Court automatically places it into state law",
-      "Voters decide whether to adopt it",
-      "The governor approves it without allowing a public vote"
+      "Legislators select which voters may decide it.",
+      "The governor enacts the measure by executive order.",
+      "Voters decide whether to adopt it.",
+      "A court decides whether the proposal should take effect on its merits."
     ],
     "answer": 2,
     "hint": "Use the source to distinguish the correct concept from the other three choices.",
@@ -65,10 +65,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 17",
     "prompt": "Which activity is an example of assisting local government through service?",
     "choices": [
-      "Cast a vote in a presidential election every four years",
-      "Volunteer for a city-coordinated cleanup",
-      "Read national campaign ads instead of local announcements",
-      "Disregard notices about local emergency preparation plans"
+      "Watch a recording of a council meeting.",
+      "Join a city-organized park cleanup.",
+      "Sign a petition to amend the state constitution.",
+      "Vote for a federal candidate based on public lands policy."
     ],
     "answer": 1,
     "hint": "Use the source to distinguish the correct concept from the other three choices.",
@@ -82,10 +82,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 16",
     "prompt": "Which action most clearly illustrates limited government?",
     "choices": [
-      "A legislature suspending protected rights without legal authority",
-      "A governor refusing to comply with a binding court decision",
-      "A mayor declaring that state statutes no longer apply locally",
-      "An official obeying constitutional limits"
+      "An official extends a term without an election.",
+      "An official exempts the office from statutory review.",
+      "An official collects a tax without legal authorization.",
+      "An official follows constitutional limits."
     ],
     "answer": 3,
     "hint": "Use the source to distinguish the correct concept from the other three choices.",
@@ -184,10 +184,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 16",
     "prompt": "Which statement best distinguishes a law from a constitution?",
     "choices": [
-      "Ordinary statutes always take priority over constitutional rights",
-      "Judges cannot examine whether statutes violate constitutions",
-      "Constitutions outrank ordinary laws",
-      "State agencies can amend constitutions through internal memos"
+      "An ordinary law establishes the government’s basic structure.",
+      "A constitution can be revised by passing a conflicting ordinary law.",
+      "A constitution limits what ordinary laws can do.",
+      "An ordinary law and the constitution have equal status when enacted in the same year."
     ],
     "answer": 2,
     "hint": "Use the source to distinguish the correct concept from the other three choices.",
@@ -235,10 +235,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 16",
     "prompt": "Why did the 1851 Ohio Constitution restrict state debt?",
     "choices": [
-      "Limiting risks from excessive borrowing",
-      "Preventing residents from purchasing privately owned property",
-      "Requiring federal officials to approve every state purchase",
-      "Ending the collection of all local taxes across the state"
+      "To reduce the risks of excessive borrowing",
+      "To shift decisions about borrowing to county courts",
+      "To let legislators pledge unlimited state credit",
+      "To centralize approval of private bank loans in the legislature"
     ],
     "answer": 0,
     "hint": "Use the source to distinguish the correct concept from the other three choices.",
@@ -252,16 +252,16 @@ window.GOV_QUESTIONS = [
     "topic": "CS 16",
     "prompt": "If Ohio lawmakers pass a law that conflicts with constitutional protections, what can courts do?",
     "choices": [
-      "Rewrite constitutional provisions without any amendment process",
-      "Review and potentially invalidate the law",
-      "Suspend upcoming elections until the legislature changes course",
-      "Require all registered voters to sign a petition about the law"
+      "Revise its wording without returning it to the legislature.",
+      "Review it and invalidate it if unconstitutional.",
+      "Replace it with a constitutional amendment written by judges.",
+      "Ask the governor to decide whether the constitutional restriction applies."
     ],
     "answer": 1,
     "hint": "Use the source to distinguish the correct concept from the other three choices.",
     "explanation": "Judicial review allows courts to determine whether challenged laws comply with constitutional requirements.",
     "source": "https://codes.ohio.gov/ohio-constitution/article-4",
-    "where": "Read Article IV on the judicial branch. Look for the type of authority assigned to courts.",
+    "where": "Read Article IV, Section 2, on jurisdiction. Apply judicial review when a law and the constitution conflict.",
     "id": "q27"
   },
   {
@@ -278,7 +278,7 @@ window.GOV_QUESTIONS = [
     "hint": "Use the source to distinguish the correct concept from the other three choices.",
     "explanation": "Courts interpret and apply law in cases brought before them.",
     "source": "https://codes.ohio.gov/ohio-constitution/article-4",
-    "where": "Read Article IV on the judicial branch. Look for the type of authority assigned to courts.",
+    "where": "Read Article IV, Sections 1–3. Identify the powers assigned to the courts.",
     "id": "q08"
   },
   {
@@ -286,10 +286,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 17",
     "prompt": "How can a citizen help shape a proposed state law?",
     "choices": [
-      "Contact legislators about the proposal",
-      "Personally veto a measure after the governor signs it",
-      "Choose cabinet members who will implement the proposed law",
-      "Order the courts to adopt a proposal without legislative action"
+      "Present evidence or concerns to state lawmakers.",
+      "Ask trial judges to vote on the proposed legislation.",
+      "Ask city officials to amend the bill in the General Assembly.",
+      "Send a request to Congress to decide the proposal in place of state legislators."
     ],
     "answer": 0,
     "hint": "Use the source to distinguish the correct concept from the other three choices.",
@@ -320,10 +320,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 17",
     "prompt": "Which activity supports public safety at the local level?",
     "choices": [
-      "Assume police authority without receiving legal authorization",
-      "Join an authorized neighborhood watch",
-      "Issue binding judicial rulings while volunteering locally",
-      "Ignore unsafe conditions reported in public neighborhoods"
+      "Follow a debate about the national defense budget.",
+      "Join a police-coordinated neighborhood watch.",
+      "Register to vote in an upcoming statewide election.",
+      "File a petition seeking changes to federal tax policy."
     ],
     "answer": 1,
     "hint": "Use the source to distinguish the correct concept from the other three choices.",
@@ -363,7 +363,7 @@ window.GOV_QUESTIONS = [
     "hint": "Use the source to distinguish the correct concept from the other three choices.",
     "explanation": "Ohio uses judicial elections, while Article III federal judges are appointed through presidential nomination and Senate confirmation.",
     "source": "https://codes.ohio.gov/ohio-constitution/article-4",
-    "where": "Read Article IV on the judicial branch. Look for the type of authority assigned to courts.",
+    "where": "Read Article IV, Sections 6 and 13, on election and vacancies. Compare federal appointment under Article II, Section 2, of the U.S. Constitution.",
     "id": "q16"
   },
   {
@@ -507,9 +507,9 @@ window.GOV_QUESTIONS = [
     "topic": "CS 16",
     "prompt": "What is a referendum in Ohio?",
     "choices": [
-      "An appointment process for appellate court vacancies",
-      "A governor’s plan for the upcoming state budget",
-      "A legislative plan for redrawing voting districts",
+      "A citizen proposal for a new law",
+      "An appeal against a court ruling",
+      "A legislative vote to approve an appointment",
       "A public vote on an existing law"
     ],
     "answer": 3,
@@ -686,7 +686,7 @@ window.GOV_QUESTIONS = [
     "hint": "Use the source to distinguish the correct concept from the other three choices.",
     "explanation": "The Ohio Supreme Court is the highest court in Ohio’s state judicial system.",
     "source": "https://codes.ohio.gov/ohio-constitution/article-4",
-    "where": "Read Article IV on the judicial branch. Look for the type of authority assigned to courts.",
+    "where": "Read Article IV, Section 2. Look for the jurisdiction and responsibilities of the Supreme Court of Ohio.",
     "id": "q19"
   }
 ];

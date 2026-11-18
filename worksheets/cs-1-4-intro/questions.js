@@ -6,7 +6,7 @@ window.GOV_CONFIG = {
   "title": "Civic Participation and Public Decisions — Introduction",
   "description": "Use the source and Where to look guidance. Correct each answer to finish.",
   "practice": "Ohio Government CS 1–4 with direct emphasis on released-question skills.",
-  "assignmentKey": "gov-phase2-cs-1-4-intro-2026-v4"
+  "assignmentKey": "gov-phase2-cs-1-4-intro-2026-v5"
 };
 window.GOV_QUESTIONS = [
   {
@@ -102,7 +102,7 @@ window.GOV_QUESTIONS = [
       "An appealing design on the writer’s personal home page",
       "A large following on a general entertainment website",
       "A recent award for writing about professional sports",
-      "Relevant scientific training and experience testing water"
+      "Training and experience in water testing"
     ],
     "answer": 3,
     "hint": "Expertise should be relevant to the specific claim being evaluated.",
@@ -167,10 +167,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 3",
     "prompt": "Students research a policy that was amended last month. Why should they check when a source was published?",
     "choices": [
-      "It may prove that the publisher has no interest in the issue",
-      "Its date shows whether other sources agree with its conclusion",
-      "The source may describe the rule as it stood before the amendment",
-      "Its date establishes that the author has relevant expertise"
+      "Its date establishes the author’s expertise.",
+      "Its date shows which source has better evidence.",
+      "It may describe the rule before the amendment.",
+      "A newer publication date proves that the author is impartial."
     ],
     "answer": 2,
     "hint": "Distinguish information that was accurate at publication from information that is current.",
@@ -202,7 +202,7 @@ window.GOV_QUESTIONS = [
     "prompt": "A report says the fee rose in one paragraph and says the same fee stayed unchanged over the same period in another. Which credibility concern is most direct?",
     "choices": [
       "Its author may lack professional credentials",
-      "The report makes internally inconsistent statements",
+      "Its claims are internally inconsistent",
       "Its evidence may be too old for the question",
       "Its publisher may serve a different audience"
     ],
@@ -235,10 +235,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 3",
     "prompt": "Two credible reports give different unemployment figures for the same city. What should students check before choosing one?",
     "choices": [
-      "The order in which the reports appeared in a search result list",
-      "The relative length of each report’s headline and introduction",
-      "Check the dates, definitions and original data behind both reports",
-      "The number of images that each publisher placed on its website"
+      "Average the two figures without comparing dates.",
+      "Use the higher estimate as a more complete count.",
+      "Check the dates, definitions, and methods used.",
+      "Use whichever report has been cited by more news outlets."
     ],
     "answer": 2,
     "hint": "Differences in time periods or definitions may explain an apparent disagreement.",
@@ -340,7 +340,7 @@ window.GOV_QUESTIONS = [
       "The two paint colors available for the crossing",
       "The total number of supporters on each side",
       "The order in which residents submitted comments",
-      "Expected safety improvements and installation costs"
+      "Safety gains versus installation costs"
     ],
     "answer": 3,
     "hint": "Compare what the community gains with the resources it must use.",
@@ -354,10 +354,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 1",
     "prompt": "After a crossing project opens, students compare safety reports with their original goal. What stage of the civic plan is this?",
     "choices": [
-      "Recruiting candidates to compete for public office",
-      "Choosing an audience for the first campaign message",
-      "Identifying the problem before gathering evidence",
-      "Evaluating the actual results of the adopted solution"
+      "Choosing the decision maker to contact",
+      "Comparing possible projects before selecting one",
+      "Carrying out the original construction plan",
+      "Evaluating whether the plan met its goal"
     ],
     "answer": 3,
     "hint": "Ask whether students are defining a problem, taking action or checking results.",
@@ -405,10 +405,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 2",
     "prompt": "A group has a small budget and wants nearby residents to attend a city meeting. Why could a local radio announcement be more viable than a national television advertisement?",
     "choices": [
-      "It gives the group authority to approve the city’s rules",
-      "It reaches nearby listeners within the group’s available budget",
-      "It makes the proposal independent of supporting evidence",
-      "It replaces the need to identify a time for the meeting"
+      "National television reaches more people in the immediate area.",
+      "Local radio reaches nearby residents at a lower cost.",
+      "A national advertisement is required for public meetings.",
+      "Local radio can substitute for the meeting’s official notice."
     ],
     "answer": 1,
     "hint": "Connect audience, geographic reach, cost and the desired action.",
@@ -422,10 +422,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 4",
     "prompt": "Why do governing bodies need skills such as persuasion and negotiation as well as formal voting rules?",
     "choices": [
-      "Persuasion gives one speaker power to replace the body’s voting procedure",
-      "Members often need to resolve differences before a proposal can gain support",
-      "Voting rules require members to have identical priorities before discussion",
-      "A completed negotiation gives a proposal legal force without formal action"
+      "Negotiation makes formal votes legally unnecessary.",
+      "Negotiation can build support before a vote.",
+      "Negotiation lets members give their votes to outside advisers.",
+      "Negotiation gives the presiding officer authority to settle ties."
     ],
     "answer": 1,
     "hint": "Distinguish building agreement from the official procedure that adopts a decision.",
@@ -456,10 +456,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 2",
     "prompt": "Which primary goal most clearly distinguishes a political party from an interest group?",
     "choices": [
-      "Winning elections so party members can hold public office",
-      "Encouraging citizens to support its preferred positions",
-      "Influencing officials who make public policy decisions",
-      "Providing information to people who share its concerns"
+      "Electing candidates to public office",
+      "Lobbying officials on a narrow issue",
+      "Giving testimony at public hearings",
+      "Funding research about a particular policy"
     ],
     "answer": 0,
     "hint": "Both kinds of organizations can influence policy. Consider who seeks to hold office.",
@@ -558,7 +558,7 @@ window.GOV_QUESTIONS = [
     "topic": "CS 2",
     "prompt": "An environmental association asks lawmakers to strengthen pollution limits. What goal does this action most directly pursue?",
     "choices": [
-      "Influencing lawmakers’ decisions about public policy",
+      "Influencing lawmakers’ policy decisions",
       "Appointing judges to hear environmental cases",
       "Administering the next statewide election",
       "Enforcing the existing pollution regulations"

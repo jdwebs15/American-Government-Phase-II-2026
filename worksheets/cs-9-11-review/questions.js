@@ -6,7 +6,7 @@ window.GOV_CONFIG = {
   "title": "Reconstruction, Suffrage, and the Presidency — Comprehensive Review",
   "description": "Answer each question once per run. A 30/30 run earns the completion ticket.",
   "practice": "Ohio OST-style application, analysis, and cause-and-effect reasoning.",
-  "assignmentKey": "gov-phase2-cs-9-11-review-2026-v4"
+  "assignmentKey": "gov-phase2-cs-9-11-review-2026-v5"
 };
 window.GOV_QUESTIONS = [
   {
@@ -31,10 +31,10 @@ window.GOV_QUESTIONS = [
     "topic": "Mixed • Analysis",
     "prompt": "Which statement best connects CS 10 and CS 11?",
     "choices": [
-      "Both created equal protection requirements for state criminal trials.",
-      "Both abolished slavery and established citizenship through new amendments.",
-      "Both change voting or presidential rules.",
-      "Both replaced state elections with direct national presidential elections."
+      "Both address presidential powers through separation of the branches.",
+      "Both address the balance between federal and state courts during elections.",
+      "Both include changes to voting or presidential procedures.",
+      "Both establish citizenship protections through changes to state constitutions."
     ],
     "answer": 2,
     "hint": "Compare who may participate with how presidential government operates.",
@@ -252,10 +252,10 @@ window.GOV_QUESTIONS = [
     "topic": "Mixed • Analysis",
     "prompt": "Which statement best connects CS 9 and CS 10?",
     "choices": [
-      "Reconstruction set presidential term limits; later amendments ended them.",
-      "Reconstruction guaranteed equal voting access; later amendments restricted it.",
-      "Reconstruction established the Electoral College; later amendments abolished it.",
-      "Reconstruction rights preceded later voting expansions."
+      "Reconstruction protections first established presidential term limits.",
+      "Later voting reforms restored the legal status that existed before emancipation.",
+      "Reconstruction amendments and later voting reforms addressed the same categories in identical terms.",
+      "Reconstruction protections preceded later expansions of voting access."
     ],
     "answer": 3,
     "hint": "Think expanding constitutional inclusion over time.",
@@ -318,18 +318,18 @@ window.GOV_QUESTIONS = [
   {
     "sliders": null,
     "topic": "CS 9 • Reconstruction",
-    "prompt": "Which three amendments are collectively called the Reconstruction Amendments?",
+    "prompt": "An archive includes records of slavery ending, a freedperson asserting national citizenship, and a voter challenging a state’s racial exclusion. Which sequence matches these records to the Reconstruction Amendments?",
     "choices": [
-      "Twelfth, Twenty-second, and Twenty-fifth",
-      "First, Second, and Third",
-      "Thirteenth, Fourteenth, and Fifteenth",
-      "Nineteenth, Twenty-fourth, and Twenty-sixth"
+      "XIII: citizenship; XIV: abolition; XV: racial voting discrimination.",
+      "XIII: abolition; XIV: racial voting discrimination; XV: citizenship.",
+      "XIII: abolition; XIV: citizenship; XV: racial voting discrimination.",
+      "XIII: racial voting discrimination; XIV: citizenship; XV: abolition."
     ],
     "answer": 2,
-    "hint": "They were adopted after the Civil War.",
-    "explanation": "Amendments 13–15 ended slavery and added citizenship, equality, and voting protections.",
+    "hint": "Focus on the constitutional mechanism or the evidence in the scenario.",
+    "explanation": "The Reconstruction Amendments addressed abolition, citizenship and equality, and racial discrimination in voting in that order.",
     "source": "https://www.archives.gov/founding-docs/amendments-11-27",
-    "where": "They were adopted after the Civil War.",
+    "where": "Read Amendments XIII, XIV, and XV in order. Match each record to the provision that governs it.",
     "id": "q28"
   },
   {
@@ -437,18 +437,18 @@ window.GOV_QUESTIONS = [
   {
     "sliders": null,
     "topic": "CS 10 • Fifteenth Amendment",
-    "prompt": "Which voting-rights amendment prohibits racial discrimination in voting?",
+    "prompt": "A state registrar refuses an otherwise eligible citizen’s application solely because of race. Which constitutional reasoning most directly challenges that decision?",
     "choices": [
-      "Nineteenth Amendment",
-      "Fifteenth Amendment",
-      "Twenty-sixth Amendment",
-      "Twenty-fourth Amendment"
+      "The Nineteenth Amendment sets a uniform national voting age.",
+      "The Fifteenth Amendment bars denying the vote on racial grounds.",
+      "The Twenty-fourth Amendment guarantees access to state offices.",
+      "The Twenty-sixth Amendment prohibits race-based citizenship rules."
     ],
     "answer": 1,
-    "hint": "This amendment was part of Reconstruction.",
-    "explanation": "The Fifteenth Amendment protects voting regardless of race, color, or previous servitude.",
+    "hint": "Focus on the constitutional mechanism or the evidence in the scenario.",
+    "explanation": "The Fifteenth Amendment specifically prohibits withholding the vote on account of race, color, or previous servitude.",
     "source": "https://www.archives.gov/founding-docs/amendments-11-27",
-    "where": "This amendment was part of Reconstruction.",
+    "where": "Read Amendment XV and identify the prohibited grounds for denying or abridging the vote.",
     "id": "q30"
   },
   {
@@ -507,10 +507,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 11 • Federalism",
     "prompt": "Why does the Electoral College reflect federalism?",
     "choices": [
-      "Electoral votes are assigned by state.",
-      "Congress appoints every elector without involving individual states.",
-      "County governments choose the president through separate local ballots.",
-      "Federal judges are assigned electoral votes according to state population."
+      "States are the units to which electoral votes are assigned.",
+      "Congress assigns each candidate a share of the nationwide popular vote.",
+      "Federal judges appoint electors to represent their circuit boundaries.",
+      "The federal government assigns presidential votes directly to each county."
     ],
     "answer": 0,
     "hint": "Think national selection through state units.",

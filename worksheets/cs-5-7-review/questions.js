@@ -6,7 +6,7 @@ window.GOV_CONFIG = {
   "title": "Foundations of American Government — Comprehensive Review",
   "description": "Answer each question once per run. A 30/30 run earns the completion ticket.",
   "practice": "Ohio OST-style application, analysis, and cause-and-effect reasoning.",
-  "assignmentKey": "gov-phase2-cs-5-7-review-2026-v4"
+  "assignmentKey": "gov-phase2-cs-5-7-review-2026-v5"
 };
 window.GOV_QUESTIONS = [
   {
@@ -22,8 +22,8 @@ window.GOV_QUESTIONS = [
     "answer": 0,
     "hint": "The legislative branch is checking an executive choice.",
     "explanation": "Senate confirmation is a legislative check on appointment power.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read Articles I–III; identify which branch acts and which branch checks it.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article II, Section 2. Identify how the president and Senate share appointment authority.",
     "id": "q29"
   },
   {
@@ -39,8 +39,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "The amendment number is X.",
     "explanation": "The Tenth Amendment reserves undelegated powers to states or the people.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read Article I, Section 8 and the Tenth Amendment; identify the level of government with authority.",
+    "source": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+    "where": "Locate Amendment X and its language about undelegated powers.",
     "id": "q11"
   },
   {
@@ -56,8 +56,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "Look for a familiar state service.",
     "explanation": "Licensing is a common example of a reserved state power.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read Article I, Section 8 and the Tenth Amendment; identify the level of government with authority.",
+    "source": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+    "where": "Read Amendment X. Decide which action has no corresponding federal power or prohibition in the scenario.",
     "id": "q10"
   },
   {
@@ -65,16 +65,16 @@ window.GOV_QUESTIONS = [
     "topic": "CS 6 • Supremacy",
     "prompt": "A valid federal law conflicts with a state law. Which rule resolves the conflict?",
     "choices": [
-      "The state law always prevails.",
-      "The valid federal law prevails under the Supremacy Clause.",
-      "The governor chooses which conflicting law will apply throughout the entire nation.",
-      "Both laws automatically become void."
+      "The state law prevails if it is newer.",
+      "The valid federal law prevails.",
+      "The governor chooses which rule applies.",
+      "The laws are weighed according to where they were enacted."
     ],
     "answer": 1,
     "hint": "The Constitution calls federal law the supreme law of the land.",
     "explanation": "The Supremacy Clause gives valid federal law priority over conflicting state law.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read the Constitution’s Preamble and Articles I–III; identify the principle illustrated by the situation.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article VI’s Supremacy Clause. Check why the validity of the federal law matters.",
     "id": "q30"
   },
   {
@@ -90,25 +90,25 @@ window.GOV_QUESTIONS = [
     "answer": 0,
     "hint": "A congressional hearing monitors the executive branch.",
     "explanation": "Oversight is an informal practice that shapes how constitutional responsibilities operate.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read the Constitution’s Preamble and Articles I–III; identify the principle illustrated by the situation.",
+    "source": "https://history.house.gov/Institution/Origins-Development/Investigations-Oversight/",
+    "where": "Read the opening explanation of congressional investigations. Identify whose implementation is being examined.",
     "id": "q25"
   },
   {
     "sliders": null,
     "topic": "CS 7 • Legislation",
-    "prompt": "The Voting Rights Act of 1965 most directly targeted—",
+    "prompt": "Congress approves an amendment by two-thirds of each house. Only half of the states ratify it. What can Congress accurately claim?",
     "choices": [
-      "racially discriminatory barriers to voting such as literacy tests",
-      "Supreme Court nominations",
-      "state driver licensing",
-      "the presidential veto of legislation passed by both houses of Congress"
+      "Congress proposed it; ratification remains incomplete.",
+      "It took effect as soon as Congress approved it.",
+      "It took effect once half the states approved it.",
+      "The president may ratify it for the remaining states."
     ],
     "answer": 0,
-    "hint": "Focus on access to the ballot.",
-    "explanation": "The act strengthened federal enforcement against discriminatory voting practices.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read the Constitution’s Preamble and Articles I–III; identify the principle illustrated by the situation.",
+    "hint": "Focus on the constitutional mechanism or the evidence in the scenario.",
+    "explanation": "Article V separates proposal from ratification, which requires three-fourths of the states.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article V. Identify which actors can propose amendments and which actors ratify them.",
     "id": "q24"
   },
   {
@@ -124,8 +124,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "Combine interpretation and legislation.",
     "explanation": "Constitutional principles gain practical meaning through court decisions and laws enacted under constitutional authority.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read the Constitution’s Preamble and Articles I–III; identify the principle illustrated by the situation.",
+    "source": "https://www.archives.gov/founding-docs/amendments-11-27",
+    "where": "Read the equal protection language in Amendment XIV. Compare the written principle with later application.",
     "id": "q27"
   },
   {
@@ -141,8 +141,8 @@ window.GOV_QUESTIONS = [
     "answer": 0,
     "hint": "Interpretation changes application, not wording.",
     "explanation": "Court decisions develop the meaning and reach of constitutional provisions.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Review Article III and the explanation of judicial review and constitutional interpretation.",
+    "source": "https://www.archives.gov/milestone-documents/marbury-v-madison",
+    "where": "Read the explanation of judicial review, then distinguish interpreting text from formally amending it.",
     "id": "q23"
   },
   {
@@ -158,25 +158,25 @@ window.GOV_QUESTIONS = [
     "answer": 0,
     "hint": "Think implied powers.",
     "explanation": "The Necessary and Proper Clause permits laws needed to execute enumerated powers.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read the Constitution’s Preamble and Articles I–III; identify the principle illustrated by the situation.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read the last clause of Article I, Section 8. Connect the listed powers with the means Congress may use.",
     "id": "q05"
   },
   {
     "sliders": null,
     "topic": "CS 6 • Ratification",
-    "prompt": "Hamilton, Madison, and Jay are most closely connected to which publication?",
+    "prompt": "One ratification essay warns about factions. Another argues that each branch needs ways to resist encroachment by the others. What shared case were the authors building?",
     "choices": [
-      "the Declaration of Independence",
-      "The Federalist Papers",
-      "Brutus I only",
-      "the Northwest Ordinance"
+      "A national executive should control every branch.",
+      "A stronger republic could curb abuses through its design.",
+      "A bill of rights would make federalism unnecessary.",
+      "The states should keep all authority under the Articles."
     ],
     "answer": 1,
-    "hint": "These essays defended ratification.",
-    "explanation": "The three authors wrote the Federalist Papers under the name Publius.",
-    "source": "https://constitutioncenter.org/the-constitution/historic-document-library",
-    "where": "Read the Federalist and Anti-Federalist debates about ratification and the Bill of Rights.",
+    "hint": "Focus on the constitutional mechanism or the evidence in the scenario.",
+    "explanation": "Federalist authors argued that a stronger union and institutional checks could limit abuses of power.",
+    "source": "https://guides.loc.gov/federalist-papers/full-text",
+    "where": "Find Federalist No. 10 and No. 51. Compare the concerns about factions and concentrated power.",
     "id": "q18"
   },
   {
@@ -192,8 +192,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "Think fear of concentrated central power.",
     "explanation": "Anti-Federalists feared that a strong national government could endanger liberty and state authority.",
-    "source": "https://constitutioncenter.org/the-constitution/historic-document-library",
-    "where": "Read the Federalist and Anti-Federalist debates about ratification and the Bill of Rights.",
+    "source": "https://www.archives.gov/founding-docs/more-perfect-union",
+    "where": "Find the account of opposition to ratification. Identify concerns about national power and protected liberties.",
     "id": "q16"
   },
   {
@@ -209,8 +209,8 @@ window.GOV_QUESTIONS = [
     "answer": 1,
     "hint": "Federalists believed the Articles made national government too weak.",
     "explanation": "Federalists supported ratification and stronger national authority.",
-    "source": "https://constitutioncenter.org/the-constitution/historic-document-library",
-    "where": "Read the Federalist and Anti-Federalist debates about ratification and the Bill of Rights.",
+    "source": "https://www.archives.gov/founding-docs/more-perfect-union",
+    "where": "Find the ratification debate and the case for strengthening the national government.",
     "id": "q15"
   },
   {
@@ -226,8 +226,8 @@ window.GOV_QUESTIONS = [
     "answer": 1,
     "hint": "Think levels of government.",
     "explanation": "Federalism divides authority between the national and state governments.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read Article I, Section 8 and the Tenth Amendment; identify the level of government with authority.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article I, Section 8, on commerce among the states. Compare that national power with the licensing decision in the question.",
     "id": "q09"
   },
   {
@@ -243,8 +243,8 @@ window.GOV_QUESTIONS = [
     "answer": 0,
     "hint": "Ask whether the example is about boundaries on power or equal obedience to law.",
     "explanation": "Limited government focuses on restricting the amount and type of power government may use.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read the Constitution’s Preamble and Articles I–III; identify the principle illustrated by the situation.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article I, Sections 8–9. Distinguish limits on what Congress may do from applying an existing law equally.",
     "id": "q14"
   },
   {
@@ -260,8 +260,8 @@ window.GOV_QUESTIONS = [
     "answer": 0,
     "hint": "Think enforcement.",
     "explanation": "The Articles lacked a national executive capable of administering and enforcing national policy.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read the Constitution’s Preamble and Articles I–III; identify the principle illustrated by the situation.",
+    "source": "https://www.archives.gov/milestone-documents/articles-of-confederation",
+    "where": "Read Article IX for Congress’s structure and powers. Identify what institution is missing from the national system.",
     "id": "q17"
   },
   {
@@ -277,8 +277,8 @@ window.GOV_QUESTIONS = [
     "answer": 1,
     "hint": "Focus on who chooses the officials.",
     "explanation": "Elections demonstrate that government authority begins with the people.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read the Constitution’s Preamble, especially “We the People,” and connect it to government legitimacy.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read the Preamble and Article I, Section 2. Identify who establishes the Constitution and who chooses House members.",
     "id": "q01"
   },
   {
@@ -294,8 +294,8 @@ window.GOV_QUESTIONS = [
     "answer": 1,
     "hint": "Consent means permission.",
     "explanation": "Consent of the governed connects legitimate authority to the people’s approval.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read the Constitution’s Preamble, especially “We the People,” and connect it to government legitimacy.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read the Preamble’s opening phrase and connect it with the source of political authority.",
     "id": "q06"
   },
   {
@@ -311,8 +311,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "The official faces a legal boundary.",
     "explanation": "Limited government restricts officials to lawful, constitutional authority.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read the Constitution’s Preamble and Articles I–III; identify the principle illustrated by the situation.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article I, Sections 8–9. Compare powers granted to Congress with explicit restrictions.",
     "id": "q07"
   },
   {
@@ -328,8 +328,8 @@ window.GOV_QUESTIONS = [
     "answer": 1,
     "hint": "No official is above the law.",
     "explanation": "Rule of law requires government officials as well as citizens to obey the law.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read the Constitution’s Preamble and Articles I–III; identify the principle illustrated by the situation.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article VI’s clause requiring officials to support the Constitution. Compare an officeholder’s obligation with the idea of exemption from law.",
     "id": "q08"
   },
   {
@@ -345,8 +345,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "The goal was protection against concentrated power.",
     "explanation": "Dividing power is stronger when each branch can also restrain the others.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read the Constitution’s Preamble and Articles I–III; identify the principle illustrated by the situation.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article I, Section 7, and Article II, Section 2. Compare separate responsibilities with examples of shared checks.",
     "id": "q13"
   },
   {
@@ -362,8 +362,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "Focus on central power versus state authority.",
     "explanation": "Anti-Federalists saw the clauses as possible sources of broad national authority.",
-    "source": "https://constitutioncenter.org/the-constitution/historic-document-library",
-    "where": "Read the Federalist and Anti-Federalist debates about ratification and the Bill of Rights.",
+    "source": "https://www.archives.gov/founding-docs/more-perfect-union",
+    "where": "Read the ratification debate and identify which level of government opponents feared would gain power.",
     "id": "q19"
   },
   {
@@ -379,25 +379,25 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "Think monitoring implementation.",
     "explanation": "Oversight helps the legislative branch check how the executive carries out laws.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read the Constitution’s Preamble and Articles I–III; identify the principle illustrated by the situation.",
+    "source": "https://history.house.gov/Institution/Origins-Development/Investigations-Oversight/",
+    "where": "Find the account of legislative investigations. Connect information gathering with accountability.",
     "id": "q26"
   },
   {
     "sliders": null,
     "topic": "CS 5 • Checks and balances",
-    "prompt": "The president vetoes a bill passed by Congress. This is an example of—",
+    "prompt": "A bill passes both houses and the president vetoes it. Two-thirds of the House vote to override, but only a bare majority of the Senate agrees. What happens to this override attempt?",
     "choices": [
-      "popular sovereignty",
-      "formal amendment",
-      "reserved powers belonging only to individual state governments",
-      "checks and balances"
+      "It succeeds because the House reached two-thirds.",
+      "It succeeds because the two chambers both voted.",
+      "It fails because only the president can reconsider.",
+      "It fails because both houses need two-thirds."
     ],
     "answer": 3,
-    "hint": "One branch is limiting another.",
-    "explanation": "The veto is an executive check on the legislative branch.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read Articles I–III; identify which branch acts and which branch checks it.",
+    "hint": "Focus on the constitutional mechanism or the evidence in the scenario.",
+    "explanation": "A veto override requires two-thirds in each house.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article I, Section 7, on veto and override votes. Compare the two possible outcomes in the scenario.",
     "id": "q28"
   },
   {
@@ -413,8 +413,8 @@ window.GOV_QUESTIONS = [
     "answer": 0,
     "hint": "Look for a formal change involving suffrage.",
     "explanation": "The Nineteenth Amendment constitutionally protected voting rights regardless of sex.",
-    "source": "https://constitution.congress.gov/browse/article-5/",
-    "where": "Examine Article V and the ways constitutional meaning develops through interpretation and legislation.",
+    "source": "https://www.archives.gov/founding-docs/amendments-11-27",
+    "where": "Compare the voting-rights language of Amendments XIX and XXVI.",
     "id": "q22"
   },
   {
@@ -422,16 +422,16 @@ window.GOV_QUESTIONS = [
     "topic": "CS 5 • Application",
     "prompt": "Congress passes a law, but the president vetoes it and Congress considers an override. Which principle is the best answer?",
     "choices": [
-      "rule of law only",
-      "popular sovereignty only",
-      "federalism",
-      "checks and balances"
+      "Separation of powers",
+      "Popular sovereignty",
+      "Federal supremacy",
+      "Checks and balances"
     ],
     "answer": 3,
     "hint": "Look at the interaction between branches.",
     "explanation": "Veto and override powers are reciprocal checks.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read the Constitution’s Preamble and Articles I–III; identify the principle illustrated by the situation.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article I, Section 7. Trace the veto and the reconsideration vote in each chamber.",
     "id": "q03"
   },
   {
@@ -447,8 +447,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "The national government lacked reliable revenue.",
     "explanation": "Without direct taxing power, Congress struggled to fund national responsibilities.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read the Constitution’s Preamble and Articles I–III; identify the principle illustrated by the situation.",
+    "source": "https://www.archives.gov/milestone-documents/articles-of-confederation",
+    "where": "Read Article VIII. Identify who was responsible for levying taxes to supply the common treasury.",
     "id": "q04"
   },
   {
@@ -464,8 +464,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "Both sides influenced the result.",
     "explanation": "Ratification created the new government; the Bill of Rights addressed demands for explicit protections.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read the Constitution’s Preamble and Articles I–III; identify the principle illustrated by the situation.",
+    "source": "https://www.archives.gov/founding-docs/more-perfect-union",
+    "where": "Read the discussion of ratification and the later adoption of the Bill of Rights.",
     "id": "q20"
   },
   {
@@ -481,8 +481,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "A court is reviewing and limiting another branch.",
     "explanation": "Judicial review allows courts to check unconstitutional government action.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read Articles I–III; identify which branch acts and which branch checks it.",
+    "source": "https://www.archives.gov/milestone-documents/marbury-v-madison",
+    "where": "Find the explanation of judicial review and compare the Court’s role with Congress’s lawmaking role.",
     "id": "q02"
   },
   {
@@ -498,8 +498,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "Different functions belong to different branches.",
     "explanation": "Separation of powers divides legislative, executive, and judicial functions.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read the Constitution’s Preamble and Articles I–III; identify the principle illustrated by the situation.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Compare the first sections of Articles I, II, and III to see who receives each type of power.",
     "id": "q12"
   },
   {
@@ -515,8 +515,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "Difficulty promotes stability and consensus.",
     "explanation": "Supermajority requirements balance adaptability with constitutional stability.",
-    "source": "https://constitution.congress.gov/browse/",
-    "where": "Read Article V and compare proposal requirements with ratification requirements.",
+    "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "where": "Read Article V. Compare the thresholds for proposing and ratifying an amendment.",
     "id": "q21"
   }
 ];

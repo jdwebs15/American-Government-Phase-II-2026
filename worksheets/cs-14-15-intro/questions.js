@@ -6,7 +6,7 @@ window.GOV_CONFIG = {
   "title": "Civil Rights and Equal Protection — Introduction",
   "description": "Use the source and Where to look guidance. Correct each answer to finish.",
   "practice": "Core ideas and evidence emphasized in Ohio Government CS 14–15.",
-  "assignmentKey": "gov-phase2-cs-14-15-intro-2026-v4"
+  "assignmentKey": "gov-phase2-cs-14-15-intro-2026-v5"
 };
 window.GOV_QUESTIONS = [
   {
@@ -57,7 +57,7 @@ window.GOV_QUESTIONS = [
     "hint": "Look for laws, court decisions, and federal enforcement of civil rights.",
     "explanation": "Courts interpreted rights; Congress created protections.",
     "source": "https://www.archives.gov/research/african-americans/guide/civil-rights",
-    "where": "Look for laws, court decisions, and federal enforcement of civil rights.",
+    "where": "Find records of desegregation and federal civil rights legislation. Compare court action, legislation, and enforcement.",
     "id": "q39"
   },
   {
@@ -124,8 +124,8 @@ window.GOV_QUESTIONS = [
     "answer": 3,
     "hint": "Look for laws, court decisions, and federal enforcement of civil rights.",
     "explanation": "Judicial branch.",
-    "source": "https://www.archives.gov/research/african-americans/guide/civil-rights",
-    "where": "Look for laws, court decisions, and federal enforcement of civil rights.",
+    "source": "https://www.usa.gov/branches-of-government",
+    "where": "Read “Judicial branch.” Focus on which branch decides whether a policy complies with the Constitution.",
     "id": "q29"
   },
   {
@@ -227,7 +227,7 @@ window.GOV_QUESTIONS = [
     "hint": "Look for laws, court decisions, and federal enforcement of civil rights.",
     "explanation": "Amendments, laws, court rulings, and enforcement all mattered.",
     "source": "https://www.archives.gov/research/african-americans/guide/civil-rights",
-    "where": "Look for laws, court decisions, and federal enforcement of civil rights.",
+    "where": "Find records of desegregation and federal civil rights legislation. Compare court action, legislation, and enforcement.",
     "id": "q40"
   },
   {
@@ -311,8 +311,8 @@ window.GOV_QUESTIONS = [
     "answer": 2,
     "hint": "Look for laws, court decisions, and federal enforcement of civil rights.",
     "explanation": "Executive branch.",
-    "source": "https://www.archives.gov/research/african-americans/guide/civil-rights",
-    "where": "Look for laws, court decisions, and federal enforcement of civil rights.",
+    "source": "https://www.fjc.gov/history/administration/executive-enforcement-judicial-orders",
+    "where": "Find the example of Little Rock. Distinguish the federal court’s order from the president’s enforcement of it.",
     "id": "q27"
   },
   {
@@ -379,8 +379,8 @@ window.GOV_QUESTIONS = [
     "answer": 0,
     "hint": "Look for laws, court decisions, and federal enforcement of civil rights.",
     "explanation": "Federal authorities implementing desegregation orders.",
-    "source": "https://www.archives.gov/research/african-americans/guide/civil-rights",
-    "where": "Look for laws, court decisions, and federal enforcement of civil rights.",
+    "source": "https://www.fjc.gov/history/administration/executive-enforcement-judicial-orders",
+    "where": "Find the example of Little Rock. Distinguish the federal court’s order from the president’s enforcement of it.",
     "id": "q38"
   },
   {
@@ -396,8 +396,8 @@ window.GOV_QUESTIONS = [
     "answer": 1,
     "hint": "Look for laws, court decisions, and federal enforcement of civil rights.",
     "explanation": "Legislative branch.",
-    "source": "https://www.archives.gov/research/african-americans/guide/civil-rights",
-    "where": "Look for laws, court decisions, and federal enforcement of civil rights.",
+    "source": "https://www.usa.gov/branches-of-government",
+    "where": "Read “Legislative branch.” Identify who has the power to enact laws governing public accommodations.",
     "id": "q28"
   },
   {
@@ -643,16 +643,16 @@ window.GOV_QUESTIONS = [
     "topic": "CS 15 • Intro",
     "prompt": "Why did civil rights advocates sometimes seek federal action?",
     "choices": [
-      "Only the president could amend the Constitution in this situation",
-      "Federal law always prohibited peaceful protests as a civic obligation",
-      "State and local authorities sometimes denied protected rights",
-      "State courts could never hear civil cases under the Constitution"
+      "Local officials alone enforced federal rights.",
+      "Federal voting rules were administered directly by local party leaders.",
+      "Local and state officials sometimes denied rights.",
+      "Several states could overturn a federal rights ruling by enacting matching laws."
     ],
     "answer": 2,
     "hint": "Look for laws, court decisions, and federal enforcement of civil rights.",
     "explanation": "State and local authorities sometimes denied protected rights.",
-    "source": "https://www.archives.gov/research/african-americans/guide/civil-rights",
-    "where": "Look for laws, court decisions, and federal enforcement of civil rights.",
+    "source": "https://www.archives.gov/milestone-documents/civil-rights-act",
+    "where": "Read the historical introduction. Identify why advocates sought national protection against discrimination.",
     "id": "q36"
   },
   {

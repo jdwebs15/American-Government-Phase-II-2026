@@ -204,10 +204,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 4 • Democratic agreement",
     "prompt": "Why is this negotiation rather than implementation?",
     "choices": [
-      "They are enforcing terms; implementation would begin when someone first proposes a closing time",
-      "They are counting votes; implementation would require every resident to become a group member",
-      "They are working out terms; implementation would carry out an approved arrangement",
-      "They are certifying an election; implementation would consist of reporting the winning vote total"
+      "They are putting a previously approved agreement into effect.",
+      "They are measuring outcomes after carrying out an agreement.",
+      "They are settling terms before any plan takes effect.",
+      "They are setting a hearing to review how the agreement was enforced."
     ],
     "answer": 2,
     "hint": "Ask whether participants are still settling the arrangement or carrying it out.",
@@ -375,10 +375,10 @@ window.GOV_QUESTIONS = [
     "topic": "CS 3 • Evaluating evidence and credibility",
     "prompt": "Which evaluation best avoids assuming that expertise transfers automatically between subjects?",
     "choices": [
-      "Examine relevant economic expertise and the evidence and assumptions behind the prediction",
-      "Use audience size to resolve the question instead of examining the report’s economic reasoning",
-      "Accept the prediction because scientific recognition establishes expertise on every technical issue",
-      "Reject the prediction because a scientist’s work outside a specialty cannot contain useful evidence"
+      "Check the expert’s economics background and the assumptions of the forecast.",
+      "Give the forecast extra weight because its author has strong credentials in another field.",
+      "Treat the forecast as dependable if it matches the view of the group that commissioned it.",
+      "Use the forecaster’s record of public service as evidence that the estimates are accurate."
     ],
     "answer": 0,
     "hint": "Relevant qualifications matter, but they should be considered alongside the actual argument.",

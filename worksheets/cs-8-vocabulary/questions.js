@@ -299,10 +299,10 @@ window.GOV_QUESTIONS = [
     "topic": "Eighth Amendment",
     "prompt": "Which definition best matches excessive fines?",
     "choices": [
-      "Payment for a public taking",
-      "Security for release before trial",
-      "Punitive payments that are constitutionally excessive",
-      "Fees charged for filing a civil lawsuit"
+      "Bail conditions that impose an unjustified financial burden",
+      "Compensation paid to an owner for property taken for public use",
+      "Financial penalties disproportionate to the offense",
+      "Money awarded in a civil action to reimburse a party for loss"
     ],
     "answer": 2,
     "hint": "Focus on monetary penalties imposed as punishment.",

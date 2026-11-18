@@ -540,10 +540,10 @@ window.GOV_QUESTIONS = [
     "topic": "6",
     "prompt": "A voter fears that the new government could restrict speech without an explicit prohibition. Which side's argument does this resemble?",
     "choices": [
-      "Supporters of ratification and stronger national authority",
-      "Supporters of restoring British royal control over America",
-      "Supporters of continued allegiance to the British Crown",
-      "Opponents of ratification"
+      "Federalists who trusted the design of the new government",
+      "Delegates who favored a stronger Congress to solve national problems",
+      "Supporters of ratification who argued that enumerated powers already protected speech",
+      "Anti-Federalists seeking specific safeguards"
     ],
     "answer": 3,
     "hint": "Identify the principle or institution being tested, then eliminate choices that describe a different one.",

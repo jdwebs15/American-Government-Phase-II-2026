@@ -299,10 +299,10 @@ window.GOV_QUESTIONS = [
     "topic": "State Test Language",
     "prompt": "What does implement mean in a public-policy question?",
     "choices": [
-      "Binding rule enforced by government",
-      "Government collection of tax revenue",
-      "Put a policy into effect",
-      "Bill or law made by a legislature"
+      "Write a bill before legislators take a vote",
+      "Determine whether a law is constitutional",
+      "Put an adopted policy into operation",
+      "Review how well a program met its stated goals"
     ],
     "answer": 2,
     "hint": "Think about carrying out a decision.",
